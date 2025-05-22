@@ -1,120 +1,145 @@
+<div align="center">
+
 # Learn Seerah Content Repository
 
-This repository contains the structured content (primarily in Markdown or MDX format) used to generate the Learn Seerah educational resource. Contributions are welcome!
+[![Content License: CC BY-SA 4.0](https://img.shields.io/badge/license-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/SultanZain/LearnSeerahContent/pulls)
+[![GitHub last commit](https://img.shields.io/github/last-commit/SultanZain/LearnSeerahContent.svg)](https://github.com/SultanZain/LearnSeerahContent/commits/dev)
+[![Live CMS](https://img.shields.io/badge/Live%20CMS-https%3A%2F%2Flearnseerah.vercel.app%2Fadmin-blue)](https://learnseerah.vercel.app/admin/)
+
+</div>
+
+
+This repository contains the structured content (primarily in Markdown/MDX format) used to generate the **[LearnSeerah](https://learnseerah.vercel.app/)** educational resource.
+
+>[!TIP]
+> 🚀 **New! LearnSeerah CMS is Live**
+> Easily contribute without needing GitHub knowledge!
+> 👉 [Access the CMS](https://learnseerah.vercel.app/admin/) to add/edit Seerah content with a visual editor.
+> All changes are securely committed via GitHub pull requests automatically through API requests.
+
+---
+
+## Table of Contents
+
+* [Contents](#contents)
+* [Contributing](#contributing)
+
+  * [1. Reporting Issues](#1-reporting-issues)
+  * [2. Submitting Changes (Pull Requests)](#2-submitting-changes-pull-requests)
+  * [3. Alternative Submission via Email](#3-alternative-submission-via-email-if-facing-difficulties)
+  * [4. Branch Management](#4-branch-management)
+  * [5. Review Process](#5-review-process)
+  * [6. Content Guidelines](#6-content-guidelines)
+* [Code of Conduct](#-code-of-conduct)
+
+---
 
 ## Contents
 
 The content within this repository is organized following this structure:
 
 ```markdown
+# {lang} : Language code  (e.g., en, ur, ar)
+# {year} : Plain CE Year (e.g, 571, 610)
+# {id}   : Integer Number of order (e.g, 1, 2)
 content/
-├── glossary/                 # Definitions of key Seerah-related terms
-│   ├── {lang}/               # Language code (e.g., en, ur, ar)
-│       └── {term}.mdx        # Glossary file (e.g., sahabah.mdx, malaikah.mdx)
-│                             # ➤ Use lowercase, hyphenated filenames for multi-word terms
+├── glossary/
+│   └── {lang}/
+│       └── {term}.mdx
 │
-├── quiz/                     # Seerah-related quizzes and assessments
-│   ├── {lang}/               # Language code
-│       └── {quiz-name}.mdx   # Quiz file (e.g., early-life-quiz.mdx, migration-quiz.mdx)
-│                             # ➤ Filenames should be descriptive and hyphenated
+├── quiz/
+│   └── {lang}/
+│       └── {quiz-name}.mdx
 │
-├── references/               # Source material and academic references
-│   ├── {lang}/               # Language code
-│       └── {reference}.mdx   # Reference file (e.g., sahih-bukhari.mdx)
-│                             # ➤ Filenames should be descriptive and lowercase
+├── references/
+│   └── {lang}/
+│       └── {reference}.mdx
 │
-├── seerah/                   # Core narrative of Prophet Muhammad’s (ﷺ) life
-│   ├── {lang}/               # Language code
-│       └── {section}.mdx     # Section file (e.g., birth.mdx, migration.mdx)
-│                             # ➤ One file per section, hyphenated and lowercase
+├── seerah/
+│   └── {lang}/
+│       └── {section}.mdx
 │
-└── timeline/                  # Chronological events of the Seerah
-    ├── {lang}/                # Language code
-        └── {year}-event-{id}.mdx 
-
-    +---------------------------------------------------------------+
-    |  # AD/CE year in start of file name (e.g., 571, 622)          |
-    |  ➤ After year nuumber text "event-" and a numeric ID         |
-    |  # Event file (e.g., 571-event-01.mdx, 610-event-02.mdx)      |
-    +---------------------------------------------------------------+
+└── timeline/
+    └── {lang}/
+        └── {year}-event-{id}.mdx
 ```
 
-> [!CAUTION]
-> The File/Folder names and hierarchy must be same for all languages
+>[!NOTE]
+>File and folder names must follow consistent naming and structure across all languages. And MUST not contain non-ASCII characters nor any spaces and symbols, hyphens(-) can be used.
 
+---
 
 ## Contributing
 
 We welcome contributions to improve and expand the Seerah content. Please follow these guidelines:
+>[!IMPORTANT]
+> **Maintain a respectful and reverent tone** when writing about the Prophet Muhammad (ﷺ) and related topics.
 
-> [!IMPORTANT]
-> Maintain a respectful and reverent tone when writing about the Prophet Muhammad (ﷺ) and related topics.
+### 1. Reporting Issues
 
-### 1.  Reporting Issues
-
-If you find any errors, inconsistencies, or areas that need improvement in the existing content, please:
+If you find any errors, inconsistencies, or areas for improvement:
 
 * Open a new issue in this repository.
-* Clearly describe the issue, including the specific file and section if applicable.
-* Provide any relevant context or suggestions for correction.
+* Clearly describe the problem with references to file/line if applicable.
 
-### 2.  Submitting Changes (Pull Requests)
+### 2. Submitting Changes (Pull Requests)
 
-For content additions, modifications, or significant changes, please submit a pull request (PR) following the workflow below:
+**✅ DO:**
 
-* **Do NOT** directly push to the `production` branch. All contributions must be reviewed.
-* **Create a New Branch:**
-    * For substantial changes or new content, create a new branch with a descriptive name (e.g., `feature/new-seerah-post-early-life`, `fix/typo-migration-timeline`).
-    * For smaller changes, create a branch with a descriptive name (e.g, `fix/grammar-mistake`)
+* Create a new branch (e.g., `feature/new-section-badr`, `fix/typo-migration`).
+* Follow existing `.mdx` examples for structure and style.
+* Write clear commit messages and PR titles.
+* Submit PRs to the `dev` branch.
 
-* **Make Your Changes:**
-    * Ensure your content is accurate, well-written, and adheres to the existing style and structure.
-    * Use Markdown or MDX for your content. **When adding new content, please refer to the existing `.mdx` files within the relevant content directory as a reference to understand the expected format and structure.**
-    * If adding images or other assets, place them in an appropriate directory and link them correctly.
+**🚫 DO NOT:**
 
-* **Submit a Pull Request:**
-    * Once you've completed your changes, submit a pull request (PR) to the `production` branch.
-    * Provide a clear and concise title for your PR (e.g., "Add: New Section on the Battle of Badr").
-    * In the PR description, explain the purpose of your changes and provide any relevant details.
+* Push directly to `dev` or `production`.
 
-### 3.  Alternative Submission via Email (If Facing Difficulties)
+### 3. Alternative Submission via Email (If Facing Difficulties)
 
-If you find it difficult to contribute directly using Markdown or MDX, you can write your content in a document editor (like MS Word, Google Docs, etc.) and email it to:
+You may email your content to:
 
-**sultan.zain004@outlook.com**
-
-Please use the following subject line for your email:
-
+**Address: [sultan.zain004@outlook.com](mailto:sultan.zain004@outlook.com)**
 Subject: `[LearnSeerah] New Content Request`
-
-And include the following information in the body of your email:
 
 Email Body:
 
-    Content Type: {content_type}
-    Content Name: {content_name}
-    Content: {content}
+```
+Content Type: {content_type}
+Content Name: {content_name}
+Content: {your content here}
+```
 
-Replace the bracketed placeholders with the appropriate information.
+### 4. Branch Management
 
-### 4.  Branch Management
-* Once a pull request is merged, the branch will be deleted. This keeps the repository clean and organized.
+Branches are automatically deleted after merge to keep the repo clean.
 
-### 5.  Review Process
+### 5. Review Process
 
-* Your PR will be reviewed by the repository maintainers.
-* You may be asked to make revisions based on the feedback.
-* Once your PR is approved, it will be merged into the `production` branch.
+* Your PR will be reviewed and may receive feedback.
+* Once approved, it will be merged into `production`.
 
-### 6.  Content Guidelines
+### 6. Content Guidelines
 
-* **Accuracy:** Ensure all information is accurate and based on reliable sources.
-* **Clarity:** Write in a clear and concise style that is easy to understand.
-* **Respect:** Maintain a respectful and reverent tone when writing about the Prophet Muhammad (ﷺ) and related topics.
-* **Citations:** Cite your sources.
+* **Accuracy** — Base content on reliable Islamic sources.
+* **Clarity** — Keep language simple and clear.
+* **Respect** — Maintain an appropriate tone.
+* **Citations** — Include references where necessary.
 
-##  Code of Conduct
+---
 
-* Please abide by the [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct.md).
+## 📜 Code of Conduct
 
-Thank you for your contributions to the **LearnSeerah** project!
+We follow the [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct.md). Please be kind, inclusive, and constructive in all interactions.
+
+---
+
+## Contributors
+
+Thanks to all contributors:
+
+[![Contributors](https://contrib.rocks/image?repo=SultanZain/LearnSeerahContent)](https://github.com/SultanZain/LearnSeerahContent/graphs/contributors)
+
+
+Thank you for supporting the **LearnSeerah** project!
