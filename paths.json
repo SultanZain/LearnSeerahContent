@@ -1,0 +1,162 @@
+{
+  "en": {
+    "seerah": [
+      "early-life"
+    ],
+    "quiz": [
+      "early-life-quiz"
+    ],
+    "glossary": [
+      "malaikah",
+      "sahabah"
+    ],
+    "references": [
+      "sealed-nectar"
+    ],
+    "timeline": {
+      "571": [
+        "571-event-1"
+      ],
+      "575": [
+        "575-event-1"
+      ],
+      "576": [
+        "576-event-1",
+        "576-event-2"
+      ],
+      "578": [
+        "578-event-1",
+        "578-event-2"
+      ],
+      "583": [
+        "583-event-1"
+      ],
+      "585": [
+        "585-event-1"
+      ],
+      "591": [
+        "591-event-1"
+      ],
+      "595": [
+        "595-event-1"
+      ],
+      "596": [
+        "596-event-1"
+      ],
+      "605": [
+        "605-event-1"
+      ],
+      "610": [
+        "610-event-1",
+        "610-event-2",
+        "610-event-3"
+      ]
+    }
+  },
+  "ar": {
+    "seerah": [
+      "early-life"
+    ],
+    "quiz": [
+      "early-life-quiz"
+    ],
+    "glossary": [
+      "sahabah"
+    ],
+    "references": [
+      "sealed-nectar"
+    ],
+    "timeline": {
+      "571": [
+        "571-event-1"
+      ],
+      "575": [
+        "575-event-1"
+      ],
+      "576": [
+        "576-event-1",
+        "576-event-2"
+      ],
+      "578": [
+        "578-event-1",
+        "578-event-2"
+      ],
+      "583": [
+        "583-event-1"
+      ],
+      "585": [
+        "585-event-1"
+      ],
+      "591": [
+        "591-event-1"
+      ],
+      "595": [
+        "595-event-1"
+      ],
+      "596": [
+        "596-event-1"
+      ],
+      "605": [
+        "605-event-1"
+      ],
+      "610": [
+        "610-event-1",
+        "610-event-2",
+        "610-event-3"
+      ]
+    }
+  },
+  "ur": {
+    "seerah": [
+      "early-life"
+    ],
+    "quiz": [
+      "early-life-quiz"
+    ],
+    "glossary": [
+      "sahabah"
+    ],
+    "references": [
+      "sealed-nectar"
+    ],
+    "timeline": {
+      "571": [
+        "571-event-1"
+      ],
+      "575": [
+        "575-event-1"
+      ],
+      "576": [
+        "576-event-1",
+        "576-event-2"
+      ],
+      "578": [
+        "578-event-1",
+        "578-event-2"
+      ],
+      "583": [
+        "583-event-1"
+      ],
+      "585": [
+        "585-event-1"
+      ],
+      "591": [
+        "591-event-1"
+      ],
+      "595": [
+        "595-event-1"
+      ],
+      "596": [
+        "596-event-1"
+      ],
+      "605": [
+        "605-event-1"
+      ],
+      "610": [
+        "610-event-1",
+        "610-event-2",
+        "610-event-3"
+      ]
+    }
+  }
+}

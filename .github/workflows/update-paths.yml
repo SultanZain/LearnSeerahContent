@@ -1,0 +1,86 @@
+name: Generate paths.json
+
+on:
+  push:
+    branches:
+      - dev       # Running on your current branch
+      - test      # Also keeping the test branch target
+      - main      # Good to include main branch too
+    paths:
+      - '**/*.mdx'
+      - 'content/**/*'  # Capture any content structure changes
+      - '.github/workflows/update-paths.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  generate-paths:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: false  # We'll use our GitHub App's token
+          fetch-depth: 0  # Full history to ensure we can detect all changes
+      
+      - name: Debug - List Changed Files
+        run: |
+          echo "List of changed files in this commit:"
+          git diff --name-status HEAD^1 HEAD || echo "Failed to list changes, may be first commit"
+          
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+
+      - name: Install Dependencies
+        run: npm install fs path
+
+      - name: Generate paths.json
+        run: |
+          # Copy the generate-paths.js script to the root directory for execution
+          cp .github/workflows/generate-paths.js ./generate-paths.js || echo "Script not in workflows folder"
+          
+          # If script doesn't exist in workflows folder, check if it's already in root
+          if [ ! -f "./generate-paths.js" ]; then
+            echo "Error: generate-paths.js not found"
+            exit 1
+          fi
+          
+          # Run the script
+          node generate-paths.js
+          
+          # Show the result for debugging
+          echo "Generated paths.json content:"
+          cat paths.json
+
+      - name: Check for Changes in paths.json
+        id: check_changes
+        run: |
+          if git diff --exit-code paths.json; then
+            echo "No changes to paths.json"
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "paths.json was changed"
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
+          
+      - name: Generate GitHub App token
+        id: generate_token
+        uses: tibdex/github-app-token@v2
+        with:
+          app_id: ${{ secrets.BOT_APP_ID }}
+          private_key: ${{ secrets.BOT_PRIVATE_KEY }}
+
+      - name: Commit and push
+        env:
+          GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
+        run: |
+          git config user.name "LearnSeerah Bot"
+          git config user.email "learnseerah[bot]@users.noreply.github.com"
+        
+          git add paths.json
+          git commit -m "Update paths.json [Skip CI]" || echo "No changes"
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:${{ github.ref }}
