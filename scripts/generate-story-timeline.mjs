@@ -1,9 +1,12 @@
+  // ---------------------------------------------------------- //
+ //             Extract timelines as single json file          //
+// -------------------------------------------------------- --//
 import fs from 'fs/promises';
 import path from 'path';
 import matter from 'gray-matter';
 
-const TIMELINE_DIR = './content/timeline/en/';
-const OUTPUT_FILE = './timeline-events.json';
+const TIMELINE_DIR = '../content/timeline/ar/';
+const OUTPUT_FILE = '../Output/story-timeline-events.json';
 
 const getEventData = async () => {
   const files = await fs.readdir(TIMELINE_DIR);
@@ -20,12 +23,12 @@ const getEventData = async () => {
     const eventId = parseInt(idStr, 10);
 
     const filePath = path.join(TIMELINE_DIR, file);
-    const content = await fs.readFile(filePath, 'utf8');
-    const { data: frontmatter } = matter(content);
+    const fileContents = await fs.readFile(filePath, 'utf8');
+    const { data: frontmatter, content: details } = matter(fileContents);
 
-    const { title, location, age } = frontmatter;
+    const { title, location, date, age } = frontmatter;
 
-    if (!title || !location || age == null) {
+    if (!title || !location || !date || age == null) {
       console.warn(`Missing frontmatter fields in: ${file}`);
       continue;
     }
@@ -33,9 +36,11 @@ const getEventData = async () => {
     events.push({
       title,
       location,
+      date,
       age: String(age),
       year,
       eventId,
+      details: details.trim(), // Optional: trim to clean up whitespace
     });
   }
 
@@ -45,7 +50,7 @@ const getEventData = async () => {
 const main = async () => {
   const events = await getEventData();
   await fs.writeFile(OUTPUT_FILE, JSON.stringify({ events }, null, 2), 'utf8');
-  console.log(`✅ timeline-events.json created with ${events.length} events.`);
+  console.log(`✅ ${OUTPUT_FILE} created with ${events.length} events.`);
 };
 
 main().catch(console.error);

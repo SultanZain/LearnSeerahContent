@@ -2,20 +2,20 @@
 
 # Learn Seerah Content Repository
 
-[![Content License: CC BY-SA 4.0](https://img.shields.io/badge/license-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/SultanZain/LearnSeerahContent/pulls)
-[![GitHub last commit](https://img.shields.io/github/last-commit/SultanZain/LearnSeerahContent.svg)](https://github.com/SultanZain/LearnSeerahContent/commits/dev)
-[![Live CMS](https://img.shields.io/badge/Live%20CMS-https%3A%2F%2Flearnseerah.vercel.app%2Fadmin-blue)](https://learnseerah.vercel.app/admin/)
+[![Content License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg)](https://github.com/SultanZain/LearnSeerahContent/pulls)
+[![GitHub Last commit](https://img.shields.io/github/last-commit/SultanZain/LearnSeerahContent.svg)](https://github.com/SultanZain/LearnSeerahContent/commits/dev)
+[![Live CMS](https://img.shields.io/badge/Live%20CMS-Click%20to%20Visit-blue)](https://learnseerah.com/admin/)
 
 </div>
 
 
-This repository contains the structured content (primarily in Markdown/MDX format) used to generate the **[LearnSeerah](https://learnseerah.vercel.app/)** educational resource.
+This repository contains the structured content (primarily in Markdown/MDX format) used to generate the **[LearnSeerah](https://learnseerah.com/)** educational resource.
 
 >[!TIP]
 > 🚀 **New! LearnSeerah CMS is Live**
 > Easily contribute without needing GitHub knowledge!
-> 👉 [Access the CMS](https://learnseerah.vercel.app/admin/) to add/edit Seerah content with a visual editor.
+> 👉 [Access the CMS](https://learnseerah.com/admin/) to add/edit Seerah content with a visual editor.
 > All changes are securely committed via GitHub pull requests automatically through API requests.
 
 ---
@@ -44,6 +44,9 @@ The content within this repository is organized following this structure:
 # {year} : Plain CE Year (e.g, 571, 610)
 # {id}   : Integer Number of order (e.g, 1, 2)
 content/
+|
+├── timeline-v2.json
+|
 ├── glossary/
 │   └── {lang}/
 │       └── {term}.mdx
@@ -59,6 +62,11 @@ content/
 ├── seerah/
 │   └── {lang}/
 │       └── {section}.mdx
+|
+├── maps/
+│   └── {lang}/
+|       ├── {event}.geojson
+│       └── areas.geojson
 │
 └── timeline/
     └── {lang}/
@@ -67,6 +75,8 @@ content/
 
 >[!NOTE]
 >File and folder names must follow consistent naming and structure across all languages. And MUST not contain non-ASCII characters nor any spaces and symbols, hyphens(-) can be used.
+>
+>Maps are not Supported in CMS, use [GeoJson.io](https://geojson.io/)
 
 ---
 
