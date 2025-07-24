@@ -7,7 +7,7 @@
         "id": "makkah",
         "title": "مكة المكرمة",
         "name": "مكة المكرمة",
-        "marker": "https://raw.githubusercontent.com/SultanZain/MapTest/refs/heads/main/Makkah.ico",
+        "marker": "/images/markers/Makkah.webp",
         "popupContent": "مدينة مكة المكرمة، حيث تقع الكعبة المشرفة ووُلد النبي محمد صلى الله عليه وسلم.",
         "events": [
           {
@@ -251,7 +251,7 @@
         "id": "banu-sad",
         "name": "بادية بني سعد",
         "title": "منزل حليمة السعدية رضي الله عنها",
-        "marker": "https://raw.githubusercontent.com/SultanZain/MapTest/refs/heads/main/ruins-2.ico",
+        "marker": "/images/markers/ruins-2.webp",
         "popupContent": "يقال إن هذه هي أطلال قرية بني سعد حيث كان يقع منزل حليمة السعدية رضي الله عنها. قضى النبي محمد ﷺ بعض سنوات طفولته هنا. كانت بنو سعد من القبائل الملكية الرائدة في الجزيرة العربية في عصر النبي محمد ﷺ. كانوا محاربين عظماء وخاضوا العديد من المعارك مع النبي محمد ﷺ ضد أعداء الإسلام. كانت حليمة السعدية رضي الله عنها، مرضعة النبي محمد ﷺ، تنتمي إلى هذه القبيلة. هاجروا بأمر النبي محمد ﷺ إلى شبه القارة الهندية وأفريقيا وأوروبا لمحاربة الشرك.",
         "events": [
           {
@@ -279,7 +279,7 @@
         "id": "Al-Abwa",
         "name": "الأبواء قرب أرض قبيلة النابغة",
         "title": "الأبواء",
-        "marker": "https://raw.githubusercontent.com/SultanZain/MapTest/refs/heads/main/grave.ico",
+        "marker": "/images/markers/grave.webp",
         "popupContent": "الأبواء هي قرية حجازية بين مكة والمدينة تتبع منطقة رابغ على الساحل الغربي للمملكة العربية السعودية. وهي المكان الذي توفيت فيه والدة حضرة محمد ﷺ، آمنة بنت وهب بن عبد مناف.",
         "year": 576,
         "events": [
@@ -308,7 +308,7 @@
         "id": "busra",
         "name": "بصرى",
         "title": "بصرى",
-        "marker": "https://raw.githubusercontent.com/SultanZain/MapTest/refs/heads/main/cathedral.ico",
+        "marker": "/images/markers/cathedral.webp",
         "popupContent": "يُعتقد أن هذا البناء هو دير الراهب بحيرا، الذي تنبأ بقدوم النبي محمد ﷺ في طفولته. دير بحيرا هو أحد أهم المواقع الإسلامية في هذه المنطقة.",
         "year": 583,
         "events": [
@@ -346,7 +346,7 @@
         "id": "hira",
         "name": "غار حراء (جبل النور)",
         "title": "غار حراء (جبل النور)",
-        "marker": "https://raw.githubusercontent.com/SultanZain/MapTest/refs/heads/main/cave.ico",
+        "marker": "/images/markers/cave.webp",
         "popupContent": "يقع في الجبل غار حراء، الذي يحمل أهمية عظيمة للمسلمين في جميع أنحاء العالم، حيث يقال إن النبي محمد ﷺ قضى وقتًا طويلاً في هذا الغار يتأمل، ويُعتقد على نطاق واسع أنه تلقى هنا أول وحي له، والذي كان يتألف من الآيات الخمس الأولى من سورة العلق من الملك جبريل عليه السلام.",
         "year": 610,
         "events": [
@@ -375,7 +375,7 @@
         "id": "taif",
         "name": "الطائف",
         "title": "الطائف",
-        "marker": "https://raw.githubusercontent.com/SultanZain/MapTest/refs/heads/main/taif.ico",
+        "marker": "/images/markers/taif.webp",
         "popupContent": "هناك اعتقاد بأن الطائف مذكورة بشكل غير مباشر في سورة الزخرف 43:31. زار النبي محمد صلى الله عليه وسلم المدينة، في وقت ما في أوائل القرن السابع الميلادي، وكانت تسكنها قبيلة ثقيف. ولا يزال أحفادهم يسكنونها حتى يومنا هذا.",
         "year": 620,
         "events": [
@@ -404,7 +404,7 @@
         "id": "nakhla",
         "name": "نخلة",
         "title": "نخلة",
-        "marker": "https://raw.githubusercontent.com/SultanZain/MapTest/refs/heads/main/valley.ico",
+        "marker": "/images/markers/valley.webp",
         "popupContent": "وادي نخلة هو منطقة في منطقة الحجاز بالمملكة العربية السعودية بين مدينتي مكة والطائف، وتعد ميقاتاً للحرم المكي الشريف.",
         "year": 620,
         "events": [
@@ -433,7 +433,7 @@
         "id": "aqabah",
         "name": "العقبة",
         "title": "العقبة",
-        "marker": "https://raw.githubusercontent.com/SultanZain/MapTest/refs/heads/main/valley.ico",
+        "marker": "/images/markers/valley.webp",
         "popupContent": "سبقت بيعة العقبة الهجرة النبوية، أي هجرة محمد وأتباعه من مكة، حيث تعرضوا للاضطهاد، إلى المدينة، حيث أصبح محمد حاكماً. وقعت البيعة عام 622 م عند ممر جبلي (العقبة) على بعد خمسة كيلومترات من مكة.",
         "year": 621,
         "events": [
@@ -471,7 +471,7 @@
         "id": "medina",
         "name": "المدينة الطيبة",
         "title": "المدينة الطيبة",
-        "marker": "https://raw.githubusercontent.com/SultanZain/MapTest/refs/heads/main/Madinah.ico",
+        "marker": "/images/markers/Madinah.webp",
         "popupContent": "سُكنت المدينة المنورة قبل الهجرة بـ 1500 عام على الأقل، أو حوالي القرن التاسع قبل الميلاد. بحلول القرن الرابع، بدأت القبائل العربية تتسلل من اليمن، وكانت هناك ثلاث قبائل يهودية بارزة تسكن المدينة في زمن النبي محمد صلى الله عليه وسلم: بنو قينقاع، بنو قريظة، وبنو النضير.",
         "year": 621,
         "events": [
@@ -563,7 +563,7 @@
         "id": "aksum",
         "name": "أكسوم",
         "year": 613,
-        "marker": "https://raw.githubusercontent.com/SultanZain/MapTest/refs/heads/main/aksum.ico",
+        "marker": "/images/markers/aksum.webp",
         "popupContent": "أكسوم هي الآن بلدة صغيرة، كانت في السابق عاصمة الحبشة (مملكة أكسوم)",
         "title": "أكسوم - الحبشة",
         "events": [
@@ -607,7 +607,7 @@
       "properties": {
         "id": "Quba",
         "name": "قباء",
-        "marker": "https://raw.githubusercontent.com/SultanZain/MapTest/refs/heads/main/quba.ico",
+        "marker": "/images/markers/quba.webp",
         "year": 622,
         "events": [
           {

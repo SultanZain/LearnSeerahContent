@@ -7,7 +7,7 @@
 				"id": "makkah",
 				"title": "مکہ",
 				"name": "مکہ",
-				"marker": "https://raw.githubusercontent.com/SultanZain/MapTest/refs/heads/main/Makkah.ico",
+				"marker": "/images/markers/Makkah.webp",
 				"popupContent": "اللہ کا مقدس گھر مکہ، جہاں کعبۃ اللہ ہے اور ہمارے پیارے نبی حضرت محمد صلی اللہ علیہ وسلم پیدا ہوئے۔",
 				"events": [
 					{
@@ -251,7 +251,7 @@
 				"id": "banu-sad",
 				"name": "بنو سعد کا دیہات",
 				"title": "بی بی حلیمہ رضی اللہ عنہا کا گھر",
-				"marker": "https://raw.githubusercontent.com/SultanZain/MapTest/refs/heads/main/ruins-2.ico",
+				"marker": "/images/markers/ruins-2.webp",
 				"popupContent": "کہا جاتا ہے کہ یہ بنو سعد گاؤں کے کھنڈرات ہیں جہاں بی بی حلیمہ رضی اللہ عنہا کا گھر واقع تھا۔ حضرت نبی محمد ﷺ نے اپنے بچپن کے کچھ سال یہاں گزارے۔ بنو سعد عرب کے اہم شاہی قبیلوں میں سے ایک تھا حضرت نبی محمد ﷺ کے دور میں۔ وہ بڑے بہادر جنگجو تھے اور اسلام کے دشمنوں کے خلاف نبی محمد ﷺ کے ساتھ کئی جنگیں لڑیں۔ بی بی حلیمہ سعدیہ رضی اللہ عنہا، حضرت نبی محمد ﷺ کی رضاعی ماں، اسی قبیلے سے تعلق رکھتی تھیں۔ انہوں نے نبی محمد ﷺ کے حکم پر برصغیر، افریقہ اور یورپ میں شرک کے خلاف لڑنے کے لیے ہجرت کی۔",
 				"events": [
 					{
@@ -279,7 +279,7 @@
 				"id": "Al-Abwa",
 				"name": "الابواء (قبیلہ نابغہ کے علاقے کے قریب)",
 				"title": "الابواء",
-				"marker": "https://raw.githubusercontent.com/SultanZain/MapTest/refs/heads/main/grave.ico",
+				"marker": "/images/markers/grave.webp",
 				"popupContent": "الابواء حجازی گاؤں ہے جو مکہ اور مدینہ کے درمیان رابغ کے علاقے میں ہے، سعودی عرب کے مغربی ساحل پر۔ یہ وہ جگہ ہے جہاں حضرت محمد ﷺ کی والدہ، آمنہ بنت وہب بن عبد مناف کا انتقال ہوا۔",
 				"year": 576,
 				"events": [
@@ -308,7 +308,7 @@
 				"id": "busra",
 				"name": "بصریٰ",
 				"title": "بصریٰ",
-				"marker": "https://raw.githubusercontent.com/SultanZain/MapTest/refs/heads/main/cathedral.ico",
+				"marker": "/images/markers/cathedral.webp",
 				"popupContent": "یہ عمارت راہب بحیرہ کی خانقاہ مانی جاتی ہے، جس نے حضرت نبی محمد ﷺ کے بچپن میں ان کے بارے میں پیشن گوئی کی تھی۔ بحیرہ کی خانقاہ اس علاقے میں مسلمانوں کے لیے سب سے اہم مقامات میں سے ایک ہے۔",
 				"year": 583,
 				"events": [
@@ -346,7 +346,7 @@
 				"id": "hira",
 				"name": "غار حرا (جبل النور)",
 				"title": "غار حرا (جبل النور)",
-				"marker": "https://raw.githubusercontent.com/SultanZain/MapTest/refs/heads/main/cave.ico",
+				"marker": "/images/markers/cave.webp",
 				"popupContent": "اس پہاڑ میں غار حرا ہے، جو دنیا بھر کے مسلمانوں کے لیے بہت اہمیت رکھتی ہے، کیونکہ کہا جاتا ہے کہ نبی اکرم محمد ﷺ نے اس غار میں بہت زیادہ وقت مراقبہ میں گزارا، اور یہ عام طور پر مانا جاتا ہے کہ یہیں انہیں اپنی پہلی وحی ملی، جس میں سورہ علق کی پہلی پانچ آیات فرشتہ حضرت جبریل علیہ السلام کے ذریعے نازل ہوئیں۔",
 				"year": 610,
 				"events": [
@@ -375,7 +375,7 @@
 				"id": "aksum",
 				"name": "اکسوم",
 				"year": 615,
-				"marker": "https://raw.githubusercontent.com/SultanZain/MapTest/refs/heads/main/aksum.ico",
+				"marker": "/images/markers/aksum.webp",
 				"popupContent": "اکسوم اب ایک چھوٹا سا شہر ہے، جو کبھی حبشہ (اکسوم کی بادشاہت) کا دارالحکومت ہوا کرتا تھا",
 				"title": "اکسوم - حبشہ",
 				"events": [
@@ -413,7 +413,7 @@
 				"id": "taif",
 				"name": "طائف",
 				"title": "طائف",
-				"marker": "https://raw.githubusercontent.com/SultanZain/MapTest/refs/heads/main/taif.ico",
+				"marker": "/images/markers/taif.webp",
 				"popupContent": "ایک عقیدہ ہے کہ طائف کا بالواسطہ ذکر قرآن 43:31 میں ہے۔ یہ شہر ساتویں صدی عیسوی کے اوائل میں اسلامی پیغمبر محمد ﷺ نے دیکھا تھا، اور یہاں بنو ثقیف قبیلہ آباد تھا۔ یہ آج بھی ان کی اولاد سے آباد ہے۔",
 				"year": 620,
 				"events": [
@@ -442,7 +442,7 @@
 				"id": "nakhla",
 				"name": "نخلہ",
 				"title": "نخلہ",
-				"marker": "https://raw.githubusercontent.com/SultanZain/MapTest/refs/heads/main/valley.ico",
+				"marker": "/images/markers/valley.webp",
 				"popupContent": "وادی نخلہ سعودی عرب کے حجاز علاقے میں مکہ اور طائف کے شہروں کے درمیان ایک علاقہ ہے، جو مکہ کے اسلامی حرم کے لیے میقات (حد) کے طور پر کام کرتا ہے۔",
 				"year": 620,
 				"events": [
@@ -471,7 +471,7 @@
 				"id": "aqabah",
 				"name": "العقبہ",
 				"title": "العقبہ",
-				"marker": "https://raw.githubusercontent.com/SultanZain/MapTest/refs/heads/main/valley.ico",
+				"marker": "/images/markers/valley.webp",
 				"popupContent": "یہ ہجرت سے پہلے ہوا تھا، یا محمد ﷺ اور ان کے ساتھیوں کی مکہ سے مدینہ کی طرف ہجرت، جہاں انہیں ظلم و ستم کا نشانہ بنایا گیا تھا، اور مدینہ میں محمد ﷺ حکمران بن گئے۔ یہ بیعت 622 عیسوی میں مکہ سے پانچ کلومیٹر دور ایک پہاڑی درے (العقبہ) پر ہوئی۔",
 				"year": 621,
 				"events": [
@@ -509,7 +509,7 @@
 				"id": "medina",
 				"name": "مدینہ طیبہ",
 				"title": "مدینہ طیبہ",
-				"marker": "https://raw.githubusercontent.com/SultanZain/MapTest/refs/heads/main/Madinah.ico",
+				"marker": "/images/markers/Madinah.webp",
 				"popupContent": "مدینہ ہجرت سے کم از کم 1500 سال پہلے، یعنی تقریباً **نویں صدی قبل مسیح** سے آباد ہے۔ چوتھی صدی عیسوی تک، عرب قبائل یمن سے ادھر آنے لگے، اور نبی اکرم ﷺ کے زمانے میں تین بڑے یہودی قبائل، بنو قینقاع، بنو قریظہ، اور بنو نضیر، اس شہر میں آباد تھے۔",
 				"year": 621,
 				"events": [
@@ -600,7 +600,7 @@
 			"properties": {
 				"id": "Quba",
 				"name": "قباء",
-				"marker": "https://raw.githubusercontent.com/SultanZain/MapTest/refs/heads/main/quba.ico",
+				"marker": "/images/markers/quba.webp",
 				"year": 622,
 				"events": [
 					{

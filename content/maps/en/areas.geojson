@@ -7,7 +7,7 @@
         "id": "makkah",
         "title": "Makkah",
         "name": "Makkah",
-        "marker": "https://raw.githubusercontent.com/SultanZain/MapTest/refs/heads/main/Makkah.ico",
+        "marker": "/images/markers/Makkah.webp",
         "popupContent": "The Holy City Mecca, Where Ka`ba-tul-Allah is located and the Prophet Muhammad S.A.W was born.",
         "events": [
           {
@@ -247,7 +247,7 @@
         "id": "banu-sad",
         "name": "Banu Sa'd Countryside",
         "title": "House of Bibi Halimah رضي الله عنها",
-        "marker": "https://raw.githubusercontent.com/SultanZain/MapTest/refs/heads/main/ruins-2.ico",
+        "marker": "/images/markers/ruins-2.webp",
         "popupContent": "These are said to be the ruins of Banu Sa’d Village where the house of Bibi Halimah رضي الله عنها was located. Hz. Prophet Muhammad ﷺ spent some years of his childhood here.  The Banu Sa’d was one of the leading royal tribes of Arabia during the Hz. Prophet Muhammad’s ﷺ era.  They were great warriors and fought many battles with Prophet Muhammad ﷺ against enemies of Islam.  Bibi Halima Sadia رضي الله عنها, Hz. Prophet Muhammad’s ﷺ wet nurse, belonged to this tribe. They migrated on the order of Prophet Muhammad ﷺ to Subcontinent, Africa and Europe to fight against Polytheism.",
         "events": [
           {
@@ -274,7 +274,7 @@
         "id": "Al-Abwa",
         "name": "Al-Abwa near the territory of the tribe of al-Naabighah",
         "title": "Al-Abwa",
-        "marker": "https://raw.githubusercontent.com/SultanZain/MapTest/refs/heads/main/grave.ico",
+        "marker": "/images/markers/grave.webp",
         "popupContent": "Al-Abwā' is a Hejazi village between Mecca and Medina belonging to the area of Rabigh, on the western coast of Saudi Arabia. The place where the mother of Hazrat Muhammad ﷺ, Aminah bint Wahb ibn Abd Manaf, died.",
         "year": 576,
         "events": [
@@ -302,7 +302,7 @@
         "id": "busra",
         "name": "Busra",
         "title": "Busra",
-        "marker": "https://raw.githubusercontent.com/SultanZain/MapTest/refs/heads/main/cathedral.ico",
+        "marker": "/images/markers/cathedral.webp",
         "popupContent": "This Structure is believed to be the monastery of Bahira the monk, who prophesied about Hz. Prophet Muhammad ﷺ in his childhood  The Monastery of Bahira is one of the most significant Muslim sites in this area.",
         "year": 583,
         "events": [
@@ -338,7 +338,7 @@
         "id": "hira",
         "name": "Cave of Hira (Jabl an-Nur)",
         "title": "Cave of Hira (Jabl an-Nur)",
-        "marker": "https://raw.githubusercontent.com/SultanZain/MapTest/refs/heads/main/cave.ico",
+        "marker": "/images/markers/cave.webp",
         "popupContent": "The mountain houses the grotto or cave of Hira, which holds tremendous significance for Muslims throughout the world, as the Prophet Muhammad ﷺ is said to have spent a great deal of time in this cave meditating, and it is widely believed that it was here that He ﷺ received his first revelation, which consisted of the first five ayats of Surah Al-Alaq from the angel Hz. Jibra’il عليه اسلام",
         "year": 610,
         "events": [
@@ -366,7 +366,7 @@
         "id": "taif",
         "name": "Taif",
         "title": "Taif",
-        "marker": "https://raw.githubusercontent.com/SultanZain/MapTest/refs/heads/main/taif.ico",
+        "marker": "/images/markers/taif.webp",
         "popupContent": "There is a belief that Taif is indirectly referred to in Quran 43:31.[5] The city was visited by the Islamic prophet Muhammad, sometime in the early 7th century, and was inhabited by the tribe of Banu Thaqif. It is still inhabited to this day by their descendants.",
         "year": 620,
         "events": [
@@ -394,7 +394,7 @@
         "id": "nakhla",
         "name": "Nakhlah",
         "title": "Nakhlah",
-        "marker": "https://raw.githubusercontent.com/SultanZain/MapTest/refs/heads/main/valley.ico",
+        "marker": "/images/markers/valley.webp",
         "popupContent": "Wādī Nakhlah is an area in the Hejazi region of Saudi Arabia between the cities of Mecca and Ta'if, which serves as a Miqat (Boundary) for the Islamic Ḥaram of Mecca.",
         "year": 620,
         "events": [
@@ -422,7 +422,7 @@
         "id": "aqabah",
         "name": "Al Aqabah",
         "title": "Al Aqabah",
-        "marker": "https://raw.githubusercontent.com/SultanZain/MapTest/refs/heads/main/valley.ico",
+        "marker": "/images/markers/valley.webp",
         "popupContent": "It preceded the Hijrah, or migration of Muhammad and his supporters from Mecca, where they were persecuted, to Medina, where Muhammad became ruler. The pledge occurred in 622 CE at a mountain pass (al-ʿaqabah) five kilometers from Mecca.",
         "year": 621,
         "events": [
@@ -462,7 +462,7 @@
         "id": "medina",
         "name": "Madinah Al-Taybah",
         "title": "Madinah Al-Taybah",
-        "marker": "https://raw.githubusercontent.com/SultanZain/MapTest/refs/heads/main/Madinah.ico",
+        "marker": "/images/markers/Madinah.webp",
         "popupContent": "Madinah has been inhabited at least 1500 years before the Hijra, or approximately the 9th century BCE. By the fourth century, Arab tribes began to encroach from Yemen, and there were three prominent Jewish tribes that inhabited the city around the time of Prophet Muhammad (S.A.W) : the Banu Qaynuqa, the Banu Qurayza, and Banu Nadir.",
         "year": 621,
         "events": [
@@ -546,7 +546,7 @@
         "id": "thawr",
         "name": "Jabal Thawr",
         "title": "Jabal Thawr",
-        "marker": "https://raw.githubusercontent.com/SultanZain/MapTest/refs/heads/main/cave.ico",
+        "marker": "/images/markers/cave.webp",
         "popupContent": "The Prophet and Siddiq evading the hunting party headed south at night and hid in a cave in Mount Thawr. They stayed inside there for three days despite the danger of snakes and scorpions. A search party did arrive but by the aid of Allah they remained unseen.<br><br>LOC (AHK p.56): The house was located in the Banu Jumah neighbourhood. Today it is in the Abraj Makkah (The clock Tower complex). The is a mosque on the place of his house called Masjid Abu Bakr. It 5600m SSE from the Ka'bah.<br><br>Arrival: Thur (N), 1 Rabi I, 1 AH / 15 Sept, 622 CE<br>Dept: Sun (N), 3 Rabi I,  1 AH / 15 Sept, 622 CE<br><br>Ref: Quran 9:40",
         "year": 622
       },
@@ -565,7 +565,7 @@
         "name": "Shu'aybah",
         "title": "Shu'aybah",
         "year": 613,
-        "marker": "https://raw.githubusercontent.com/SultanZain/MapTest/refs/heads/main/harbor.ico",
+        "marker": "/images/markers/harbor.webp",
         "popupContent": "Shu'aybah (An ancient Port Before Jeddah)"
       },
       "geometry": {
@@ -599,7 +599,7 @@
         "id": "aksum",
         "name": "Aksum",
         "year": 613,
-        "marker": "https://raw.githubusercontent.com/SultanZain/MapTest/refs/heads/main/aksum.ico",
+        "marker": "/images/markers/aksum.webp",
         "popupContent": "Aksum now a small town, once used to be the capital of Abyssinia (The Kingdom of Aksum)",
         "title": "Aksum - Habshah",
         "events": [
@@ -725,7 +725,7 @@
       "properties": {
         "name": "Hudaybiyyah",
         "year": 622,
-        "marker": "https://raw.githubusercontent.com/SultanZain/MapTest/refs/heads/main/camp.ico",
+        "marker": "/images/markers/camp.webp",
         "popupContent": "Date: Sun (N), 4 Rabi I, 1 AH / 18 Sept, 622 CE",
         "title": "Hudaybiyyah"
       }
@@ -772,7 +772,7 @@
       },
       "properties": {
         "name": "Wadi Liqf",
-        "marker": "https://raw.githubusercontent.com/SultanZain/MapTest/refs/heads/main/valley.ico",
+        "marker": "/images/markers/valley.webp",
         "year": 622
       }
     },
@@ -787,7 +787,7 @@
       },
       "properties": {
         "name": "Suraqah's pursuit",
-        "marker": "https://raw.githubusercontent.com/SultanZain/MapTest/refs/heads/main/sword.ico",
+        "marker": "/images/markers/sword.webp",
         "year": 622
       }
     },
@@ -802,7 +802,7 @@
       },
       "properties": {
         "name": "Wadi Qahah",
-        "marker": "https://raw.githubusercontent.com/SultanZain/MapTest/refs/heads/main/valley.ico",
+        "marker": "/images/markers/valley.webp",
         "year": 622
       }
     },
@@ -831,7 +831,7 @@
       },
       "properties": {
         "name": "Wadi Reem",
-        "marker": "https://raw.githubusercontent.com/SultanZain/MapTest/refs/heads/main/valley.ico",
+        "marker": "/images/markers/valley.webp",
         "year": 622
       },
       "id": 12
@@ -847,7 +847,7 @@
       },
       "properties": {
         "name": "Wadi Aqeeq",
-        "marker": "https://raw.githubusercontent.com/SultanZain/MapTest/refs/heads/main/valley.ico",
+        "marker": "/images/markers/valley.webp",
         "year": 622
       }
     },
@@ -862,7 +862,7 @@
       },
       "properties": {
         "name": "Quba",
-        "marker": "https://raw.githubusercontent.com/SultanZain/MapTest/refs/heads/main/quba.ico",
+        "marker": "/images/markers/quba.webp",
         "year": 622
       }
     },
