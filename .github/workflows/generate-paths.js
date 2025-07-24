@@ -75,6 +75,16 @@ function generatePaths() {
               filesByYear[year] = [];
             }
             filesByYear[year].push(slug);
+            
+            // Sort after all slugs are collected
+            for (const y in filesByYear) {
+              filesByYear[y].sort((a, b) => {
+                const aNum = parseInt(a.split('-event-')[1], 10);
+                const bNum = parseInt(b.split('-event-')[1], 10);
+                return aNum - bNum;
+              });
+            }
+
           }
         }
         
