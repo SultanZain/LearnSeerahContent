@@ -1,0 +1,163 @@
+// ---------------------------------------------------------- //
+//            Extract timelines as single json file           //
+//            AND Generate TimelineJS CSV                     //
+// -------------------------------------------------------- --//
+import fs from 'fs/promises';
+import path from 'path';
+import matter from 'gray-matter';
+
+// Import unified, remark, and rehype plugins
+import { unified } from 'unified';
+import remarkParse from 'remark-parse';
+import remarkRehype from 'remark-rehype';
+import rehypeStringify from 'rehype-stringify';
+
+const TIMELINE_DIR = '../content/timeline/ar/';
+const OUTPUT_JSON_FILE = '../Output/story-timeline-events.json';
+const OUTPUT_CSV_FILE = '../Output/timelinejs-events-arabic.csv'; // New CSV output file
+
+/**
+ * Escapes a string for CSV output by enclosing it in double quotes
+ * and doubling any internal double quotes.
+ * @param {string} field The string to escape.
+ * @returns {string} The escaped string.
+ */
+const escapeCsvField = (field) => {
+  if (field === null || field === undefined) {
+    return '';
+  }
+  const stringField = String(field);
+  // Check if the field contains a comma, double quote, or newline
+  if (stringField.includes(',') || stringField.includes('"') || stringField.includes('\n')) {
+    // Escape internal double quotes by doubling them
+    const escapedField = stringField.replace(/"/g, '""');
+    // Enclose the entire field in double quotes
+    return `"${escapedField}"`;
+  }
+  return stringField;
+};
+
+const getEventData = async () => {
+  const files = await fs.readdir(TIMELINE_DIR);
+  const events = [];
+
+  for (const file of files) {
+    if (!file.endsWith('.mdx')) continue;
+
+    const match = file.match(/^(\d+)-event-(\d+)\.mdx$/);
+    if (!match) continue;
+
+    const [_, yearStr, idStr] = match;
+    const year = parseInt(yearStr, 10);
+    const eventId = parseInt(idStr, 10);
+
+    const filePath = path.join(TIMELINE_DIR, file);
+    const fileContents = await fs.readFile(filePath, 'utf8');
+    const { data: frontmatter, content: detailsMarkdown } = matter(fileContents);
+
+    const { title, location, date, age } = frontmatter;
+
+    if (!title || !location || !date || age == null) {
+      console.warn(`Missing frontmatter fields in: ${file}`);
+      continue;
+    }
+
+    // Convert Markdown content to HTML
+    let detailsHtml = '';
+    try {
+      const processed = await unified()
+        .use(remarkParse)
+        .use(remarkRehype, { allowDangerousHtml: true })
+        .use(rehypeStringify, { allowDangerousHtml: true })
+        .process(detailsMarkdown.trim());
+      detailsHtml = String(processed);
+    } catch (error) {
+      console.error(`Error processing Markdown in ${file}:`, error);
+      // Fallback: store raw markdown or an error message if conversion fails
+      detailsHtml = `<p style="color: red;">Error processing markdown for ${file}.</p><pre>${escapeCsvField(detailsMarkdown.trim())}</pre>`;
+    }
+
+    events.push({
+      title,
+      location,
+      date,
+      // age: 'رسول ﷺ کی عمر مبارک : ' + String(age),
+      // age: 'Age of Hazrat Muhammad ﷺ : ' + String(age),
+      age: 'عمر النبي ﷺ المباركة : ' + String(age),
+      year,
+      eventId,
+      details: detailsHtml,
+    });
+  }
+
+  return events;
+};
+
+/**
+ * Generates CSV content for TimelineJS from an array of event objects.
+ * @param {Array<Object>} events The array of event objects.
+ * @returns {string} The CSV content.
+ */
+const generateTimelineJsCsv = (events) => {
+  const headers = [
+    "Year", "Month", "Day",
+    // "Time", "End Year", "End Month", "End Day", "End Time",
+    "Display Date", "Age", "Location", "Headline", "Text", "Media", "Media Credit", "Media Caption",
+    "Media Thumbnail", "Alt Text", "Type", "Group", "Background"
+  ];
+
+  const csvRows = [headers.map(escapeCsvField).join(',')]; // Add header row
+
+  for (const event of events) {
+    const row = [
+      escapeCsvField(event.year),       // Year
+      '',                               // Month (empty)
+      '',                               // Day (empty)
+      // '',                               // Time (empty)
+      // '',                               // End Year (empty)
+      // '',                               // End Month (empty)
+      // '',                               // End Day (empty)
+      // '',                               // End Time (empty)
+      escapeCsvField(event.date),       // Display Date
+      escapeCsvField(event.age),        // Age
+      escapeCsvField(event.location),   // Location
+      escapeCsvField(event.title),      // Headline
+      escapeCsvField(event.details),    // Text (HTML content)
+      '',                               // Media (empty)
+      '',                               // Media Credit (empty)
+      '',                               // Media Caption (empty)
+      '',                               // Media Thumbnail (empty)
+      '',                               // Alt Text (empty)
+      '',                               // Type (empty)
+      '',                               // Group (empty)
+      ''                                // Background (empty)
+    ];
+    csvRows.push(row.join(','));
+  }
+
+  return csvRows.join('\n');
+};
+
+
+const main = async () => {
+  let events = await getEventData();
+
+  // Sort the events numerically by year and then by eventId
+  events.sort((a, b) => {
+    if (a.year !== b.year) {
+      return a.year - b.year; // Sort by year first
+    }
+    return a.eventId - b.eventId; // Then sort by eventId
+  });
+
+  // 1. Write the JSON file (existing functionality)
+  await fs.writeFile(OUTPUT_JSON_FILE, JSON.stringify({ events }, null, 2), 'utf8');
+  console.log(`✅ ${OUTPUT_JSON_FILE} created with ${events.length} events.`);
+
+  // 2. Generate and write the CSV file
+  const csvContent = generateTimelineJsCsv(events);
+  await fs.writeFile(OUTPUT_CSV_FILE, csvContent, 'utf8');
+  console.log(`✅ ${OUTPUT_CSV_FILE} created with ${events.length} events.`);
+};
+
+main().catch(console.error);

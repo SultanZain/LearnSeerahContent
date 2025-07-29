@@ -44,7 +44,16 @@ const getEventData = async () => {
 };
 
 const main = async () => {
-  const events = await getEventData();
+ let events = await getEventData();
+
+  // Sort the events numerically by year and then by eventId
+  events.sort((a, b) => {
+    if (a.year !== b.year) {
+      return a.year - b.year; // Sort by year first
+    }
+    return a.eventId - b.eventId; // Then sort by eventId
+  });
+
   await fs.writeFile(OUTPUT_FILE, JSON.stringify({ events }, null, 2), 'utf8');
   console.log(`✅ timeline-events.json created with ${events.length} events.`);
 };
