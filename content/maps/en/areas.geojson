@@ -285,6 +285,14 @@
             "age": "~6",
             "year": 576,
             "eventId": 1
+          },
+          {
+            "title": "The Battle of al-Abwaa’ (Waddan)",
+            "location": "Al-Abwaa’ / Waddan",
+            "date": "2 AH | Safar | 623 CE",
+            "age": "54",
+            "year": 623,
+            "eventId": 4
           }
         ]
       },
@@ -864,6 +872,174 @@
         "name": "Quba",
         "marker": "/images/markers/quba.webp",
         "year": 622
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "rabigh",
+        "name": "Batn Rabigh",
+        "title": "Batn Rabigh",
+        "marker": "/images/markers/sword.webp",
+        "popupContent": "The Batn Rabigah, located in the valley of Rabigh, this location serves as the Miqat for pilgrims from Ash-Sham, Egypt, and Turkey. It is known for the Batn Rabigh Caravan Raid, which took place in April 623 CE.",
+        "year": 623,
+        "events": [
+          {
+            "title": "The Expedition of 'Ubaydah ibn al-Harith to Rabigh",
+            "location": "Batn Rabigh",
+            "date": "1 AH | Sha'ban | 623 CE",
+            "age": "54",
+            "year": 623,
+            "eventId": 1
+          }
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          39.032,
+          22.799
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "al-is",
+        "name": "Al-'Is (Seashore)",
+        "title": "Al-'Is (Seashore)",
+        "marker": "/images/markers/white-flag.webp",
+        "popupContent": "Al-'Is, located along the seashore, is significant for the Expedition of Hamzah to intercept a Quraysh trade caravan. It marks the first time a banner was handed to a Muslim commander, and the event concluded without battle due to mediation.",
+        "year": 623,
+        "events": [
+          {
+            "title": "The Expedition of Hamzah to the Seashore (Sif al-Bahr)",
+            "location": "Al-'Is (Seashore)",
+            "date": "1 AH | Ramadan | 623 CE",
+            "age": "54",
+            "year": 623,
+            "eventId": 2
+          }
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          38.108156643137846,
+          25.065308928961898
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "kharrar",
+        "name": "Al-Kharrar",
+        "title": "Al-Kharrar",
+        "marker": "/images/markers/sword.webp",
+        "popupContent": "Al-Kharrar is a valley located on the route to al-Juhfah, where Sa’d ibn Abi Waqqas led a military mission during the 1st year of Hijrah.",
+        "year": 623,
+        "events": [
+          {
+            "title": "The Expedition of Sa’d ibn Abi Waqqas to al-Kharrar",
+            "location": "Al-Kharrar",
+            "date": "1 AH | Dhu al-Qi'dah | 623 CE",
+            "age": "54",
+            "year": 623,
+            "eventId": 3
+          }
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          40.1051,
+          21.296
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "safwan",
+        "name": "Valley of Safwan",
+        "title": "Valley of Safwan",
+        "marker": "/images/markers/sword.webp",
+        "popupContent": "The Valley of Safwan, near Badr, is the site of the first military pursuit by the Prophet ﷺ during the early days of the Hijrah.",
+        "year": 623,
+        "events": [
+          {
+            "title": "The First Battle of Badr (The Valley of Safwan)",
+            "location": "Valley of Safwan (near Badr)",
+            "date": "2 AH | Rabi' al-Awwal | 623 CE",
+            "age": "55",
+            "year": 623,
+            "eventId": 5
+          }
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          38.7646,
+          23.7374
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "buwat",
+        "name": "Buwat (Near Yanbu')",
+        "title": "Buwat (Near Yanbu')",
+        "marker": "/images/markers/sword.webp",
+        "popupContent": "Buwat is a region near Yanbu' where the Prophet ﷺ led a military expedition to intercept a trade caravan.",
+        "year": 623,
+        "events": [
+          {
+            "title": "The Battle of Buwat",
+            "location": "Buwat (Near Yanbu')",
+            "date": "2 AH | Rabi' al-Akhir | 623 CE",
+            "age": "55",
+            "year": 623,
+            "eventId": 6
+          }
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          38.5700,
+          24.4350
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ushayrah",
+        "name": "Al-Ushayrah (Yanbu' Valley)",
+        "title": "Al-Ushayrah (Yanbu' Valley)",
+        "marker": "/images/markers/sword.webp",
+        "popupContent": "Al-Ushayrah is located in the Yanbu' Valley, the site of a peaceful diplomatic mission led by the Prophet ﷺ. Dhil ‘Ushayrah (ذي العشيرة) is located about 9 manzils (100 miles) away from the valley of Yanbu‘. Exact location on present Google map is still not known. Some Arab team is working to find out the location where Ghazwa e Ushayrah took place.",
+        "year": 623,
+        "events": [
+          {
+            "title": "The Battle of al-Ushayrah (Yanbu' Valley)",
+            "location": "Al-Ushayrah (Yanbu' Valley)",
+            "date": "2 AH | Jumada al-Ula | 623 CE",
+            "age": "55",
+            "year": 623,
+            "eventId": 7
+          }
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          38.0633,
+          24.2342
+        ],
+        "type": "Point"
       }
     },
     {

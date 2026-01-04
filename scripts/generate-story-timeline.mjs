@@ -5,8 +5,18 @@ import fs from 'fs/promises';
 import path from 'path';
 import matter from 'gray-matter';
 
-const TIMELINE_DIR = '../content/timeline/ar/';
-const OUTPUT_FILE = '../Output/story-timeline-events.json';
+// Default language set to Arabic ('ar')
+let language = 'ar'; 
+
+// Parse command line arguments for language (-l flag)
+const args = process.argv.slice(2);
+const langFlagIndex = args.indexOf('-l');
+if (langFlagIndex !== -1 && args[langFlagIndex + 1]) {
+  language = args[langFlagIndex + 1]; // Set language if provided
+}
+
+const TIMELINE_DIR = `./content/timeline/${language}/`;  // Dynamic language directory
+const OUTPUT_FILE = `./Output/storymap-${language}-events.json`;
 
 const getEventData = async () => {
   const files = await fs.readdir(TIMELINE_DIR);
@@ -40,7 +50,7 @@ const getEventData = async () => {
       age: String(age),
       year,
       eventId,
-      details: details.trim(), // Optional: trim to clean up whitespace
+      details: details.trim(),
     });
   }
 
@@ -58,6 +68,7 @@ const main = async () => {
     return a.eventId - b.eventId; // Then sort by eventId
   });
 
+  // Write the sorted events to the output file
   await fs.writeFile(OUTPUT_FILE, JSON.stringify({ events }, null, 2), 'utf8');
   console.log(`✅ ${OUTPUT_FILE} created with ${events.length} events.`);
 };
