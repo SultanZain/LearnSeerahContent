@@ -300,6 +300,15 @@
 						"year": 576,
 						"eventId": 1,
 						"details": "As the Messenger of Allah ﷺ reached the tender age of **six**, a significant journey commenced. His noble mother, **Aaminah bint Wahb**, embarked with him to visit his maternal uncles from the esteemed **Banee ‘Addee ibn al-Najjaar**. Accompanying them was his devoted wet nurse, **Umm Ayman** (may Allah be well pleased with her), and they traveled upon two separate she-camels.\r\n\r\nTheir initial destination within the territory of the tribe of **al-Naabighah** held a poignant significance, for it was near the very ground where his beloved father, **Abdullah ibn ‘Abd’ul-Muttalib**, lay at rest.\r\n\r\nThey remained in the company of his maternal uncles for a full month. As their return journey to Makkah unfolded, a sorrowful event transpired: the passing of his mother ﷺ. It was **Umm Ayman**, whose given name was **Barakah bint Tha’labah ibn Hisn**, who shouldered the responsibility of completing the journey back to Makkah with the young Prophet ﷺ.\r\n\r\n**Umm Ayman** held an immense affection for the Prophet ﷺ and dedicated herself to his meticulous care, enveloping him in her love and protection. In return, the Prophet ﷺ reciprocated with profound loyalty, reverence, and exceptional graciousness. In the fullness of time, the Prophet ﷺ honored her by setting her free. Subsequently, she married **Zayd ibn Haarithah** (may Allah be well pleased with him), and their union was blessed with the birth of **Usaamah ibn Zayd** (may Allah be well pleased with them both).\r\n\r\nThe life of **Umm Ayman** (may Allah be well pleased with her) drew to a close a mere five months after the passing of the Messenger of Allah ﷺ."
+					},
+					{
+						"title": "The Battle of al-Abwaa’ (Waddan)",
+						"location": "Al-Abwaa’ / Waddan",
+						"date": "2 AH | Safar | 623 CE",
+						"age": "54",
+						"year": 623,
+						"eventId": 4,
+						"details": "**Details of the Event:**\r\n\r\nIn Safar of 2 AH, the Prophet ﷺ led an expedition to al-Abwaa' (Waddan) to encounter a Quraysh caravan. This expedition marked the Prophet's first participation in military action. The mission ended with a treaty and no combat."
 					}
 				]
 			},
@@ -643,6 +652,180 @@
 						"details": "**Details of the Event:**\r\n\r\nThe Messenger of Allah (peace and blessings of Allah be upon him) stayed with Banu Amr ibn Awf in **Quba** for over ten nights. During this time, he laid the foundation of the mosque that was **\"founded upon piety\"** (referencing Quran 9:108), and he prayed in it."
 					}
 				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "rabigh",
+				"name": "Batn Rabigh",
+				"title": "Batn Rabigh",
+				"marker": "/images/markers/sword.webp",
+				"popupContent": "The Batn Rabigah, located in the valley of Rabigh, this location serves as the Miqat for pilgrims from Ash-Sham, Egypt, and Turkey. It is known for the Batn Rabigh Caravan Raid, which took place in April 623 CE.",
+				"year": 623,
+				"events": [
+					{
+						"title": "The Expedition of 'Ubaydah ibn al-Harith to Rabigh",
+						"location": "Batn Rabigh",
+						"date": "1 AH | Sha'ban | 623 CE",
+						"age": "54",
+						"year": 623,
+						"eventId": 1,
+						"details": "**Details of the Event:**\r\n\r\nIn the month of Sha'ban, eight months after the Hijrah, the Messenger of Allah (peace and blessings of Allah be upon him) dispatched a military expedition led by **'Ubaydah ibn al-Harith ibn 'Abd al-Muttalib** to Batn Rabigh. This location serves as the Miqat for pilgrims from Ash-Sham, Egypt, and Turkey.\r\n\r\nThe Prophet ﷺ entrusted 'Ubaydah with a white banner, carried by Mistah ibn Uthathah. The detachment consisted of **sixty Muhajirin** (Emigrants), with no one from the Ansar among them. They encountered a group of two hundred men from the Quraysh led by Abu Sufyan ibn Harb. Although the two groups met, no full-scale battle ensued; instead, it was a skirmish involving the exchange of arrows. During this expedition, **Sa’d ibn Abi Waqqas** (may Allah be pleased with him) earned the distinction of being the first person to shoot an arrow in the cause of Allah. Eventually, both parties retreated to their respective camps without engaging in sword combat."
+					}
+				]
+			},
+			"geometry": {
+				"coordinates": [
+					39.032,
+					22.799
+				],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "al-is",
+				"name": "Al-'Is (Seashore)",
+				"title": "Al-'Is (Seashore)",
+				"marker": "/images/markers/white-flag.webp",
+				"popupContent": "Al-'Is, located along the seashore, is significant for the Expedition of Hamzah to intercept a Quraysh trade caravan. It marks the first time a banner was handed to a Muslim commander, and the event concluded without battle due to mediation.",
+				"year": 623,
+				"events": [
+					{
+						"title": "The Expedition of Hamzah to the Seashore (Sif al-Bahr)",
+						"location": "Al-'Is (Seashore)",
+						"date": "1 AH | Ramadan | 623 CE",
+						"age": "54",
+						"year": 623,
+						"eventId": 2,
+						"details": "**Details of the Event:**\r\n\r\nIn the month of Ramadan, 1 AH, the Messenger of Allah (peace and blessings of Allah be upon him) dispatched an expedition to the seashore (Sif al-Bahr) under the command of **Hamzah ibn ‘Abd al-Muttalib** (may Allah be pleased with him). The group consisted of thirty riders, all of whom were **Muhajirin** (Emigrants). \r\n\r\nThis event is historically significant as the Prophet ﷺ handed Hamzah a white banner, which is considered the **first banner** ever assigned to a Muslim commander in Islam; it was carried by Abu Mirthad, Kannaz ibn Hussayn al-Ghanawee. The objective was to intercept a trade caravan of the Quraysh returning from Ash-Sham, led by Abu Jahl with 300 riders. The two parties met at the coast near al-‘Is and lined up for battle. However, **Majdi ibn ‘Amr al-Juhani**, who had friendly ties with both sides, intervened and mediated between them. Due to his efforts, the two groups separated without actual combat. This expedition occurred around the same time as the expedition of ‘Ubaydah ibn al-Harith to Rabigh."
+					}
+				]
+			},
+			"geometry": {
+				"coordinates": [
+					38.108156643137846,
+					25.065308928961898
+				],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "kharrar",
+				"name": "Al-Kharrar",
+				"title": "Al-Kharrar",
+				"marker": "/images/markers/sword.webp",
+				"popupContent": "Al-Kharrar is a valley located on the route to al-Juhfah, where Sa’d ibn Abi Waqqas led a military mission during the 1st year of Hijrah.",
+				"year": 623,
+				"events": [
+					{
+						"title": "The Expedition of Sa’d ibn Abi Waqqas to al-Kharrar",
+						"location": "Al-Kharrar",
+						"date": "1 AH | Dhu al-Qi'dah | 623 CE",
+						"age": "54",
+						"year": 623,
+						"eventId": 3,
+						"details": "**Details of the Event:**\r\n\r\nNine months after the Hijrah, the Messenger of Allah (peace and blessings of Allah be upon him) dispatched **Sa’d ibn Abi Waqqas** (may Allah be pleased with him) at the head of a military mission to **al-Kharrar**—a valley that serves as a route toward al-Juhfah. The mission returned without combat, as the Quraysh caravan they sought had passed earlier."
+					}
+				]
+			},
+			"geometry": {
+				"coordinates": [
+					40.1051,
+          			21.296
+				],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "safwan",
+				"name": "Valley of Safwan",
+				"title": "Valley of Safwan",
+				"marker": "/images/markers/sword.webp",
+				"popupContent": "The Valley of Safwan, near Badr, is the site of the first military pursuit by the Prophet ﷺ during the early days of the Hijrah.",
+				"year": 623,
+				"events": [
+					{
+						"title": "The First Battle of Badr (The Valley of Safwan)",
+						"location": "Valley of Safwan (near Badr)",
+						"date": "2 AH | Rabi' al-Awwal | 623 CE",
+						"age": "55",
+						"year": 623,
+						"eventId": 5,
+						"details": "**Details of the Event:**\r\n\r\nThe first battle of Badr, also known as the Expedition of Safwan, was a pursuit of **Kurz ibn Jabir al-Fihri**. The pursuit reached the Valley of Safwan, but the target escaped, leading to no battle."
+					}
+				]
+			},
+			"geometry": {
+				"coordinates": [
+					38.7646,
+					23.7374
+				],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "buwat",
+				"name": "Buwat (Near Yanbu')",
+				"title": "Buwat (Near Yanbu')",
+				"marker": "/images/markers/sword.webp",
+				"popupContent": "Buwat is a region near Yanbu' where the Prophet ﷺ led a military expedition to intercept a trade caravan.",
+				"year": 623,
+				"events": [
+					{
+						"title": "The Battle of Buwat",
+						"location": "Buwat (Near Yanbu')",
+						"date": "2 AH | Rabi' al-Akhir | 623 CE",
+						"age": "55",
+						"year": 623,
+						"eventId": 6,
+						"details": "**Details of the Event:**\r\n\r\nThe Prophet ﷺ led an expedition to **Buwat**, near Yanbu', in an attempt to intercept a Quraysh caravan. The journey was arduous, and no combat took place, though valuable lessons were learned along the way."
+					}
+				]
+			},
+			"geometry": {
+				"coordinates": [
+					38.5700,
+					24.4350
+				],
+				"type": "Point"
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "ushayrah",
+				"name": "Al-Ushayrah (Yanbu' Valley)",
+				"title": "Al-Ushayrah (Yanbu' Valley)",
+				"marker": "/images/markers/sword.webp",
+				"popupContent": "Al-Ushayrah is located in the Yanbu' Valley, the site of a peaceful diplomatic mission led by the Prophet ﷺ. Dhil ‘Ushayrah (ذي العشيرة) is located about 9 manzils (100 miles) away from the valley of Yanbu‘. Exact location on present Google map is still not known. Some Arab team is working to find out the location where Ghazwa e Ushayrah took place.",
+				"year": 623,
+				"events": [
+					{
+						"title": "The Battle of al-Ushayrah (Yanbu' Valley)",
+						"location": "Al-Ushayrah (Yanbu' Valley)",
+						"date": "2 AH | Jumada al-Ula | 623 CE",
+						"age": "55",
+						"year": 623,
+						"eventId": 7,
+						"details": "**Details of the Event:**\r\n\r\nThe Battle of al-Ushayrah occurred in Jumada al-Ula, 2 AH. The Prophet ﷺ engaged in diplomatic negotiations with **Bani Mudlij** and **Bani Dumrah**, concluding the mission peacefully with no combat."
+					}
+				]
+			},
+			"geometry": {
+				"coordinates": [
+					38.0633,
+					24.2342
+				],
+				"type": "Point"
 			}
 		}
 	]

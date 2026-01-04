@@ -12,9 +12,18 @@ import remarkParse from 'remark-parse';
 import remarkRehype from 'remark-rehype';
 import rehypeStringify from 'rehype-stringify';
 
-const TIMELINE_DIR = '../content/timeline/ar/';
-const OUTPUT_JSON_FILE = '../Output/story-timeline-events.json';
-const OUTPUT_CSV_FILE = '../Output/timelinejs-events-arabic.csv'; // New CSV output file
+// Default language set to Urdu ('ur')
+let language = 'ur'; 
+
+// Parse command line arguments for language (-l flag)
+const args = process.argv.slice(2);
+const langFlagIndex = args.indexOf('-l');
+if (langFlagIndex !== -1 && args[langFlagIndex + 1]) {
+  language = args[langFlagIndex + 1]; // Set language if provided
+}
+
+const TIMELINE_DIR = `./content/timeline/${language}/`;  // Dynamic language directory
+const OUTPUT_CSV_FILE = `./Output/timelinejs-${language}-events.csv`; // CSV output file
 
 /**
  * Escapes a string for CSV output by enclosing it in double quotes
@@ -71,19 +80,30 @@ const getEventData = async () => {
         .use(rehypeStringify, { allowDangerousHtml: true })
         .process(detailsMarkdown.trim());
       detailsHtml = String(processed);
+
+      // Post-process to replace className with class
+      detailsHtml = detailsHtml.replace(/\bclassName\b/g, 'class');
     } catch (error) {
       console.error(`Error processing Markdown in ${file}:`, error);
       // Fallback: store raw markdown or an error message if conversion fails
       detailsHtml = `<p style="color: red;">Error processing markdown for ${file}.</p><pre>${escapeCsvField(detailsMarkdown.trim())}</pre>`;
     }
 
+    // Handling dynamic language age description
+    let ageText = '';
+    if (language === 'ur') {
+      ageText = 'رسول ﷺ کی عمر مبارک : ' + String(age); // ur
+    } else if (language === 'en') {
+      ageText = 'Age of Hazrat Muhammad S.A.W : ' + String(age); // en
+    } else if (language === 'ar') {
+      ageText = 'عمر النبي ﷺ المباركة : ' + String(age); // ar
+    }
+
     events.push({
       title,
       location,
       date,
-      // age: 'رسول ﷺ کی عمر مبارک : ' + String(age),
-      // age: 'Age of Hazrat Muhammad ﷺ : ' + String(age),
-      age: 'عمر النبي ﷺ المباركة : ' + String(age),
+      age: ageText,
       year,
       eventId,
       details: detailsHtml,
@@ -150,11 +170,7 @@ const main = async () => {
     return a.eventId - b.eventId; // Then sort by eventId
   });
 
-  // 1. Write the JSON file (existing functionality)
-  await fs.writeFile(OUTPUT_JSON_FILE, JSON.stringify({ events }, null, 2), 'utf8');
-  console.log(`✅ ${OUTPUT_JSON_FILE} created with ${events.length} events.`);
-
-  // 2. Generate and write the CSV file
+  // 1. Generate and write the CSV file
   const csvContent = generateTimelineJsCsv(events);
   await fs.writeFile(OUTPUT_CSV_FILE, csvContent, 'utf8');
   console.log(`✅ ${OUTPUT_CSV_FILE} created with ${events.length} events.`);

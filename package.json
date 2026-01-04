@@ -1,0 +1,16 @@
+{
+  "name": "learn_seerah_content",
+  "version": "1.0.0",
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "rehype-stringify": "^10.0.1",
+    "remark-parse": "^11.0.0",
+    "remark-rehype": "^11.1.2",
+    "unified": "^11.0.5"
+  },
+  "scripts": {
+    "start": "node --experimental-modules scripts/extract_timeline_for_geojson.mjs",
+    "generate-timeline": "node --experimental-modules scripts/generate_timeline_v2.mjs",
+    "generate-story-timeline": "node --experimental-modules scripts/generate-story-timeline.mjs"
+  }
+}

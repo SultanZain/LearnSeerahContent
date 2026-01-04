@@ -2,8 +2,18 @@ import fs from 'fs/promises';
 import path from 'path';
 import matter from 'gray-matter';
 
-const TIMELINE_DIR = '../content/timeline/ur/';
-const OUTPUT_FILE = '../Output/geojson-events.json';
+// Default language set to Arabic ('ar')
+let language = 'ar'; 
+
+// Parse command line arguments for language (-l flag)
+const args = process.argv.slice(2);
+const langFlagIndex = args.indexOf('-l');
+if (langFlagIndex !== -1 && args[langFlagIndex + 1]) {
+  language = args[langFlagIndex + 1]; // Set language if provided
+}
+
+const TIMELINE_DIR = `./content/timeline/${language}/`;  // Dynamic language directory
+const OUTPUT_FILE = `./Output/geojson-${language}-events.json`;
 
 const getEventData = async () => {
   const files = await fs.readdir(TIMELINE_DIR);
