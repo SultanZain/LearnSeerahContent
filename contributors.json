@@ -1,0 +1,22 @@
+[
+    {
+        "id": "tanim1993",
+        "name": {
+            "en": "Khaled Bin Showkot Tanim",
+            "ar": "خالد بن شوكت تنيم",
+            "ur": "خالد بن شوکت تنیم",
+            "bn": "খালেদ বিন শওকত তানিম"
+        },
+        "role": {
+            "en": "Bengali Translator",
+            "ar": "مترجم بنغالي",
+            "ur": "بنگالی مترجم",
+            "bn": "বাংলা অনুবাদক"
+        },
+        "avatar": "https://github.com/Tanim1993.png",
+        "social": {
+            "github": "https://github.com/Tanim1993",
+            "linkedin": "https://linkedin.com/in/Khaled-Tanim"
+        }
+    }
+]

@@ -1,15 +1,16 @@
-name: Generate paths.json
+name: Generate Locale Paths
 
 on:
   push:
     branches:
-      - dev       # Running on your current branch
-      - test      # Also keeping the test branch target
-      - main      # Good to include main branch too
+      - dev
+      - test
+      - stable
     paths:
       - '**/*.mdx'
-      - 'content/**/*'  # Capture any content structure changes
+      - 'content/**/*'
       - '.github/workflows/update-paths.yml'
+      - '.github/workflows/generate-paths.js'
 
 permissions:
   contents: write
@@ -22,52 +23,52 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v3
         with:
-          persist-credentials: false  # We'll use our GitHub App's token
-          fetch-depth: 0  # Full history to ensure we can detect all changes
-      
-      - name: Debug - List Changed Files
-        run: |
-          echo "List of changed files in this commit:"
-          git diff --name-status HEAD^1 HEAD || echo "Failed to list changes, may be first commit"
-          
+          persist-credentials: false
+          fetch-depth: 0 
+
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
           node-version: 20
 
-      - name: Install Dependencies
-        run: npm install fs path
-
-      - name: Generate paths.json
+      - name: Generate Paths Files
         run: |
-          # Copy the generate-paths.js script to the root directory for execution
-          cp .github/workflows/generate-paths.js ./generate-paths.js || echo "Script not in workflows folder"
-          
-          # If script doesn't exist in workflows folder, check if it's already in root
+          # Copy the script from workflows folder to root if it exists
+          if [ -f ".github/workflows/generate-paths.js" ]; then
+            cp .github/workflows/generate-paths.js ./generate-paths.js
+          fi
+
+          # Ensure script exists
           if [ ! -f "./generate-paths.js" ]; then
-            echo "Error: generate-paths.js not found"
+            echo "Error: generate-paths.js not found!"
             exit 1
           fi
-          
+
           # Run the script
           node generate-paths.js
-          
-          # Show the result for debugging
-          echo "Generated paths.json content:"
-          cat paths.json
 
-      - name: Check for Changes in paths.json
+          # Debug: list generated files
+          if [ -d paths ]; then
+            echo "Generated files in paths/:"
+            ls -R paths/
+          else
+            echo "No paths/ directory created."
+          fi
+
+      - name: Check for Changes
         id: check_changes
         run: |
-          if git diff --exit-code paths.json; then
-            echo "No changes to paths.json"
-            echo "has_changes=false" >> $GITHUB_OUTPUT
-          else
-            echo "paths.json was changed"
+          # Check for any changes, including untracked files
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "Changes detected"
             echo "has_changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "No changes detected"
+            echo "has_changes=false" >> $GITHUB_OUTPUT
           fi
-          
+
       - name: Generate GitHub App token
+        if: steps.check_changes.outputs.has_changes == 'true'
         id: generate_token
         uses: tibdex/github-app-token@v2
         with:
@@ -75,12 +76,17 @@ jobs:
           private_key: ${{ secrets.BOT_PRIVATE_KEY }}
 
       - name: Commit and push
+        if: steps.check_changes.outputs.has_changes == 'true'
         env:
           GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
         run: |
           git config user.name "LearnSeerah Bot"
           git config user.email "learnseerah[bot]@users.noreply.github.com"
-        
-          git add paths.json
-          git commit -m "Update paths.json [Skip CI]" || echo "No changes"
-          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:${{ github.ref }}
+          # Stage all files under paths/ recursively, if they exist
+          if [ -d paths ]; then
+            git add paths
+            git commit -m "Update paths/{locale}.json [Skip CI]" || echo "No changes to commit"
+            git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:${{ github.ref }}
+          else
+            echo "No paths/ folder to commit"
+          fi

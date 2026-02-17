@@ -65,7 +65,7 @@ content/
 |
 ├── maps/
 │   └── {lang}/
-|       ├── {event}.geojson
+|       ├── storymap.geojson
 │       └── areas.geojson
 │
 └── timeline/
