@@ -3,9 +3,11 @@ name: Generate Locale Paths
 on:
   push:
     branches:
+      - i18n/**
+      - content/**
       - dev
-      - test
-      - stable
+      - staging
+      - production
     paths:
       - '**/*.mdx'
       - 'content/**/*'

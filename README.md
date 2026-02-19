@@ -18,6 +18,21 @@ This repository contains the structured content (primarily in Markdown/MDX forma
 > 👉 [Access the CMS](https://learnseerah.com/admin/) to add/edit Seerah content with a visual editor.
 > All changes are securely committed via GitHub pull requests automatically through API requests.
 
+>[!CAUTION]
+> Bengali translations are currently a work in progress and may contain errors or inconsistencies.
+> They are **not finalized**.
+
+> [!NOTE]
+> 🙏 Special thanks to [Khaled Tanem](https://www.linkedin.com/in/khaled-tanim/) for his efforts in translating the Bengali content.
+>
+> Bengali translations are currently under active review.
+> We invite Bengali speakers to review the content and help improve accuracy, clarity, and readability.
+>
+> To preview and help review the latest updates, visit:
+> 👉 https://dev.learnseerah.com
+> 
+> If you find issues, please open an issue or submit a pull request.
+
 ---
 
 ## Table of Contents
@@ -31,6 +46,7 @@ This repository contains the structured content (primarily in Markdown/MDX forma
   * [4. Branch Management](#4-branch-management)
   * [5. Review Process](#5-review-process)
   * [6. Content Guidelines](#6-content-guidelines)
+  * [7. Frontend UI Translations](#-frontend-ui-translations)
 * [Code of Conduct](#-code-of-conduct)
 
 ---
@@ -71,12 +87,18 @@ content/
 └── timeline/
     └── {lang}/
         └── {year}-event-{id}.mdx
+
+frontend/
+|
+└── {lang}.json
+
 ```
 
->[!NOTE]
->File and folder names must follow consistent naming and structure across all languages. And MUST not contain non-ASCII characters nor any spaces and symbols, hyphens(-) can be used.
+>[!CAUTION]
+> File and folder names must follow consistent naming and structure across all languages. And MUST not contain non-ASCII characters nor any spaces and symbols, hyphens(-) can be used.
 >
->Maps are not Supported in CMS, use [GeoJson.io](https://geojson.io/)
+> Maps are not Supported in CMS, use [GeoJson.io](https://geojson.io/) <br>
+> Frontend UI Translations are managed using [GitLocalize](https://gitlocalize.com/repo/10684)
 
 ---
 
@@ -136,6 +158,42 @@ Branches are automatically deleted after merge to keep the repo clean.
 * **Clarity** — Keep language simple and clear.
 * **Respect** — Maintain an appropriate tone.
 * **Citations** — Include references where necessary.
+
+---
+
+## 🌐 Frontend UI Translations
+
+Our frontend interface is localized using **GitLocalize**, enabling the community to contribute translations easily.
+
+➡️ Contribute or track progress:
+[https://gitlocalize.com/repo/10684](https://gitlocalize.com/repo/10684)
+
+---
+
+### UI Translation Progress
+
+| Language | Progress                                                     | Language   | Progress                                                       |
+| -------- | ------------------------------------------------------------ | ---------- | -------------------------------------------------------------- |
+| Arabic   | ![Arabic](https://gitlocalize.com/repo/10684/ar/badge.svg)   | Bengali    | ![Bengali](https://gitlocalize.com/repo/10684/bn/badge.svg)    |
+| Chinese  | ![Chinese](https://gitlocalize.com/repo/10684/zh/badge.svg)  | French     | ![French](https://gitlocalize.com/repo/10684/fr/badge.svg)     |
+| German   | ![German](https://gitlocalize.com/repo/10684/de/badge.svg)   | Indonesian | ![Indonesian](https://gitlocalize.com/repo/10684/id/badge.svg) |
+| Japanese | ![Japanese](https://gitlocalize.com/repo/10684/ja/badge.svg) | Korean     | ![Korean](https://gitlocalize.com/repo/10684/ko/badge.svg)     |
+| Malay    | ![Malay](https://gitlocalize.com/repo/10684/ms/badge.svg)    | Pashto     | ![Pashto](https://gitlocalize.com/repo/10684/ps/badge.svg)     |
+| Persian  | ![Persian](https://gitlocalize.com/repo/10684/fa/badge.svg)  | Portuguese | ![Portuguese](https://gitlocalize.com/repo/10684/pt/badge.svg) |
+| Russian  | ![Russian](https://gitlocalize.com/repo/10684/ru/badge.svg)  | Sindhi     | ![Sindhi](https://gitlocalize.com/repo/10684/sd/badge.svg)     |
+| Spanish  | ![Spanish](https://gitlocalize.com/repo/10684/es/badge.svg)  | Turkish    | ![Turkish](https://gitlocalize.com/repo/10684/tr/badge.svg)    |
+| Urdu     | ![Urdu](https://gitlocalize.com/repo/10684/ur/badge.svg)     |            |                                                                |
+
+
+---
+
+## 🤝 Help Translate
+
+We welcome contributions to improve translations and add new languages.
+
+1. Visit the GitLocalize page
+2. Choose your language
+3. Submit translations directly in the browser
 
 ---
 

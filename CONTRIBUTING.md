@@ -4,16 +4,16 @@ Thank you for contributing!
 
 ## Workflow
 
-1. Fork the repo or create a feature branch from `dev`.
+1. Fork the repo or create a feature branch from `dev` or specific language branch (e.g., `i18n/bengali`).
 2. Make your changes.
-3. Open a pull request **into `dev` branch**.
-4. Once tested and reviewed, changes will be manually merged into `main`.
+3. Open a pull request **into `dev` or specific language branch**.
+4. Once tested and reviewed, changes will be manually merged into `production`.
 
 ## Rules
 
 - ✅ Contributors can push to `dev` or feature branches.
-- ❌ No one (except maintainers) can push directly to `main`.
-- ✅ All changes to `main` must come through a pull request from `dev` and be reviewed/tested.
+- ❌ No one (except maintainers) can push directly to `production`.
+- ✅ All changes to `production` must come through a pull request from `dev` and be reviewed/tested.
 
 
 ## Branch Strategy
@@ -24,7 +24,7 @@ Thank you for contributing!
 
 ## Workflow
 
-1. Base your work on `dev`.
+1. Base your work on `dev` or specific language branch (e.g., `i18n/bengali`).
 2. Push changes to a feature branch.
-3. Create a PR into `dev`.
-4. After review and testing, maintainers will merge `dev` into `production`.
+3. Create a PR into `dev` or specific language branch.
+4. After review and testing, maintainers will merge `dev` or specific language branch into `production`.
