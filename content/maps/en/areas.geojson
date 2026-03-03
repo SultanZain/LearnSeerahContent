@@ -9,6 +9,7 @@
         "name": "Makkah",
         "marker": "/images/markers/Makkah.webp",
         "popupContent": "The Holy City Mecca, Where Ka`ba-tul-Allah is located and the Prophet Muhammad S.A.W was born.",
+        "year": 571,
         "events": [
           {
             "title": "THE BIRTH OF THE BEST OF CREATION, OUR PROPHET MUHAMMAD, AL-MUSTAFA ﷺ",
@@ -249,6 +250,7 @@
         "title": "House of Bibi Halimah رضي الله عنها",
         "marker": "/images/markers/ruins-2.webp",
         "popupContent": "These are said to be the ruins of Banu Sa’d Village where the house of Bibi Halimah رضي الله عنها was located. Hz. Prophet Muhammad ﷺ spent some years of his childhood here.  The Banu Sa’d was one of the leading royal tribes of Arabia during the Hz. Prophet Muhammad’s ﷺ era.  They were great warriors and fought many battles with Prophet Muhammad ﷺ against enemies of Islam.  Bibi Halima Sadia رضي الله عنها, Hz. Prophet Muhammad’s ﷺ wet nurse, belonged to this tribe. They migrated on the order of Prophet Muhammad ﷺ to Subcontinent, Africa and Europe to fight against Polytheism.",
+        "year": 575,
         "events": [
           {
             "title": "THE PROPHET’S ﷺ CHEST IS SPLIT OPEN",
