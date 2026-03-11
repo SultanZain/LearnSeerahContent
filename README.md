@@ -61,7 +61,7 @@ The content within this repository is organized following this structure:
 # {id}   : Integer Number of order (e.g, 1, 2)
 content/
 |
-├── timeline-v2.json
+├── chronicle.json
 |
 ├── glossary/
 │   └── {lang}/
@@ -75,7 +75,7 @@ content/
 │   └── {lang}/
 │       └── {reference}.mdx
 │
-├── seerah/
+├── chapters/
 │   └── {lang}/
 │       └── {section}.mdx
 |
