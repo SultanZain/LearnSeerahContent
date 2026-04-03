@@ -1,30 +1,37 @@
-# Contributing Guide
+# Contributing to LearnSeerah
 
-Thank you for contributing!
+Thank you for your interest in contributing to the LearnSeerah project! We welcome all contributions, whether it's fixing bugs, improving documentation, or adding new features. 
 
-## Workflow
+To help ensure a smooth and consistent contribution process across the repository, Please review the guidelines below.
 
-1. Fork the repo or create a feature branch from `dev` or specific language branch (e.g., `i18n/bengali`).
-2. Make your changes.
-3. Open a pull request **into `dev` or specific language branch**.
-4. Once tested and reviewed, changes will be manually merged into `production`.
+## 📚 General Workflow
 
-## Rules
+We follow a strict branching model to ensure the stability of the application.
 
-- ✅ Contributors can push to `dev` or feature branches.
-- ❌ No one (except maintainers) can push directly to `production`.
-- ✅ All changes to `production` must come through a pull request from `dev` and be reviewed/tested.
+1. **Base your work** off the `dev` branch or the specific language branch (e.g., `i18n/bengali`).
+2. **Create a feature branch** for the changes you want to make.
+3. **Make your changes** and commit them.
+4. **Open a Pull Request (PR)** targeting `dev` or your specific language branch.
+5. **Review** — Maintainers will review, test, and finally merge the branch into `production`.
 
+> [!CAUTION]
+> - ✅ Contributors can push to `dev` or feature branches.
+> - ❌ No one (except maintainers) is allowed to push directly to `production`.
+> - ✅ All changes reaching `production` MUST go through a PR to `dev` and be properly tested.
 
-## Branch Strategy
+## 📌 Branch Strategy Summary
 
-- `production` → 🚫 No direct pushes. Only maintainers can merge after testing.
-- `dev` → ✅ All feature PRs go here.
-- `feature/xyz` → ✅ Make changes here and open PR to `dev`.
+- `production` → 🚫 Protected branch. Direct pushes are disabled.
+- `dev` → ✅ Active development branch. All feature PRs target this branch.
+- `feature/*` → ✅ Your working branches. Create these off `dev` and open PRs back into `dev`.
 
-## Workflow
+## 📖 Detailed Guides
 
-1. Base your work on `dev` or specific language branch (e.g., `i18n/bengali`).
-2. Push changes to a feature branch.
-3. Create a PR into `dev` or specific language branch.
-4. After review and testing, maintainers will merge `dev` or specific language branch into `production`.
+For more specific and in-depth guidelines on contributing to different parts of the platform, please see the documents below:
+
+- [Scripts and Tooling Usage](./docs/contributing/scripts.md)
+- [Working with MDX Content](./docs/contributing/mdx-content.md)
+
+---
+
+Thank you again for making LearnSeerah better!

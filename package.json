@@ -9,8 +9,8 @@
     "unified": "^11.0.5"
   },
   "scripts": {
-    "start": "node --experimental-modules scripts/extract_timeline_for_geojson.mjs",
-    "generate-timeline": "node --experimental-modules scripts/generate_timeline_v2.mjs",
-    "generate-story-timeline": "node --experimental-modules scripts/generate-story-timeline.mjs"
+    "generate-areas-geojson-data": "node --experimental-modules scripts/generate_areas_geojson_data.mjs",
+    "generate-chronicle": "node --experimental-modules scripts/generate_chronicle.mjs",
+    "generate-storymap-events-data": "node --experimental-modules scripts/generate_storymap_events_data.mjs"
   }
 }

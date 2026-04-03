@@ -13,8 +13,8 @@
     "timeline": "ٹائم لائن",
     "chronicle": "سرگزشت",
     "maps": "نقشے",
-    "newFeatureBadge": "نیا",
-    "whatsNew": "نیا کیا ہے"
+    "newFeatureBadge": "جدید",
+    "whatsNew": "جدید کیا ہے"
   },
   "header": {
     "searchPlaceholder": "لرن سیرۃ میں تلاش کریں...",
@@ -24,6 +24,7 @@
     "title": "ترتیبات",
     "description": "اپنی ایپلیکیشن کی ترجیحات کو منظم کریں۔",
     "theme": "تھیم",
+    "preferredThemeDescription": "اپنی پڑھنے کے تجربے کو ذاتی بنائیں۔",
     "themeTitle": "تھیم منتخب کریں",
     "themeDescription": "آپ کا تجربہ نئے تھیم کے مطابق بدل جائے گا۔",
     "light": "روشن",
@@ -34,8 +35,10 @@
     "amber": "عنبری",
     "fontSize": "فونٹ سائز",
     "language": "زبان",
+    "preferredLanguageDescription": "ایپلیکیشن کے لیے اپنی ترجیحی زبان کا انتخاب کریں۔",
     "languageTitle": "زبان منتخب کریں",
     "languageDescription": "آپ کا تجربہ نئی زبان میں تبدیل ہو جائے گا۔",
+    "searchLanguages": "زبانیں تلاش کریں...",
     "cachingTitle": "ڈیٹا اور کارکردگی",
     "cachingDescription": "ایپ کی رفتار اور تازہ ترین معلومات کے درمیان توازن قائم کرنے کے لیے ڈیٹا حاصل کرنے کا طریقہ منتخب کریں۔",
     "performanceModeLabel": "پرفارمنس موڈ",
@@ -83,7 +86,17 @@
       "saveButton": "یاد دہانی محفوظ کریں",
       "addErrorTitle": "یاد دہانی شامل نہیں کی جا سکی",
       "addErrorDescDays": "براہ کرم یاد دہانی کے لیے کم از کم ایک دن منتخب کریں۔",
-      "addErrorDescLimit": "آپ 5 یاد دہانیوں کی زیادہ سے زیادہ حد تک پہنچ چکے ہیں۔"
+      "addErrorDescLimit": "آپ زیادہ سے زیادہ 5 یاد دہانیوں کی حد تک پہنچ چکے ہیں۔",
+      "timeErrorTitle": "غلط وقت",
+      "timeErrorDesc": "براہ کرم ایک درست وقت درج کریں۔",
+      "daysErrorTitle": "غلط دن",
+      "daysErrorDesc": "براہ کرم کم از کم ایک دن منتخب کریں۔",
+      "successAddTitle": "کامیاب",
+      "successAddDesc": "یاد دہانی کامیابی سے شامل ہو گئی!",
+      "successDeleteTitle": "کامیاب",
+      "successDeleteDesc": "یاد دہانی کامیابی سے ڈیلیٹ ہو گئی!",
+      "errorTitle": "غلطی",
+      "errorDesc": "یاد دہانی شامل کرنے میں ناکامی۔ براہ کرم دوبارہ کوشش کریں۔"
     },
     "notifications": {
       "titles": {
@@ -167,7 +180,18 @@
     "readMore": "مزید پڑھیں",
     "linkCopied": "لنک کلپ بورڈ پر کاپی ہو گیا!",
     "linkCopyFailed": "لنک کاپی کرنے میں ناکامی۔",
-    "shareLabel": "اس مواد کو شیئر کریں"
+    "shareLabel": "اس مواد کو شیئر کریں",
+    "chapterContext": "باب کا سیاق و سباق",
+    "associatedLocations": "متعلقہ مقامات",
+    "timelineConnections": "ٹائم لائن روابط",
+    "exploreJourney": "سفر کو دریافت کریں",
+    "viewOnMap": "انٹرایکٹو نقشے پر دیکھیں",
+    "timelineJourney": "ٹائم لائن کا سفر",
+    "interactiveMap": "انٹرایکٹو نقشہ",
+    "journeyChoiceTitle": "آپ کس طرح دریافت کرنا چاہیں گے؟",
+    "journeyChoiceDesc": "وقت یا مقام کے ذریعے سفر کی پیروی کریں۔",
+    "timelineJourneyDesc": "تاریخی سیاق و سباق اور تفصیلات دیکھیں۔",
+    "interactiveMapDesc": "اس مقام پر جغرافیائی سیاق و سباق پر توجہ مرکوز کریں۔"
   },
   "quizEnginePage": {
     "title": "کوئز",
@@ -326,6 +350,7 @@
     "title": "انٹرایکٹو سیرت کا نقشہ",
     "description": "انٹرایکٹو نقشوں اور تاریخی سیاق و سباق کا استعمال کرتے ہوئے نبی اکرم ﷺ کی سیرت کے اہم مقامات اور علاقوں کو دریافت کریں۔",
     "readMore": "مزید تفصیلات پڑھیں",
+    "openMap": "نقشہ کھولیں",
     "ceNotation": "عیسوی",
     "loadingDetails": "واقعہ کی تفصیلات لوڈ ہو رہی ہیں...",
     "errorLoadingDetails": "تفصیلات لوڈ کرنے میں خرابی:",
@@ -372,8 +397,7 @@
     "dataSourceDescription": "یہ انٹرایکٹو نقشہ حضرت محمد مصطفیٰ (ﷺ) کی سیرت طیبہ کو ظاہر کرنے کے لیے تاریخی ریکارڈ اور جدید جغرافیائی ڈیٹا کے امتزاج کا استعمال کرتا ہے۔",
     "attributions": "انتساب",
     "projectInfo": "پروجیکٹ کی معلومات",
-    "projectCredits": "LearnSeerah پلیٹ فارم کے حصے کے طور پر تیار کیا گیا ہے۔",
-    "versionInfo": "انٹرایکٹو نقشہ v0.0.3 • © 2026 سلطان زین"
+    "projectCredits": "اسے لرن سیرۃ پلیٹ فارم کے جزو کے طور پر تیار کیا گیا ہے۔"
   },
   "hadithReflection": {
     "title": "حدیث پر غور و فکر",
@@ -387,6 +411,10 @@
     "dimensions": "ابعاد",
     "fontScaling": "فونت سککیلنگ",
     "generateImage": "تصویر کے طور پر محفوظ کریں",
+    "generating": "تیار ہو رہی ہے...",
+    "saving": "محفوظ ہو رہی ہے...",
+    "sharing": "شیئر ہو رہی ہے...",
+    "done": "مکمل ہو گئی!",
     "reflecting": "غور کیا جا رہا ہے...",
     "displayMode": "نمائش کی ترتیبات",
     "learnSeerah": "LearnSeerah.com",

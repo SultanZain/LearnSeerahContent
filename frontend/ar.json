@@ -24,6 +24,7 @@
     "title": "الإعدادات",
     "description": "قم بإدارة تفضيلات التطبيق الخاصة بك.",
     "theme": "المظهر",
+    "preferredThemeDescription": "اختر لغة التطبيق المفضلة لديك.",
     "themeTitle": "اختر السمة",
     "themeDescription": "سيتم تحديث تجربتك إلى السمة الجديدة.",
     "light": "فاتح",
@@ -34,8 +35,10 @@
     "amber": "كهرماني",
     "fontSize": "حجم الخط",
     "language": "اللغة",
+    "preferredLanguageDescription": "اختر لغة التطبيق المفضلة لديك.",
     "languageTitle": "اختر اللغة",
     "languageDescription": "سيتم تحديث تجربتك إلى اللغة الجديدة.",
+    "searchLanguages": "ابحث في اللغات...",
     "cachingTitle": "البيانات والأداء",
     "cachingDescription": "اختر طريقة جلب البيانات لتوازن بين السرعة وحداثة المحتوى.",
     "performanceModeLabel": "وضع الأداء",
@@ -83,7 +86,17 @@
       "saveButton": "حفظ التذكير",
       "addErrorTitle": "تعذّر إضافة التذكير",
       "addErrorDescDays": "يرجى اختيار يوم واحد على الأقل للتذكير.",
-      "addErrorDescLimit": "لقد وصلت إلى الحد الأقصى (٥ تذكيرات)."
+      "addErrorDescLimit": "لقد وصلت إلى الحد الأقصى (٥ تذكيرات).",
+      "timeErrorTitle": "وقت غير صحيح",
+      "timeErrorDesc": "يرجى إدخال وقت صحيح.",
+      "daysErrorTitle": "أيام غير صحيحة",
+      "daysErrorDesc": "يرجى اختيار يوم واحد على الأقل.",
+      "successAddTitle": "تم بنجاح",
+      "successAddDesc": "تمت إضافة التذكير بنجاح!",
+      "successDeleteTitle": "تم بنجاح",
+      "successDeleteDesc": "تم حذف التذكير بنجاح!",
+      "errorTitle": "خطأ",
+      "errorDesc": "فشل إضافة التذكير. يرجى المحاولة مرة أخرى."
     },
     "notifications": {
       "titles": {
@@ -167,7 +180,18 @@
     "readMore": "اقرأ المزيد",
     "linkCopied": "تم نسخ الرابط إلى الحافظة!",
     "linkCopyFailed": "فشل نسخ الرابط.",
-    "shareLabel": "شارك هذا المحتوى"
+    "shareLabel": "شارك هذا المحتوى",
+    "chapterContext": "سياق الفصل",
+    "associatedLocations": "المواقع المرتبطة",
+    "timelineConnections": "نشاطات الخط الزمني",
+    "exploreJourney": "استكشف الرحلة",
+    "viewOnMap": "مشاهدة على الخريطة التفاعلية",
+    "timelineJourney": "رحلة الخط الزمني",
+    "interactiveMap": "الخريطة التفاعلية",
+    "journeyChoiceTitle": "كيف تود الاستكشاف؟",
+    "journeyChoiceDesc": "اتبع الرحلة عبر الزمان أو المكان.",
+    "timelineJourneyDesc": "اطلع على السياق الزمني والتفاصيل.",
+    "interactiveMapDesc": "ركز السياق الجغرافي على هذا الموقع."
   },
   "quizEnginePage": {
     "title": "الاختبارات",
@@ -326,6 +350,7 @@
     "title": "خريطة السيرة التفاعلية",
     "description": "اكتشف المواقع الهامة من حياة النبي محمد ﷺ والأحداث التاريخية ذات الصلة على خريطة تفاعلية.",
     "readMore": "اقرأ المزيد من التفاصيل",
+    "openMap": "افتح الخريطة",
     "ceNotation": "م",
     "loadingDetails": "جاري تحميل تفاصيل الحدث...",
     "errorLoadingDetails": "خطأ في تحميل التفاصيل:",
@@ -372,8 +397,7 @@
     "dataSourceDescription": "تستخدم هذه الخريطة التفاعلية مزيجاً من السجلات التاريخية والبيانات الجغرافية الحديثة لتصوير السيرة النبوية لمحمد (ﷺ).",
     "attributions": "الإسنادات",
     "projectInfo": "معلومات المشروع",
-    "projectCredits": "تم التطوير كجزء من منصة LearnSeerah.",
-    "versionInfo": "الخريطة التفاعلية v0.0.3 • © 2026 سلطان زين"
+    "projectCredits": "تم التطوير كجزء من منصة لرن سیرۃ۔"
   },
   "hadithReflection": {
     "title": "تأملات في الحديث",
@@ -387,6 +411,10 @@
     "dimensions": "الأبعاد",
     "fontScaling": "حجم الخط",
     "generateImage": "حفظ كصورة",
+    "generating": "جاري التوليد...",
+    "saving": "جاري الحفظ...",
+    "sharing": "جاري المشاركة...",
+    "done": "تم!",
     "reflecting": "جاري التفكير...",
     "displayMode": "إعدادات العرض",
     "learnSeerah": "LearnSeerah.com",

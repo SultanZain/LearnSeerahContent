@@ -24,6 +24,7 @@
     "title": "Settings",
     "description": "Manage your application preferences.",
     "theme": "Theme",
+    "preferredThemeDescription": "Personalize your reading experience.",
     "themeTitle": "Select a Theme",
     "themeDescription": "Your experience will be updated to the new Theme.",
     "light": "Light",
@@ -34,8 +35,10 @@
     "amber": "Amber",
     "fontSize": "Font Size",
     "language": "Language",
+    "preferredLanguageDescription": "Choose your preferred language for the application.",
     "languageTitle": "Select a Language",
     "languageDescription": "Your experience will be updated to the new language.",
+    "searchLanguages": "Search languages...",
     "cachingTitle": "Data & Performance",
     "cachingDescription": "Choose how the app fetches data to balance speed and freshness.",
     "performanceModeLabel": "Performance Mode",
@@ -83,7 +86,17 @@
       "saveButton": "Save Reminder",
       "addErrorTitle": "Could not add reminder",
       "addErrorDescDays": "Please select at least one day for the reminder.",
-      "addErrorDescLimit": "You have reached the maximum of 5 reminders."
+      "addErrorDescLimit": "You have reached the maximum of 5 reminders.",
+      "timeErrorTitle": "Invalid Time",
+      "timeErrorDesc": "Please enter a valid time.",
+      "daysErrorTitle": "Invalid Days",
+      "daysErrorDesc": "Please select at least one day.",
+      "successAddTitle": "Success",
+      "successAddDesc": "Reminder added successfully!",
+      "successDeleteTitle": "Success",
+      "successDeleteDesc": "Reminder deleted successfully!",
+      "errorTitle": "Error",
+      "errorDesc": "Failed to add reminder. Please try again."
     },
     "notifications": {
       "titles": {
@@ -167,7 +180,18 @@
     "readMore": "Read More",
     "linkCopied": "Link copied to clipboard!",
     "linkCopyFailed": "Failed to copy link.",
-    "shareLabel": "Share this content"
+    "shareLabel": "Share this content",
+    "chapterContext": "Chapter Context",
+    "associatedLocations": "Associated Locations",
+    "timelineConnections": "Timeline Connections",
+    "exploreJourney": "Explore Journey",
+    "viewOnMap": "View on Map",
+    "timelineJourney": "Timeline Journey",
+    "interactiveMap": "Interactive Map",
+    "journeyChoiceTitle": "How would you like to explore?",
+    "journeyChoiceDesc": "Follow the journey through either time or space.",
+    "timelineJourneyDesc": "See the chronological context and details.",
+    "interactiveMapDesc": "Focus geographic context on this location."
   },
   "quizEnginePage": {
     "title": "Quizzes",
@@ -326,6 +350,7 @@
     "title": "Interactive Seerah Map",
     "description": "Discover the key locations and regions from the Seerah of Prophet Muhammad ﷺ using interactive maps, historical context, and detailed geographical insights.",
     "readMore": "Read More Details",
+    "openMap": "Open Map",
     "ceNotation": "CE",
     "loadingDetails": "Loading details...",
     "errorLoadingDetails": "Error loading details:",
@@ -372,8 +397,7 @@
     "dataSourceDescription": "This interactive map uses a combination of historical records and modern geographical data to visualize the Seerah of Prophet Muhammad (ﷺ).",
     "attributions": "Attributions",
     "projectInfo": "Project Info",
-    "projectCredits": "Developed as part of the LearnSeerah Platform.",
-    "versionInfo": "Interactive Map v0.0.3 • © 2026 Sultan Zain"
+    "projectCredits": "Developed as part of the LearnSeerah Platform."
   },
   "hadithReflection": {
     "title": "Hadith Reflection",
@@ -387,6 +411,10 @@
     "dimensions": "Dimensions",
     "fontScaling": "Font Scaling",
     "generateImage": "Save as Image",
+    "generating": "Generating...",
+    "saving": "Saving...",
+    "sharing": "Sharing...",
+    "done": "Done!",
     "reflecting": "Reflecting...",
     "displayMode": "Reflection Settings",
     "learnSeerah": "LearnSeerah.com",
