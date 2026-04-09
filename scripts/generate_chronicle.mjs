@@ -151,6 +151,8 @@ const getEventData = async () => {
       ageText = 'Age of Hazrat Muhammad S.A.W : ' + String(age); // en
     } else if (language === 'ar') {
       ageText = 'عمر النبي ﷺ المباركة : ' + String(age); // ar
+    } else if (language === 'bn') {
+      ageText = 'প্রবক্তা মুহাম্মদের ﷺ বয়স : ' + String(age); // bn
     }
 
     events.push({

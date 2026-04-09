@@ -11,6 +11,7 @@
   "scripts": {
     "generate-areas-geojson-data": "node --experimental-modules scripts/generate_areas_geojson_data.mjs",
     "generate-chronicle": "node --experimental-modules scripts/generate_chronicle.mjs",
-    "generate-storymap-events-data": "node --experimental-modules scripts/generate_storymap_events_data.mjs"
+    "generate-storymap-events-data": "node --experimental-modules scripts/generate_storymap_events_data.mjs",
+    "sanitize-events-geojson": "node --experimental-modules scripts/sanitize-events-geojson.js"
   }
 }
