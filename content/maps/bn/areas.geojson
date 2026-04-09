@@ -1,0 +1,4863 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "makkah",
+        "title": "মক্কা",
+        "name": "মক্কা",
+        "marker": "/images/markers/Makkah.webp",
+        "popupContent": "The Holy City Mecca, Where Ka`ba-tul-Allah is located and the Prophet Muhammad S.A.W was born.",
+        "year": 571,
+        "events": [
+          {
+            "title": "সৃষ্টির সেরা, আমাদের নবী মুহাম্মাদ আল-মুস্তফা ﷺ এর জন্ম",
+            "location": "মক্কা",
+            "date": "রবিউল আউয়াল, ৫৭১ খ্রিস্টাব্দ (হস্তীর বছর)",
+            "age": "০",
+            "year": 571,
+            "eventId": 1
+          },
+          {
+            "title": "নবী ﷺ তাঁর দাদা আবদুল মুত্তালিবের তত্ত্বাবধানে",
+            "location": "মক্কা",
+            "date": "৫৭৬ খ্রিস্টাব্দ / ৪৮ হিজরী পূর্ব",
+            "age": "প্রায় ৬ বছর",
+            "year": 576,
+            "eventId": 2
+          },
+          {
+            "title": "আব্দুল মুত্তালিবের (নবী ﷺ-এর দাদা) ওফাত",
+            "location": "মক্কা",
+            "date": "৫৭৮ খ্রিস্টাব্দ / ৪৬ হিজরী পূর্ব",
+            "age": "প্রায় ৮ বছর",
+            "year": 578,
+            "eventId": 1
+          },
+          {
+            "title": "নবী ﷺ তাঁর চাচা আবু তালিবের তত্ত্বাবধানে",
+            "location": "মক্কা",
+            "date": "৫৭৮ খ্রিস্টাব্দ / ৪৬ হিজরী পূর্ব",
+            "age": "প্রায় ৮ বছর",
+            "year": 578,
+            "eventId": 2
+          },
+          {
+            "title": "ফুজ্জার যুদ্ধ (আল-ফিজার)",
+            "location": "মক্কার নিকটবর্তী (উকাজ সহ বিভিন্ন স্থান)",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/5/5f/%D8%B3%D9%88%D9%82_%D8%B9%D9%83%D8%A7%D8%B8.JPG",
+            "mediaCaption": "Map of the historic Souk 'Ukaaz from the book Sahih al-Akhbar",
+            "mediaCredit": "ابن بليهد",
+            "date": "৫৮৫ খ্রিস্টাব্দ / ৩৯ হিজরীর পূর্ব",
+            "age": "প্রায় ১৪-১৫ (কিছু বর্ণনা মতে প্রায় ২০)",
+            "year": 585,
+            "eventId": 1
+          },
+          {
+            "title": "হিলফ আল-ফুযুল (সৎকর্মশীলদের চুক্তি)",
+            "location": "মক্কা (আবদুল্লাহ ইবনে জুদআন এর বাড়িতে)",
+            "date": "৫৯১ খ্রিস্টাব্দ / ৩৩ হিজরি-পূর্ব",
+            "age": "~২০",
+            "year": 591,
+            "eventId": 1
+          },
+          {
+            "title": "রাসুলুল্লাহ ﷺ এর খাদিজা বিনতে খুওয়াইলিদ রা. এর সাথে বিবাহ",
+            "location": "মক্কা",
+            "date": "৫৯৫ খ্রিস্টাব্দ / ২৮ হিজরি-পূর্ব",
+            "age": "~২৫-৩০ বছর",
+            "year": 595,
+            "eventId": 1
+          },
+          {
+            "title": "নবী ﷺ কাবার মধ্যে হাজরে আসওয়াদ স্থাপন করেন",
+            "location": "মক্কা",
+            "date": "৬০৫ খ্রিস্টাব্দ / ১৮ হিজরি-পূর্ব",
+            "age": "~৩৫",
+            "year": 605,
+            "eventId": 1
+          },
+          {
+            "title": "ওহীর বিরতি (ফাতরা) এবং সূরা আদ-দুহা অবতীর্ণ হওয়া",
+            "location": "মক্কা",
+            "date": "৬১০ খ্রিস্টাব্দ / শাওয়াল, ১৩ হিজরি-পূর্ব",
+            "age": "~৪০",
+            "year": 610,
+            "eventId": 2
+          },
+          {
+            "title": "আল্লাহ ও তাঁর রাসুল ﷺ এর প্রতি ঈমান আনয়নকারী প্রথম ব্যক্তিবর্গ",
+            "location": "মক্কা",
+            "date": "৬১০ খ্রিস্টাব্দ / শাওয়াল, ১৩ হিজরি-পূর্ব",
+            "age": "~৪০",
+            "year": 610,
+            "eventId": 3
+          },
+          {
+            "title": "ইসলামের প্রাথমিক যুগে কুরাইশদের দ্বারা সাহাবায়ে কেরামের উপর নির্যাতন",
+            "location": "মক্কা",
+            "date": "৬১৩ খ্রিস্টাব্দ / ৯ হিজরি-পূর্ব",
+            "age": "~৪৪",
+            "year": 613,
+            "eventId": 1
+          },
+          {
+            "title": "কুরাইশদের আবু তালিবের কাছে রাসূলুল্লাহ ﷺ কে থামানোর দাবি",
+            "location": "মক্কা",
+            "date": "৯ হিজরি-পূর্ব / ৬১৩ খ্রিস্টাব্দ",
+            "age": "~ ৪৪",
+            "year": 613,
+            "eventId": 2
+          },
+          {
+            "title": "হাময়া ইবন আবদুল মুত্তালিব রা.-এর ইসলাম গ্রহণ",
+            "location": "মক্কা",
+            "date": "৬১৫ খ্রিস্টাব্দের শেষ দিকে / ৭ হিজরী পূর্ব",
+            "age": "~ ৪৬",
+            "year": 615,
+            "eventId": 2
+          },
+          {
+            "title": "উমর (রা.)-এর ইসলাম গ্রহণ",
+            "location": "মক্কা",
+            "date": "জিলহজ ৭ হিজরি পূর্ব / ৬১৬ খ্রিস্টাব্দ",
+            "age": "৪৬",
+            "year": 616,
+            "eventId": 1
+          },
+          {
+            "title": "The Islam of At-Tufail ibn Amr Ad-Dausi (may Allah be pleased with him)",
+            "location": "Mecca",
+            "date": "6 BH / 616 CE",
+            "age": "47",
+            "year": 616,
+            "eventId": 2
+          },
+          {
+            "title": "The Siege of Quraysh on the Muslims in Shi'b Abi Talib",
+            "location": "Shi'b Abi Talib, Mecca",
+            "date": "Muharram 6 BH / 616 CE",
+            "image": "https://www.islamiclandmarks.com/wp-content/uploads/2014/04/Location-of-the-Valley-of-Abu-Talib-in-Makkah-740x456.jpg",
+            "age": "47",
+            "year": 616,
+            "eventId": 3
+          },
+          {
+            "title": "Quraysh Annuls the Document of Boycott",
+            "location": "Shi'b Abi Talib, Mecca",
+            "date": "Muharram 3 BH / 619 CE",
+            "image": "https://www.islamiclandmarks.com/wp-content/uploads/2014/04/Location-of-the-Valley-of-Abu-Talib-in-Makkah-740x456.jpg",
+            "age": "49",
+            "year": 619,
+            "eventId": 1
+          },
+          {
+            "title": "The Death of Umm al-Mu'minin Khadijah bint Khuwaylid (may Allah be pleased with her)",
+            "location": "Mecca",
+            "date": "Ramadan 3 BH / 620 CE",
+            "age": "50",
+            "year": 620,
+            "eventId": 1
+          },
+          {
+            "title": "The Death of Abu Talib, the Prophet's ﷺ Uncle",
+            "location": "Mecca",
+            "date": "Shawwal 3 BH / 620 CE",
+            "age": "50",
+            "year": 620,
+            "eventId": 4
+          },
+          {
+            "title": "The Prophet's ﷺ Marriage to Sawdah bint Zam'ah (may Allah be pleased with her)",
+            "location": "Mecca",
+            "date": "Shawwal 3 BH / 620 CE",
+            "age": "50",
+            "year": 620,
+            "eventId": 5
+          },
+          {
+            "title": "The Beginning of the Ansar's Entry into Islam",
+            "location": "Mecca",
+            "date": "Dhul-Hijjah 3 BH / 620 CE",
+            "age": "50",
+            "year": 620,
+            "eventId": 6
+          },
+          {
+            "title": "The Prophet's ﷺ Marriage to Aisha bint Abu Bakr As-Siddiq (may Allah be pleased with them both)",
+            "location": "Mecca (Marriage Contract)",
+            "date": "Muharram 2 BH / 620 CE",
+            "age": "50",
+            "year": 620,
+            "eventId": 7
+          },
+          {
+            "title": "The Night Journey (Isra) and Ascension (Mi'raj) and the Obligation of the Five Prayers",
+            "location": "Mecca (beginning), Jerusalem, Sidrat al-Muntaha",
+            "date": "1 BH / 621 CE",
+            "age": "51",
+            "year": 621,
+            "eventId": 2
+          },
+          {
+            "title": "The Migration of Abu Salama and Umm Salama (May Allah be pleased with them)",
+            "location": "Mecca, Medina, Al-Tan'im",
+            "date": "1 BH / Muharram / 621 CE",
+            "age": "52",
+            "year": 621,
+            "eventId": 3
+          },
+          {
+            "title": "The Miracle of the Splitting of the Moon",
+            "location": "Mecca",
+            "date": "0 AH / 622 CE",
+            "age": "52",
+            "year": 622,
+            "eventId": 2
+          },
+          {
+            "title": "The Meeting in Dar al-Nadwah and Plot to Kill the Prophet (ﷺ)",
+            "location": "Mecca",
+            "date": "1 AH | Safar | 622 CE",
+            "age": "53",
+            "year": 622,
+            "eventId": 7
+          },
+          {
+            "title": "The Migration of the Messenger (ﷺ) and Abu Bakr (RA) to Medina",
+            "location": "Mecca to Medina",
+            "date": "1 AH | Safar | 622 CE",
+            "age": "53",
+            "year": 622,
+            "eventId": 8
+          }
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          39.8262,
+          21.4225
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "banu-sad",
+        "name": "বনু সা’দ পল্লী (গ্রামাঞ্চল)",
+        "title": "বনু সা’দ পল্লী (গ্রামাঞ্চল)",
+        "marker": "/images/markers/ruins-2.webp",
+        "popupContent": "These are said to be the ruins of Banu Sa’d Village where the house of Bibi Halimah رضي الله عنها was located. Hz. Prophet Muhammad ﷺ spent some years of his childhood here.  The Banu Sa’d was one of the leading royal tribes of Arabia during the Hz. Prophet Muhammad’s ﷺ era.  They were great warriors and fought many battles with Prophet Muhammad ﷺ against enemies of Islam.  Bibi Halima Sadia رضي الله عنها, Hz. Prophet Muhammad’s ﷺ wet nurse, belonged to this tribe. They migrated on the order of Prophet Muhammad ﷺ to Subcontinent, Africa and Europe to fight against Polytheism.",
+        "year": 575,
+        "events": [
+          {
+            "title": "নবী ﷺ-এর বক্ষ বিদারণ (বুক বিদীর্ণ করা)",
+            "location": "বনু সা’দ পল্লী (গ্রামাঞ্চল)",
+            "date": "৫৯৫ খ্রিস্টাব্দ / ৪৯ হিজরী পূর্ব",
+            "age": "~৪",
+            "year": 575,
+            "eventId": 1
+          }
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          40.811951,
+          20.950266
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "Al-Abwa",
+        "name": "Al-Abwa near the territory of the tribe of al-Naabighah",
+        "title": "Al-Abwa",
+        "marker": "/images/markers/grave.webp",
+        "popupContent": "Al-Abwā' is a Hejazi village between Mecca and Medina belonging to the area of Rabigh, on the western coast of Saudi Arabia. The place where the mother of Hazrat Muhammad ﷺ, Aminah bint Wahb ibn Abd Manaf, died.",
+        "year": 576,
+        "events": [
+          {
+            "title": "নবী ﷺ-এর জননী আমিনা বিনতে ওয়াহাব-এর ওফাত এবং ধাত্রী উম্মে আইমান-এর লালন-পালন",
+            "location": "মক্কা ও মদীনার মধ্যবর্তী স্থান (আল-নাবিগা গোত্রের এলাকার কাছে)",
+            "date": "৫৭৬ খ্রিস্টাব্দ / ৪৮ হিজরী পূর্ব",
+            "age": "প্রায় ৬ বছর",
+            "year": 576,
+            "eventId": 1
+          },
+          {
+            "title": "The Battle of al-Abwaa’ (Waddan)",
+            "location": "Al-Abwaa’ / Waddan",
+            "date": "2 AH | Safar | 623 CE",
+            "age": "54",
+            "year": 623,
+            "eventId": 4
+          }
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          39.051373,
+          23.103141
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "busra",
+        "name": "Busra",
+        "title": "Busra",
+        "marker": "/images/markers/cathedral.webp",
+        "popupContent": "This Structure is believed to be the monastery of Bahira the monk, who prophesied about Hz. Prophet Muhammad ﷺ in his childhood  The Monastery of Bahira is one of the most significant Muslim sites in this area.",
+        "year": 583,
+        "events": [
+          {
+            "title": "আল-শামে (বৃহত্তর সিরিয়া) নবী ﷺ এর সফর এবং সন্ন্যাসী বাহিরা",
+            "location": "বুসরা, আল-শাম (বৃহত্তর সিরিয়া)",
+            "date": "৫৮৩ খ্রিস্টাব্দ / ৪২ হিজরি",
+            "age": "প্রায় ১২ বছর",
+            "year": 583,
+            "eventId": 1
+          },
+          {
+            "title": "রাসুলুল্লাহ ﷺ এর দ্বিতীয় সিরিয়া সফর",
+            "location": "সিরিয়া (বুসরা পর্যন্ত)",
+            "date": "৫৯৬ খ্রিস্টাব্দ / যুল-হিজ্জাহ, ২৮ হিজরি-পূর্ব",
+            "age": "~২৫",
+            "year": 596,
+            "eventId": 1
+          }
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          36.482842,
+          32.518972
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "hira",
+        "name": "Cave of Hira (Jabl an-Nur)",
+        "title": "Cave of Hira (Jabl an-Nur)",
+        "marker": "/images/markers/cave.webp",
+        "popupContent": "The mountain houses the grotto or cave of Hira, which holds tremendous significance for Muslims throughout the world, as the Prophet Muhammad ﷺ is said to have spent a great deal of time in this cave meditating, and it is widely believed that it was here that He ﷺ received his first revelation, which consisted of the first five ayats of Surah Al-Alaq from the angel Hz. Jibra’il عليه اسلام",
+        "year": 610,
+        "events": [
+          {
+            "title": "প্রথম ওহী নাযিল",
+            "location": "হেরা গুহা, মক্কা",
+            "date": "৬১০ খ্রিস্টাব্দ / রমজান, ১৩ হিজরী পূর্ব",
+            "age": "৪০",
+            "year": 610,
+            "eventId": 1
+          }
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          39.85919,
+          21.45735
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "taif",
+        "name": "Taif",
+        "title": "Taif",
+        "marker": "/images/markers/taif.webp",
+        "popupContent": "There is a belief that Taif is indirectly referred to in Quran 43:31.[5] The city was visited by the Islamic prophet Muhammad, sometime in the early 7th century, and was inhabited by the tribe of Banu Thaqif. It is still inhabited to this day by their descendants.",
+        "year": 620,
+        "events": [
+          {
+            "title": "The Prophet's ﷺ Journey to Ta'if",
+            "location": "Ta'if, Mecca",
+            "date": "Shawwal 3 BH / 620 CE",
+            "age": "50",
+            "year": 620,
+            "eventId": 2
+          }
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          40.40611111,
+          21.27509444
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "nakhla",
+        "name": "Nakhlah",
+        "title": "Nakhlah",
+        "marker": "/images/markers/valley.webp",
+        "popupContent": "Wādī Nakhlah is an area in the Hejazi region of Saudi Arabia between the cities of Mecca and Ta'if, which serves as a Miqat (Boundary) for the Islamic Ḥaram of Mecca.",
+        "year": 620,
+        "events": [
+          {
+            "title": "The Islam of the Jinn and Their Arrival to the Prophet ﷺ",
+            "location": "Nakhlah, Mecca",
+            "date": "Shawwal 3 BH / 620 CE",
+            "age": "50",
+            "year": 620,
+            "eventId": 3
+          }
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          39.897473,
+          22.497729
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "aqabah",
+        "name": "Al Aqabah",
+        "title": "Al Aqabah",
+        "marker": "/images/markers/valley.webp",
+        "popupContent": "It preceded the Hijrah, or migration of Muhammad and his supporters from Mecca, where they were persecuted, to Medina, where Muhammad became ruler. The pledge occurred in 622 CE at a mountain pass (al-ʿaqabah) five kilometers from Mecca.",
+        "year": 621,
+        "events": [
+          {
+            "title": "The First Pledge of Aqabah",
+            "location": "Aqabah, Mecca",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/%D9%85%D8%B3%D8%AC%D8%AF_%D8%A7%D9%84%D8%A8%D9%8A%D8%B9%D8%A9.jpeg/960px-%D9%85%D8%B3%D8%AC%D8%AF_%D8%A7%D9%84%D8%A8%D9%8A%D8%B9%D8%A9.jpeg",
+            "mediaCaption": "Bay'ah Mosque, also known as Aqabah Mosque built at the site of al-Bay'ah, i.e. the place where the Islamic prophet Muhammad met with the Ansar (the supporters), and they took the pledge ('bay'ah', hence the name) of 'Aqaba.",
+            "date": "Dhul-Hijjah 2 BH / 621 CE",
+            "age": "52",
+            "year": 621,
+            "eventId": 1
+          },
+          {
+            "title": "The Second Pledge of Aqabah",
+            "location": "Shi'b al-Aqabah, Mecca",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/%D9%85%D8%B3%D8%AC%D8%AF_%D8%A7%D9%84%D8%A8%D9%8A%D8%B9%D8%A9.jpeg/960px-%D9%85%D8%B3%D8%AC%D8%AF_%D8%A7%D9%84%D8%A8%D9%8A%D8%B9%D8%A9.jpeg",
+            "mediaCaption": "Bay'ah Mosque, also known as Aqabah Mosque built at the site of al-Bay'ah, i.e. the place where the Islamic prophet Muhammad met with the Ansar (the supporters), and they took the pledge ('bay'ah', hence the name) of 'Aqaba.",
+            "date": "1 BH / Dhu al-Hijjah / 622 CE",
+            "age": "52",
+            "year": 622,
+            "eventId": 1
+          }
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          39.8675,
+          21.42472222
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "medina",
+        "name": "Madinah Al-Taybah",
+        "title": "Madinah Al-Taybah",
+        "marker": "/images/markers/Madinah.webp",
+        "popupContent": "Madinah has been inhabited at least 1500 years before the Hijra, or approximately the 9th century BCE. By the fourth century, Arab tribes began to encroach from Yemen, and there were three prominent Jewish tribes that inhabited the city around the time of Prophet Muhammad (S.A.W) : the Banu Qaynuqa, the Banu Qurayza, and Banu Nadir.",
+        "year": 621,
+        "events": [
+          {
+            "title": "The Spread of Islam in Madinah After the First Pledge of Aqabah",
+            "location": "Madinah",
+            "date": "1 BH / Muharram / 621 CE",
+            "age": "52",
+            "year": 621,
+            "eventId": 4
+          },
+          {
+            "title": "The Conversion of Abdullah ibn Salam",
+            "location": "Medina (Quba)",
+            "date": "1 AH | 622 CE",
+            "age": "53",
+            "year": 622,
+            "eventId": 3
+          },
+          {
+            "title": "The Treaty of the Prophet (ﷺ) with the Jews",
+            "location": "Medina",
+            "date": "1 AH | 622 CE",
+            "age": "53",
+            "year": 622,
+            "eventId": 4
+          },
+          {
+            "title": "The Legislation of the Adhan",
+            "location": "Medina",
+            "date": "1 AH | 622 CE",
+            "age": "53",
+            "year": 622,
+            "eventId": 5
+          },
+          {
+            "title": "The Migration of the Companions to Medina",
+            "location": "Mecca to Medina",
+            "date": "1 AH | Muharram | 622 CE",
+            "age": "53",
+            "year": 622,
+            "eventId": 6
+          },
+          {
+            "title": "Construction of Quba Mosque",
+            "location": "Quba (near Medina)",
+            "date": "1 AH | Rabi' al-Awwal | 622 CE",
+            "age": "53",
+            "year": 622,
+            "eventId": 9
+          },
+          {
+            "title": "Construction of the Prophet's Mosque",
+            "location": "Medina",
+            "date": "1 AH | Rabi' al-Awwal | 622 CE",
+            "age": "53",
+            "year": 622,
+            "eventId": 10
+          },
+          {
+            "title": "The Brotherhood between the Muhajirin and Ansar",
+            "location": "Medina",
+            "date": "1 AH | Rabi' al-Awwal | 622 CE",
+            "age": "54",
+            "year": 622,
+            "eventId": 11
+          }
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          39.61,
+          24.47
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "thawr",
+        "name": "Jabal Thawr",
+        "title": "Jabal Thawr",
+        "marker": "/images/markers/cave.webp",
+        "popupContent": "The Prophet and Siddiq evading the hunting party headed south at night and hid in a cave in Mount Thawr. They stayed inside there for three days despite the danger of snakes and scorpions. A search party did arrive but by the aid of Allah they remained unseen.<br><br>LOC (AHK p.56): The house was located in the Banu Jumah neighbourhood. Today it is in the Abraj Makkah (The clock Tower complex). The is a mosque on the place of his house called Masjid Abu Bakr. It 5600m SSE from the Ka'bah.<br><br>Arrival: Thur (N), 1 Rabi I, 1 AH / 15 Sept, 622 CE<br>Dept: Sun (N), 3 Rabi I,  1 AH / 15 Sept, 622 CE<br><br>Ref: Quran 9:40",
+        "year": 622
+      },
+      "geometry": {
+        "coordinates": [
+          39.849753,
+          21.377214
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "shuaybah",
+        "name": "Shu'aybah",
+        "title": "Shu'aybah",
+        "year": 613,
+        "marker": "/images/markers/harbor.webp",
+        "popupContent": "Shu'aybah (An ancient Port Before Jeddah)"
+      },
+      "geometry": {
+        "coordinates": [
+          39.5365,
+          20.6887
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "adulis",
+        "name": "Adulis",
+        "title": "Adulis",
+        "year": 613,
+        "popupContent": "The Ancient Adulis (Modern Day Ruins found in Zula)"
+      },
+      "geometry": {
+        "coordinates": [
+          39.6606,
+          15.2636
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "aksum",
+        "name": "Aksum",
+        "year": 613,
+        "marker": "/images/markers/aksum.webp",
+        "popupContent": "Aksum now a small town, once used to be the capital of Abyssinia (The Kingdom of Aksum)",
+        "title": "Aksum - Habshah",
+        "events": [
+          {
+            "title": "প্রথম হাবশা হিজরত",
+            "location": "হাবশা (বর্তমান ইথিওপিয়া)",
+            "date": "রজব ৮ হিজরি-পূর্ব / ৬১৫ খ্রিস্টাব্দ",
+            "age": "~ ৪৫",
+            "year": 615,
+            "eventId": 1
+          },
+          {
+            "title": "দ্বিতীয় হাবশা হিজরত",
+            "location": "হাবশা (বর্তমান ইথিওপিয়া)",
+            "date": "রজব ৭ হিজরি-পূর্ব / ৬১৫ খ্রিস্টাব্দ",
+            "age": "~ ৪৬",
+            "year": 615,
+            "eventId": 3
+          }
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          38.7234,
+          14.1211
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "First Hijrah Route",
+        "stroke": "#8b4513",
+        "year": 613,
+        "stroke-width": 4,
+        "popupContent": "Ibn Sa'ad, in his Kitab Tabqaat al-Kubra, briefly mentions the route taken by the Muslim migrants. Ibn Sa'ad says on the authority of Harith ibn al-Fudail that the group boarded one of the two merchant ships from Shuaiba (Yaqut says it was the place where ships (marfa') used to beach for Mecca in the days before Jidda became its port), and paid half Dinar (دينار) each for faring them across the sea.",
+        "References": [
+          [
+            "Ibn Sa'ad, Kitab Tabqat al-Kubra, Volume 1, Parts 1.50.1-3."
+          ],
+          [
+            "Hussein Ahmed Ethiopian Muslims and Islam: Journal of Ethiopian Studies, vol. XXXVII, no. 2, Addis Ababa 2004."
+          ]
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          [
+            39.8262,
+            21.4225
+          ],
+          [
+            39.5365,
+            20.6887
+          ],
+          [
+            39.6606,
+            15.2636
+          ],
+          [
+            38.7234,
+            14.1211
+          ]
+        ],
+        "type": "LineString"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.828083,
+          21.424639
+        ]
+      },
+      "properties": {
+        "name": "The Prophet's house",
+        "year": 622,
+        "popupContent": "The Prophet's house is surrounded at night by the Quraysh intent on assassinating him. He recited Yasin and stepped out the house and by the aid of Allah walked passed them unseen. He headed to the house of Abu Bakr Siddiq.<br><br>Location (AHK p.51): The Prophet used to live here with Umm Muminin Khadijah. It is 309m NE from the Ka'ba.<br><br>Date: Thur, 1 Rabi I, 1 AH / 15 Sept, 622 CE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.82384,
+          21.41937
+        ]
+      },
+      "properties": {
+        "name": "The House of Abu Bakr Siddiq",
+        "year": 622,
+        "popupContent": "Having evaded the assassination squad, the Prophet arrived at Abu Bakr Siddiq's house at night. They had made travel preparations two months before. The Prophet and Abu Bakr headed south towards Ghar Thawr to avoid.<br><br>LOC (AHK p. 53): The house was located in the Banu Jumah neighbourhood. Today it is in the Abraj Makkah (The clock Tower complex). The is a mosque on the place of his house called Masjid Abu Bakr. It 435m SSW from the Ka'bah.<br><br>Date: Thur, 1 Rabi I, 3 AH / 15 Sept, 622 CE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.840408,
+          21.368344
+        ]
+      },
+      "properties": {
+        "name": "Lower Makkah",
+        "year": 622,
+        "popupContent": "The Prophet and Siddiq after spending all of Friday, Saturday and Sunday in cave, descended from the mountain at night and exited on the south west side of the mountain on foot. Then they started moving west towards the red sea. <br><br>LOC (AHK p.57): It 6km SSE from the Ka'bah.<br><br>Date: Sun (N), 4 Rabi I, 1 AH / 18 Sept, 622 CE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.62576,
+          21.44195
+        ]
+      },
+      "properties": {
+        "name": "Hudaybiyyah",
+        "year": 622,
+        "marker": "/images/markers/camp.webp",
+        "popupContent": "Date: Sun (N), 4 Rabi I, 1 AH / 18 Sept, 622 CE",
+        "title": "Hudaybiyyah"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.312397,
+          21.932639
+        ]
+      },
+      "properties": {
+        "name": "Asfal Usfan",
+        "year": 622,
+        "popupContent": "Location (AKH p. 61): 78 km NW from the Kaba.<br><br>Date: Tru, 6 Rabi I, 1 AH / 20 Sept, 622 CE",
+        "title": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.2078888888889,
+          22.7432777777778
+        ]
+      },
+      "properties": {
+        "name": "Ghadir Khum",
+        "year": 622,
+        "title": "Ghadir Khum"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.2886,
+          23.095025
+        ]
+      },
+      "properties": {
+        "name": "Wadi Liqf",
+        "marker": "/images/markers/valley.webp",
+        "year": 622
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.1908202,
+          22.4497338
+        ]
+      },
+      "properties": {
+        "name": "Suraqah's pursuit",
+        "marker": "/images/markers/sword.webp",
+        "year": 622
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.2743390000001,
+          23.740264
+        ]
+      },
+      "properties": {
+        "name": "Wadi Qahah",
+        "marker": "/images/markers/valley.webp",
+        "year": 622
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.2896969999999,
+          23.918769
+        ]
+      },
+      "properties": {
+        "name": "Thaniyat al-Gha'ir",
+        "year": 622
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.539392,
+          24.055444
+        ]
+      },
+      "properties": {
+        "name": "Wadi Reem",
+        "marker": "/images/markers/valley.webp",
+        "year": 622
+      },
+      "id": 12
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.5586940000001,
+          24.316006
+        ]
+      },
+      "properties": {
+        "name": "Wadi Aqeeq",
+        "marker": "/images/markers/valley.webp",
+        "year": 622
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6172839999999,
+          24.439251
+        ]
+      },
+      "properties": {
+        "name": "Quba",
+        "marker": "/images/markers/quba.webp",
+        "year": 622
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "rabigh",
+        "name": "Batn Rabigh",
+        "title": "Batn Rabigh",
+        "marker": "/images/markers/sword.webp",
+        "popupContent": "The Batn Rabigah, located in the valley of Rabigh, this location serves as the Miqat for pilgrims from Ash-Sham, Egypt, and Turkey. It is known for the Batn Rabigh Caravan Raid, which took place in April 623 CE.",
+        "year": 623,
+        "events": [
+          {
+            "title": "The Expedition of 'Ubaydah ibn al-Harith to Rabigh",
+            "location": "Batn Rabigh",
+            "date": "1 AH | Sha'ban | 623 CE",
+            "age": "54",
+            "year": 623,
+            "eventId": 1
+          }
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          39.032,
+          22.799
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "al-is",
+        "name": "Al-'Is (Seashore)",
+        "title": "Al-'Is (Seashore)",
+        "marker": "/images/markers/white-flag.webp",
+        "popupContent": "Al-'Is, located along the seashore, is significant for the Expedition of Hamzah to intercept a Quraysh trade caravan. It marks the first time a banner was handed to a Muslim commander, and the event concluded without battle due to mediation.",
+        "year": 623,
+        "events": [
+          {
+            "title": "The Expedition of Hamzah to the Seashore (Sif al-Bahr)",
+            "location": "Al-'Is (Seashore)",
+            "date": "1 AH | Ramadan | 623 CE",
+            "age": "54",
+            "year": 623,
+            "eventId": 2
+          }
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          38.108156643137846,
+          25.065308928961898
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "kharrar",
+        "name": "Al-Kharrar",
+        "title": "Al-Kharrar",
+        "marker": "/images/markers/sword.webp",
+        "popupContent": "Al-Kharrar is a valley located on the route to al-Juhfah, where Sa’d ibn Abi Waqqas led a military mission during the 1st year of Hijrah.",
+        "year": 623,
+        "events": [
+          {
+            "title": "The Expedition of Sa’d ibn Abi Waqqas to al-Kharrar",
+            "location": "Al-Kharrar",
+            "date": "1 AH | Dhu al-Qi'dah | 623 CE",
+            "age": "54",
+            "year": 623,
+            "eventId": 3
+          }
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          40.1051,
+          21.296
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "safwan",
+        "name": "Valley of Safwan",
+        "title": "Valley of Safwan",
+        "marker": "/images/markers/sword.webp",
+        "popupContent": "The Valley of Safwan, near Badr, is the site of the first military pursuit by the Prophet ﷺ during the early days of the Hijrah.",
+        "year": 623,
+        "events": [
+          {
+            "title": "The First Battle of Badr (The Valley of Safwan)",
+            "location": "Valley of Safwan (near Badr)",
+            "date": "2 AH | Rabi' al-Awwal | 623 CE",
+            "age": "55",
+            "year": 623,
+            "eventId": 5
+          }
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          38.7646,
+          23.7374
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "buwat",
+        "name": "Buwat (Near Yanbu')",
+        "title": "Buwat (Near Yanbu')",
+        "marker": "/images/markers/sword.webp",
+        "popupContent": "Buwat is a region near Yanbu' where the Prophet ﷺ led a military expedition to intercept a trade caravan.",
+        "year": 623,
+        "events": [
+          {
+            "title": "The Battle of Buwat",
+            "location": "Buwat (Near Yanbu')",
+            "date": "2 AH | Rabi' al-Akhir | 623 CE",
+            "age": "55",
+            "year": 623,
+            "eventId": 6
+          }
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          38.5700,
+          24.4350
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ushayrah",
+        "name": "Al-Ushayrah (Yanbu' Valley)",
+        "title": "Al-Ushayrah (Yanbu' Valley)",
+        "marker": "/images/markers/sword.webp",
+        "popupContent": "Al-Ushayrah is located in the Yanbu' Valley, the site of a peaceful diplomatic mission led by the Prophet ﷺ. Dhil ‘Ushayrah (ذي العشيرة) is located about 9 manzils (100 miles) away from the valley of Yanbu‘. Exact location on present Google map is still not known. Some Arab team is working to find out the location where Ghazwa e Ushayrah took place.",
+        "year": 623,
+        "events": [
+          {
+            "title": "The Battle of al-Ushayrah (Yanbu' Valley)",
+            "location": "Al-Ushayrah (Yanbu' Valley)",
+            "date": "2 AH | Jumada al-Ula | 623 CE",
+            "age": "55",
+            "year": 623,
+            "eventId": 7
+          }
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          38.0633,
+          24.2342
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            39.828083,
+            21.424599,
+            0
+          ],
+          [
+            39.8279003,
+            21.4245247,
+            0
+          ],
+          [
+            39.8277501,
+            21.4244298,
+            0
+          ],
+          [
+            39.8278467,
+            21.4236758,
+            0
+          ],
+          [
+            39.828072,
+            21.4231664,
+            0
+          ],
+          [
+            39.8281042,
+            21.4227869,
+            0
+          ],
+          [
+            39.8267255,
+            21.4219729,
+            0
+          ],
+          [
+            39.826008,
+            21.421702,
+            0
+          ],
+          [
+            39.82384,
+            21.41933,
+            0
+          ],
+          [
+            39.8237163,
+            21.4181624,
+            0
+          ],
+          [
+            39.8270422,
+            21.416824,
+            0
+          ],
+          [
+            39.8276779,
+            21.4163746,
+            0
+          ],
+          [
+            39.830563,
+            21.4014097,
+            0
+          ],
+          [
+            39.8296445,
+            21.4002406,
+            0
+          ],
+          [
+            39.8258808,
+            21.3977782,
+            0
+          ],
+          [
+            39.8254152,
+            21.3903137,
+            0
+          ],
+          [
+            39.8338081,
+            21.3843837,
+            0
+          ],
+          [
+            39.835558,
+            21.3847352,
+            0
+          ],
+          [
+            39.8397804,
+            21.3886272,
+            0
+          ],
+          [
+            39.8461402,
+            21.3894542,
+            0
+          ],
+          [
+            39.8469596,
+            21.3862313,
+            0
+          ],
+          [
+            39.8462535,
+            21.3846198,
+            0
+          ],
+          [
+            39.8471021,
+            21.3828551,
+            0
+          ],
+          [
+            39.8471401,
+            21.3817329,
+            0
+          ],
+          [
+            39.8473737,
+            21.379933,
+            0
+          ],
+          [
+            39.8484346,
+            21.3793927,
+            0
+          ],
+          [
+            39.849523,
+            21.3795222,
+            0
+          ],
+          [
+            39.8498526,
+            21.378508,
+            0
+          ],
+          [
+            39.849753,
+            21.377174,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Hijrah to Madinah - Day 0 - Fri - Sun",
+        "year": 622,
+        "stroke": "#8b4513",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            39.849753,
+            21.377174,
+            0
+          ],
+          [
+            39.847745,
+            21.3762751,
+            0
+          ],
+          [
+            39.8465004,
+            21.3754359,
+            0
+          ],
+          [
+            39.845449,
+            21.3739373,
+            0
+          ],
+          [
+            39.8454061,
+            21.3727583,
+            0
+          ],
+          [
+            39.8447838,
+            21.3717992,
+            0
+          ],
+          [
+            39.8437968,
+            21.3710599,
+            0
+          ],
+          [
+            39.8429599,
+            21.3700208,
+            0
+          ],
+          [
+            39.8425308,
+            21.3689817,
+            0
+          ],
+          [
+            39.8415437,
+            21.3688818,
+            0
+          ],
+          [
+            39.8410717,
+            21.368582,
+            0
+          ],
+          [
+            39.8401919,
+            21.3681424,
+            0
+          ],
+          [
+            39.8446551,
+            21.3618078,
+            0
+          ],
+          [
+            39.847745,
+            21.3554129,
+            0
+          ],
+          [
+            39.8458567,
+            21.3518956,
+            0
+          ],
+          [
+            39.8389903,
+            21.3502968,
+            0
+          ],
+          [
+            39.8231974,
+            21.3544537,
+            0
+          ],
+          [
+            39.8170176,
+            21.3538142,
+            0
+          ],
+          [
+            39.795045,
+            21.3467794,
+            0
+          ],
+          [
+            39.7912792,
+            21.3467895,
+            0
+          ],
+          [
+            39.7809043,
+            21.347359,
+            0
+          ],
+          [
+            39.7758189,
+            21.3467794,
+            0
+          ],
+          [
+            39.7672358,
+            21.3466195,
+            0
+          ],
+          [
+            39.760541,
+            21.3440614,
+            0
+          ],
+          [
+            39.7370234,
+            21.343102,
+            0
+          ],
+          [
+            39.7121325,
+            21.3435817,
+            0
+          ],
+          [
+            39.7080126,
+            21.3469393,
+            0
+          ],
+          [
+            39.7097801,
+            21.3511291,
+            0
+          ],
+          [
+            39.7106639,
+            21.3555823,
+            0
+          ],
+          [
+            39.7105479,
+            21.3613662,
+            0
+          ],
+          [
+            39.7101466,
+            21.3649376,
+            0
+          ],
+          [
+            39.710976,
+            21.3702803,
+            0
+          ],
+          [
+            39.710947,
+            21.376742,
+            0
+          ],
+          [
+            39.6949664,
+            21.3960155,
+            0
+          ],
+          [
+            39.6751394,
+            21.4173115,
+            0
+          ],
+          [
+            39.6379748,
+            21.435009,
+            0
+          ],
+          [
+            39.6323191,
+            21.4368501,
+            0
+          ],
+          [
+            39.62576,
+            21.44195,
+            0
+          ],
+          [
+            39.6203886,
+            21.4482744,
+            0
+          ],
+          [
+            39.6155821,
+            21.4535468,
+            0
+          ],
+          [
+            39.6066557,
+            21.4533871,
+            0
+          ],
+          [
+            39.6035658,
+            21.4597776,
+            0
+          ],
+          [
+            39.6037374,
+            21.4632923,
+            0
+          ],
+          [
+            39.6087156,
+            21.4722385,
+            0
+          ],
+          [
+            39.6094023,
+            21.4805451,
+            0
+          ],
+          [
+            39.6097456,
+            21.4850177,
+            0
+          ],
+          [
+            39.6138655,
+            21.4888512,
+            0
+          ],
+          [
+            39.6241651,
+            21.4989138,
+            0
+          ],
+          [
+            39.6312033,
+            21.5064203,
+            0
+          ],
+          [
+            39.630353,
+            21.508583,
+            0
+          ],
+          [
+            39.6302653,
+            21.5108455,
+            0
+          ],
+          [
+            39.6283341,
+            21.5121231,
+            0
+          ],
+          [
+            39.6258879,
+            21.5138399,
+            0
+          ],
+          [
+            39.6095567,
+            21.5373303,
+            0
+          ],
+          [
+            39.6054221,
+            21.5454028,
+            0
+          ],
+          [
+            39.6014658,
+            21.5512753,
+            0
+          ],
+          [
+            39.5969124,
+            21.5555686,
+            0
+          ],
+          [
+            39.5920604,
+            21.5621056,
+            0
+          ],
+          [
+            39.5868016,
+            21.5684871,
+            0
+          ],
+          [
+            39.5821121,
+            21.5728751,
+            0
+          ],
+          [
+            39.5772507,
+            21.5748683,
+            0
+          ],
+          [
+            39.5650234,
+            21.5922469,
+            0
+          ],
+          [
+            39.546634,
+            21.6075594,
+            0
+          ],
+          [
+            39.5321803,
+            21.6270533,
+            0
+          ],
+          [
+            39.4971383,
+            21.6680735,
+            0
+          ],
+          [
+            39.4785773,
+            21.6873071,
+            0
+          ],
+          [
+            39.4744435,
+            21.695489,
+            0
+          ],
+          [
+            39.4685994,
+            21.7091499,
+            0
+          ],
+          [
+            39.4658483,
+            21.7185324,
+            0
+          ],
+          [
+            39.4625842,
+            21.7260944,
+            0
+          ],
+          [
+            39.4618102,
+            21.7349782,
+            0
+          ],
+          [
+            39.4582548,
+            21.7458731,
+            0
+          ],
+          [
+            39.4559607,
+            21.7629601,
+            0
+          ],
+          [
+            39.4518938,
+            21.7723018,
+            0
+          ],
+          [
+            39.4393879,
+            21.7881314,
+            0
+          ],
+          [
+            39.4326182,
+            21.8006683,
+            0
+          ],
+          [
+            39.4026603,
+            21.8364288,
+            0
+          ],
+          [
+            39.388191,
+            21.8517573,
+            0
+          ],
+          [
+            39.3713151,
+            21.8661285,
+            0
+          ],
+          [
+            39.36571,
+            21.8722494,
+            0
+          ],
+          [
+            39.3572418,
+            21.8781774,
+            0
+          ],
+          [
+            39.3530069,
+            21.8849645,
+            0
+          ],
+          [
+            39.3510606,
+            21.8942517,
+            0
+          ],
+          [
+            39.3442507,
+            21.9043107,
+            0
+          ],
+          [
+            39.341532,
+            21.911092,
+            0
+          ],
+          [
+            39.3384816,
+            21.9152852,
+            0
+          ],
+          [
+            39.3311195,
+            21.9175409,
+            0
+          ],
+          [
+            39.3254638,
+            21.9192256,
+            0
+          ],
+          [
+            39.3187518,
+            21.9251835,
+            0
+          ],
+          [
+            39.312397,
+            21.932639,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Hijrah to Madinah - Day 1 - Monday",
+        "year": 622,
+        "stroke": "#8b4513",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            39.312397,
+            21.932639,
+            0
+          ],
+          [
+            39.3113258,
+            21.9330968,
+            0
+          ],
+          [
+            39.3013452,
+            21.9389067,
+            0
+          ],
+          [
+            39.2919038,
+            21.9430467,
+            0
+          ],
+          [
+            39.2878698,
+            21.94647,
+            0
+          ],
+          [
+            39.2848657,
+            21.9474253,
+            0
+          ],
+          [
+            39.2773126,
+            21.9482214,
+            0
+          ],
+          [
+            39.1993783,
+            21.9638241,
+            0
+          ],
+          [
+            39.1842721,
+            21.9784699,
+            0
+          ],
+          [
+            39.1926835,
+            22.0073592,
+            0
+          ],
+          [
+            39.2021249,
+            22.0139639,
+            0
+          ],
+          [
+            39.2076181,
+            22.0165102,
+            0
+          ],
+          [
+            39.2133687,
+            22.0210457,
+            0
+          ],
+          [
+            39.2239259,
+            22.0245467,
+            0
+          ],
+          [
+            39.2271016,
+            22.0331397,
+            0
+          ],
+          [
+            39.2263292,
+            22.0410957,
+            0
+          ],
+          [
+            39.2236684,
+            22.0548585,
+            0
+          ],
+          [
+            39.22168,
+            22.064824,
+            0
+          ],
+          [
+            39.2007,
+            22.1359917,
+            0
+          ],
+          [
+            39.1611185,
+            22.2355028,
+            0
+          ],
+          [
+            39.1599718,
+            22.2565058,
+            0
+          ],
+          [
+            39.249231,
+            22.335761,
+            0
+          ],
+          [
+            39.255092,
+            22.374183,
+            0
+          ],
+          [
+            39.1908202,
+            22.4497338,
+            0
+          ],
+          [
+            39.186763,
+            22.4796985,
+            0
+          ],
+          [
+            39.1775528,
+            22.5147386,
+            0
+          ],
+          [
+            39.1700535,
+            22.534717,
+            0
+          ],
+          [
+            39.1470952,
+            22.6009891,
+            0
+          ],
+          [
+            39.1261976,
+            22.6581114,
+            0
+          ],
+          [
+            39.1232019,
+            22.6823714,
+            0
+          ],
+          [
+            39.1260583,
+            22.6847935,
+            0
+          ],
+          [
+            39.1285715,
+            22.6884825,
+            0
+          ],
+          [
+            39.1377173,
+            22.6961776,
+            0
+          ],
+          [
+            39.1468453,
+            22.705208,
+            0
+          ],
+          [
+            39.1446054,
+            22.71857,
+            0
+          ],
+          [
+            39.1473223,
+            22.7302288,
+            0
+          ],
+          [
+            39.1394972,
+            22.7358999,
+            0
+          ],
+          [
+            39.1392752,
+            22.7415062,
+            0
+          ],
+          [
+            39.1520142,
+            22.7481413,
+            0
+          ],
+          [
+            39.1617413,
+            22.7550713,
+            0
+          ],
+          [
+            39.1652896,
+            22.7583181,
+            0
+          ],
+          [
+            39.1695959,
+            22.7582395,
+            0
+          ],
+          [
+            39.1769847,
+            22.7546382,
+            0
+          ],
+          [
+            39.1963427,
+            22.7489587,
+            0
+          ],
+          [
+            39.2078889,
+            22.7432778,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Hijrah to Madinah - Day 2 - Tuesday",
+        "year": 622,
+        "stroke": "#8b4513",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            39.2078889,
+            22.7432778,
+            0
+          ],
+          [
+            39.2245302,
+            22.7371687,
+            0
+          ],
+          [
+            39.2333707,
+            22.736852,
+            0
+          ],
+          [
+            39.248917,
+            22.751111,
+            0
+          ],
+          [
+            39.2644414,
+            22.7552952,
+            0
+          ],
+          [
+            39.2713937,
+            22.7594901,
+            0
+          ],
+          [
+            39.2767152,
+            22.7663758,
+            0
+          ],
+          [
+            39.2804059,
+            22.7742108,
+            0
+          ],
+          [
+            39.2865858,
+            22.7823223,
+            0
+          ],
+          [
+            39.2883882,
+            22.7860911,
+            0
+          ],
+          [
+            39.2879475,
+            22.7889311,
+            0
+          ],
+          [
+            39.2880862,
+            22.7906435,
+            0
+          ],
+          [
+            39.2881307,
+            22.7920753,
+            0
+          ],
+          [
+            39.2878089,
+            22.7940831,
+            0
+          ],
+          [
+            39.2885492,
+            22.7979306,
+            0
+          ],
+          [
+            39.288397,
+            22.799922,
+            0
+          ],
+          [
+            39.2879117,
+            22.8008642,
+            0
+          ],
+          [
+            39.2882913,
+            22.8016518,
+            0
+          ],
+          [
+            39.2882021,
+            22.802461,
+            0
+          ],
+          [
+            39.2868915,
+            22.8036173,
+            0
+          ],
+          [
+            39.2851632,
+            22.8061142,
+            0
+          ],
+          [
+            39.2822176,
+            22.8082725,
+            0
+          ],
+          [
+            39.2806803,
+            22.8095692,
+            0
+          ],
+          [
+            39.2799117,
+            22.8106527,
+            0
+          ],
+          [
+            39.2795273,
+            22.8129944,
+            0
+          ],
+          [
+            39.2761594,
+            22.8187737,
+            0
+          ],
+          [
+            39.2761387,
+            22.8196875,
+            0
+          ],
+          [
+            39.2750731,
+            22.8209445,
+            0
+          ],
+          [
+            39.2734888,
+            22.821929,
+            0
+          ],
+          [
+            39.2706814,
+            22.8233486,
+            0
+          ],
+          [
+            39.2658706,
+            22.8240907,
+            0
+          ],
+          [
+            39.2599567,
+            22.8251241,
+            0
+          ],
+          [
+            39.2451807,
+            22.8278774,
+            0
+          ],
+          [
+            39.2387549,
+            22.8276198,
+            0
+          ],
+          [
+            39.2382885,
+            22.828638,
+            0
+          ],
+          [
+            39.239839,
+            22.8366176,
+            0
+          ],
+          [
+            39.2429166,
+            22.853154,
+            0
+          ],
+          [
+            39.2485764,
+            22.862688,
+            0
+          ],
+          [
+            39.2552701,
+            22.8763514,
+            0
+          ],
+          [
+            39.2562998,
+            22.887326,
+            0
+          ],
+          [
+            39.2563434,
+            22.8903633,
+            0
+          ],
+          [
+            39.2552923,
+            22.8920007,
+            0
+          ],
+          [
+            39.2555392,
+            22.8942822,
+            0
+          ],
+          [
+            39.2576368,
+            22.8969254,
+            0
+          ],
+          [
+            39.2582136,
+            22.8985238,
+            0
+          ],
+          [
+            39.257987,
+            22.8994812,
+            0
+          ],
+          [
+            39.2568867,
+            22.9002762,
+            0
+          ],
+          [
+            39.2564223,
+            22.9015039,
+            0
+          ],
+          [
+            39.2562759,
+            22.9031456,
+            0
+          ],
+          [
+            39.2559023,
+            22.9042037,
+            0
+          ],
+          [
+            39.2532264,
+            22.9075,
+            0
+          ],
+          [
+            39.2531759,
+            22.9095039,
+            0
+          ],
+          [
+            39.2543272,
+            22.9161329,
+            0
+          ],
+          [
+            39.257407,
+            22.922281,
+            0
+          ],
+          [
+            39.2557714,
+            22.9306515,
+            0
+          ],
+          [
+            39.2538807,
+            22.9340462,
+            0
+          ],
+          [
+            39.2563685,
+            22.9363364,
+            0
+          ],
+          [
+            39.2609812,
+            22.9380348,
+            0
+          ],
+          [
+            39.2667208,
+            22.9409391,
+            0
+          ],
+          [
+            39.2671021,
+            22.9435366,
+            0
+          ],
+          [
+            39.2592427,
+            22.9700032,
+            0
+          ],
+          [
+            39.2582533,
+            22.9765304,
+            0
+          ],
+          [
+            39.2562135,
+            22.9853255,
+            0
+          ],
+          [
+            39.254936,
+            22.9907503,
+            0
+          ],
+          [
+            39.2553272,
+            22.995596,
+            0
+          ],
+          [
+            39.2557185,
+            22.9991775,
+            0
+          ],
+          [
+            39.2574126,
+            23.0082899,
+            0
+          ],
+          [
+            39.2608561,
+            23.0120364,
+            0
+          ],
+          [
+            39.2673841,
+            23.01626,
+            0
+          ],
+          [
+            39.2697471,
+            23.0181742,
+            0
+          ],
+          [
+            39.2696412,
+            23.0207506,
+            0
+          ],
+          [
+            39.2737936,
+            23.0229273,
+            0
+          ],
+          [
+            39.276385,
+            23.0234626,
+            0
+          ],
+          [
+            39.2787537,
+            23.0244412,
+            0
+          ],
+          [
+            39.2814401,
+            23.025997,
+            0
+          ],
+          [
+            39.2818822,
+            23.0280782,
+            0
+          ],
+          [
+            39.2830045,
+            23.0293559,
+            0
+          ],
+          [
+            39.2863981,
+            23.0298367,
+            0
+          ],
+          [
+            39.2876228,
+            23.0299982,
+            0
+          ],
+          [
+            39.2890077,
+            23.0314218,
+            0
+          ],
+          [
+            39.2888419,
+            23.0330419,
+            0
+          ],
+          [
+            39.2879006,
+            23.0342075,
+            0
+          ],
+          [
+            39.2897472,
+            23.034573,
+            0
+          ],
+          [
+            39.2924301,
+            23.0355851,
+            0
+          ],
+          [
+            39.2937394,
+            23.0369008,
+            0
+          ],
+          [
+            39.2938025,
+            23.0372355,
+            0
+          ],
+          [
+            39.2939729,
+            23.0373926,
+            0
+          ],
+          [
+            39.2943739,
+            23.0377718,
+            0
+          ],
+          [
+            39.2949681,
+            23.038151,
+            0
+          ],
+          [
+            39.2947254,
+            23.0386758,
+            0
+          ],
+          [
+            39.2944823,
+            23.0388416,
+            0
+          ],
+          [
+            39.2943466,
+            23.0391653,
+            0
+          ],
+          [
+            39.2947617,
+            23.0392599,
+            0
+          ],
+          [
+            39.2955093,
+            23.0394483,
+            0
+          ],
+          [
+            39.2955935,
+            23.0396116,
+            0
+          ],
+          [
+            39.2954747,
+            23.0399104,
+            0
+          ],
+          [
+            39.2956513,
+            23.0404449,
+            0
+          ],
+          [
+            39.2955679,
+            23.0409293,
+            0
+          ],
+          [
+            39.296009,
+            23.0411913,
+            0
+          ],
+          [
+            39.2965515,
+            23.0414309,
+            0
+          ],
+          [
+            39.2966012,
+            23.041861,
+            0
+          ],
+          [
+            39.2965866,
+            23.0423109,
+            0
+          ],
+          [
+            39.2963916,
+            23.0424618,
+            0
+          ],
+          [
+            39.2961107,
+            23.042514,
+            0
+          ],
+          [
+            39.2955831,
+            23.0425859,
+            0
+          ],
+          [
+            39.295287,
+            23.0428884,
+            0
+          ],
+          [
+            39.29527,
+            23.0432501,
+            0
+          ],
+          [
+            39.2957655,
+            23.0436607,
+            0
+          ],
+          [
+            39.2960026,
+            23.0440239,
+            0
+          ],
+          [
+            39.2956061,
+            23.0447584,
+            0
+          ],
+          [
+            39.2951289,
+            23.0451947,
+            0
+          ],
+          [
+            39.2947723,
+            23.0457189,
+            0
+          ],
+          [
+            39.2948944,
+            23.0462575,
+            0
+          ],
+          [
+            39.2939148,
+            23.0471586,
+            0
+          ],
+          [
+            39.2930387,
+            23.0482632,
+            0
+          ],
+          [
+            39.2925363,
+            23.0493017,
+            0
+          ],
+          [
+            39.2922207,
+            23.0499592,
+            0
+          ],
+          [
+            39.2916982,
+            23.0504484,
+            0
+          ],
+          [
+            39.2917016,
+            23.0508446,
+            0
+          ],
+          [
+            39.2921021,
+            23.0512803,
+            0
+          ],
+          [
+            39.2923148,
+            23.0518197,
+            0
+          ],
+          [
+            39.2927081,
+            23.0532889,
+            0
+          ],
+          [
+            39.2928994,
+            23.0540876,
+            0
+          ],
+          [
+            39.2930702,
+            23.0551286,
+            0
+          ],
+          [
+            39.2932644,
+            23.0567833,
+            0
+          ],
+          [
+            39.2937483,
+            23.0580825,
+            0
+          ],
+          [
+            39.2949457,
+            23.0592732,
+            0
+          ],
+          [
+            39.2954693,
+            23.060066,
+            0
+          ],
+          [
+            39.2954092,
+            23.0606499,
+            0
+          ],
+          [
+            39.2951131,
+            23.0616484,
+            0
+          ],
+          [
+            39.2935736,
+            23.0679529,
+            0
+          ],
+          [
+            39.291734,
+            23.0708097,
+            0
+          ],
+          [
+            39.2890361,
+            23.0733506,
+            0
+          ],
+          [
+            39.2865584,
+            23.0755107,
+            0
+          ],
+          [
+            39.2834052,
+            23.0791202,
+            0
+          ],
+          [
+            39.2837279,
+            23.0803216,
+            0
+          ],
+          [
+            39.2847476,
+            23.0812777,
+            0
+          ],
+          [
+            39.2871458,
+            23.0821506,
+            0
+          ],
+          [
+            39.2874008,
+            23.0831398,
+            0
+          ],
+          [
+            39.2873566,
+            23.0872664,
+            0
+          ],
+          [
+            39.2885362,
+            23.091422,
+            0
+          ],
+          [
+            39.2886,
+            23.095025,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Hijrah to Madinah - Day 3 - Wednesday",
+        "year": 622,
+        "stroke": "#8b4513",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            39.2886,
+            23.095025,
+            0
+          ],
+          [
+            39.2911711,
+            23.0989624,
+            0
+          ],
+          [
+            39.2928019,
+            23.1009361,
+            0
+          ],
+          [
+            39.2950764,
+            23.1012519,
+            0
+          ],
+          [
+            39.2980805,
+            23.100344,
+            0
+          ],
+          [
+            39.308981,
+            23.1005808,
+            0
+          ],
+          [
+            39.3107835,
+            23.1018835,
+            0
+          ],
+          [
+            39.3111697,
+            23.1032256,
+            0
+          ],
+          [
+            39.3111697,
+            23.1085544,
+            0
+          ],
+          [
+            39.3114701,
+            23.1108043,
+            0
+          ],
+          [
+            39.3126288,
+            23.1121858,
+            0
+          ],
+          [
+            39.3147746,
+            23.1123437,
+            0
+          ],
+          [
+            39.3175641,
+            23.111949,
+            0
+          ],
+          [
+            39.3227568,
+            23.1129554,
+            0
+          ],
+          [
+            39.3234399,
+            23.1136034,
+            0
+          ],
+          [
+            39.3225699,
+            23.1147965,
+            0
+          ],
+          [
+            39.3218717,
+            23.1161278,
+            0
+          ],
+          [
+            39.3208086,
+            23.1170151,
+            0
+          ],
+          [
+            39.320518,
+            23.1174682,
+            0
+          ],
+          [
+            39.3215443,
+            23.1182742,
+            0
+          ],
+          [
+            39.323817,
+            23.1199204,
+            0
+          ],
+          [
+            39.3253397,
+            23.1215921,
+            0
+          ],
+          [
+            39.3271739,
+            23.1216189,
+            0
+          ],
+          [
+            39.3282198,
+            23.1217309,
+            0
+          ],
+          [
+            39.3283995,
+            23.1223,
+            0
+          ],
+          [
+            39.3282532,
+            23.1239067,
+            0
+          ],
+          [
+            39.3282231,
+            23.1251837,
+            0
+          ],
+          [
+            39.3284869,
+            23.1262366,
+            0
+          ],
+          [
+            39.3291982,
+            23.127059,
+            0
+          ],
+          [
+            39.331197,
+            23.127842,
+            0
+          ],
+          [
+            39.3317969,
+            23.1284222,
+            0
+          ],
+          [
+            39.3319033,
+            23.1290024,
+            0
+          ],
+          [
+            39.3319668,
+            23.1297997,
+            0
+          ],
+          [
+            39.3319879,
+            23.1304351,
+            0
+          ],
+          [
+            39.3318053,
+            23.131108,
+            0
+          ],
+          [
+            39.3317783,
+            23.1317997,
+            0
+          ],
+          [
+            39.3319794,
+            23.1325205,
+            0
+          ],
+          [
+            39.3320585,
+            23.133019,
+            0
+          ],
+          [
+            39.332098,
+            23.1335643,
+            0
+          ],
+          [
+            39.3320963,
+            23.1341131,
+            0
+          ],
+          [
+            39.3315488,
+            23.1352764,
+            0
+          ],
+          [
+            39.3310226,
+            23.1368344,
+            0
+          ],
+          [
+            39.3303784,
+            23.1378201,
+            0
+          ],
+          [
+            39.3293911,
+            23.139043,
+            0
+          ],
+          [
+            39.3286185,
+            23.1399702,
+            0
+          ],
+          [
+            39.3279747,
+            23.1410455,
+            0
+          ],
+          [
+            39.3276099,
+            23.1424118,
+            0
+          ],
+          [
+            39.3274167,
+            23.1441333,
+            0
+          ],
+          [
+            39.3270135,
+            23.1452038,
+            0
+          ],
+          [
+            39.3263099,
+            23.1467083,
+            0
+          ],
+          [
+            39.3249026,
+            23.147547,
+            0
+          ],
+          [
+            39.324216,
+            23.1511773,
+            0
+          ],
+          [
+            39.3218127,
+            23.1577274,
+            0
+          ],
+          [
+            39.3211261,
+            23.1598581,
+            0
+          ],
+          [
+            39.3174353,
+            23.1631725,
+            0
+          ],
+          [
+            39.3152037,
+            23.1675914,
+            0
+          ],
+          [
+            39.3140021,
+            23.1698798,
+            0
+          ],
+          [
+            39.313573,
+            23.1754821,
+            0
+          ],
+          [
+            39.3129721,
+            23.1770602,
+            0
+          ],
+          [
+            39.311178,
+            23.178931,
+            0
+          ],
+          [
+            39.3081767,
+            23.1815835,
+            0
+          ],
+          [
+            39.3076416,
+            23.1822983,
+            0
+          ],
+          [
+            39.3066659,
+            23.1836222,
+            0
+          ],
+          [
+            39.3058562,
+            23.1846589,
+            0
+          ],
+          [
+            39.3047003,
+            23.1855718,
+            0
+          ],
+          [
+            39.3044114,
+            23.1861304,
+            0
+          ],
+          [
+            39.304294,
+            23.1871229,
+            0
+          ],
+          [
+            39.3041874,
+            23.1887072,
+            0
+          ],
+          [
+            39.303587,
+            23.1902192,
+            0
+          ],
+          [
+            39.30245,
+            23.1910541,
+            0
+          ],
+          [
+            39.3020477,
+            23.191899,
+            0
+          ],
+          [
+            39.3012672,
+            23.1924397,
+            0
+          ],
+          [
+            39.3007012,
+            23.1931777,
+            0
+          ],
+          [
+            39.3007039,
+            23.1940192,
+            0
+          ],
+          [
+            39.300492,
+            23.194703,
+            0
+          ],
+          [
+            39.2999033,
+            23.1954837,
+            0
+          ],
+          [
+            39.2990141,
+            23.1959094,
+            0
+          ],
+          [
+            39.2982752,
+            23.1963153,
+            0
+          ],
+          [
+            39.2976835,
+            23.1972782,
+            0
+          ],
+          [
+            39.297291,
+            23.1981295,
+            0
+          ],
+          [
+            39.2961239,
+            23.1992923,
+            0
+          ],
+          [
+            39.2954491,
+            23.2001276,
+            0
+          ],
+          [
+            39.294903,
+            23.201239,
+            0
+          ],
+          [
+            39.2946889,
+            23.2018006,
+            0
+          ],
+          [
+            39.2946893,
+            23.2021256,
+            0
+          ],
+          [
+            39.2954164,
+            23.2027441,
+            0
+          ],
+          [
+            39.295855,
+            23.203931,
+            0
+          ],
+          [
+            39.2959027,
+            23.2047513,
+            0
+          ],
+          [
+            39.2951779,
+            23.2084115,
+            0
+          ],
+          [
+            39.2949983,
+            23.2097846,
+            0
+          ],
+          [
+            39.2949246,
+            23.2111319,
+            0
+          ],
+          [
+            39.2942387,
+            23.213255,
+            0
+          ],
+          [
+            39.2954835,
+            23.2153026,
+            0
+          ],
+          [
+            39.2942177,
+            23.2184168,
+            0
+          ],
+          [
+            39.2942713,
+            23.2196288,
+            0
+          ],
+          [
+            39.2939119,
+            23.2206292,
+            0
+          ],
+          [
+            39.2931971,
+            23.2213304,
+            0
+          ],
+          [
+            39.2921497,
+            23.2220612,
+            0
+          ],
+          [
+            39.2905551,
+            23.2234427,
+            0
+          ],
+          [
+            39.2901333,
+            23.2239066,
+            0
+          ],
+          [
+            39.2898902,
+            23.224464,
+            0
+          ],
+          [
+            39.2898236,
+            23.2246748,
+            0
+          ],
+          [
+            39.2896711,
+            23.2248708,
+            0
+          ],
+          [
+            39.289554,
+            23.2253539,
+            0
+          ],
+          [
+            39.28947,
+            23.2256214,
+            0
+          ],
+          [
+            39.2892948,
+            23.2259604,
+            0
+          ],
+          [
+            39.289175,
+            23.226658,
+            0
+          ],
+          [
+            39.2891858,
+            23.227772,
+            0
+          ],
+          [
+            39.2897813,
+            23.2287333,
+            0
+          ],
+          [
+            39.2892086,
+            23.2298239,
+            0
+          ],
+          [
+            39.2886863,
+            23.2304826,
+            0
+          ],
+          [
+            39.2884251,
+            23.2308317,
+            0
+          ],
+          [
+            39.2881353,
+            23.231266,
+            0
+          ],
+          [
+            39.2877562,
+            23.2322258,
+            0
+          ],
+          [
+            39.2866525,
+            23.2345192,
+            0
+          ],
+          [
+            39.2860523,
+            23.2354885,
+            0
+          ],
+          [
+            39.2856082,
+            23.2362804,
+            0
+          ],
+          [
+            39.284957,
+            23.2373467,
+            0
+          ],
+          [
+            39.2845885,
+            23.2379143,
+            0
+          ],
+          [
+            39.2843515,
+            23.2381869,
+            0
+          ],
+          [
+            39.2840641,
+            23.2384291,
+            0
+          ],
+          [
+            39.283723,
+            23.2385827,
+            0
+          ],
+          [
+            39.2832419,
+            23.2388084,
+            0
+          ],
+          [
+            39.2829745,
+            23.2390198,
+            0
+          ],
+          [
+            39.2828033,
+            23.2389875,
+            0
+          ],
+          [
+            39.2804863,
+            23.241686,
+            0
+          ],
+          [
+            39.2782349,
+            23.2465319,
+            0
+          ],
+          [
+            39.2757259,
+            23.2501948,
+            0
+          ],
+          [
+            39.2747288,
+            23.2522037,
+            0
+          ],
+          [
+            39.2739892,
+            23.2548435,
+            0
+          ],
+          [
+            39.2709648,
+            23.2604384,
+            0
+          ],
+          [
+            39.2694646,
+            23.272259,
+            0
+          ],
+          [
+            39.2688001,
+            23.2746606,
+            0
+          ],
+          [
+            39.2685108,
+            23.2767682,
+            0
+          ],
+          [
+            39.267151,
+            23.2777485,
+            0
+          ],
+          [
+            39.2664013,
+            23.2783864,
+            0
+          ],
+          [
+            39.2658019,
+            23.2792215,
+            0
+          ],
+          [
+            39.2651233,
+            23.2808029,
+            0
+          ],
+          [
+            39.2648215,
+            23.2816429,
+            0
+          ],
+          [
+            39.2640644,
+            23.2826,
+            0
+          ],
+          [
+            39.2633211,
+            23.2832707,
+            0
+          ],
+          [
+            39.2626276,
+            23.2840693,
+            0
+          ],
+          [
+            39.2614225,
+            23.2843158,
+            0
+          ],
+          [
+            39.260292,
+            23.284908,
+            0
+          ],
+          [
+            39.2588867,
+            23.2858441,
+            0
+          ],
+          [
+            39.2578462,
+            23.2873518,
+            0
+          ],
+          [
+            39.2566233,
+            23.2891256,
+            0
+          ],
+          [
+            39.2544346,
+            23.2913922,
+            0
+          ],
+          [
+            39.2537371,
+            23.2923283,
+            0
+          ],
+          [
+            39.2504861,
+            23.2988618,
+            0
+          ],
+          [
+            39.249617,
+            23.3015667,
+            0
+          ],
+          [
+            39.2489892,
+            23.3029191,
+            0
+          ],
+          [
+            39.2509713,
+            23.3082559,
+            0
+          ],
+          [
+            39.2515332,
+            23.3102149,
+            0
+          ],
+          [
+            39.2528625,
+            23.312646,
+            0
+          ],
+          [
+            39.2544284,
+            23.3148468,
+            0
+          ],
+          [
+            39.2576361,
+            23.3176813,
+            0
+          ],
+          [
+            39.2579954,
+            23.3186059,
+            0
+          ],
+          [
+            39.257711,
+            23.319294,
+            0
+          ],
+          [
+            39.2598343,
+            23.3224811,
+            0
+          ],
+          [
+            39.2614644,
+            23.3233652,
+            0
+          ],
+          [
+            39.2638889,
+            23.3259833,
+            0
+          ],
+          [
+            39.2652514,
+            23.3282886,
+            0
+          ],
+          [
+            39.2664691,
+            23.3306235,
+            0
+          ],
+          [
+            39.267593,
+            23.3322835,
+            0
+          ],
+          [
+            39.2691634,
+            23.333675,
+            0
+          ],
+          [
+            39.2735427,
+            23.3357106,
+            0
+          ],
+          [
+            39.276226,
+            23.3369647,
+            0
+          ],
+          [
+            39.2769239,
+            23.3378676,
+            0
+          ],
+          [
+            39.2770368,
+            23.338851,
+            0
+          ],
+          [
+            39.2784652,
+            23.340839,
+            0
+          ],
+          [
+            39.2801941,
+            23.3427088,
+            0
+          ],
+          [
+            39.2829102,
+            23.3481938,
+            0
+          ],
+          [
+            39.284253,
+            23.350231,
+            0
+          ],
+          [
+            39.285315,
+            23.3526343,
+            0
+          ],
+          [
+            39.2856314,
+            23.3534419,
+            0
+          ],
+          [
+            39.2859432,
+            23.3538408,
+            0
+          ],
+          [
+            39.2867592,
+            23.3546337,
+            0
+          ],
+          [
+            39.287179,
+            23.3553428,
+            0
+          ],
+          [
+            39.2879152,
+            23.356643,
+            0
+          ],
+          [
+            39.288396,
+            23.3577855,
+            0
+          ],
+          [
+            39.2889368,
+            23.3591891,
+            0
+          ],
+          [
+            39.2895451,
+            23.3600977,
+            0
+          ],
+          [
+            39.2898746,
+            23.3610654,
+            0
+          ],
+          [
+            39.2913284,
+            23.3635573,
+            0
+          ],
+          [
+            39.2918595,
+            23.3660196,
+            0
+          ],
+          [
+            39.2933302,
+            23.369867,
+            0
+          ],
+          [
+            39.2959382,
+            23.3735961,
+            0
+          ],
+          [
+            39.2978928,
+            23.3774892,
+            0
+          ],
+          [
+            39.2987338,
+            23.3803316,
+            0
+          ],
+          [
+            39.299414,
+            23.3815054,
+            0
+          ],
+          [
+            39.3000834,
+            23.3824527,
+            0
+          ],
+          [
+            39.3016477,
+            23.3846329,
+            0
+          ],
+          [
+            39.303403,
+            23.3875161,
+            0
+          ],
+          [
+            39.3043173,
+            23.3884475,
+            0
+          ],
+          [
+            39.3054102,
+            23.3897022,
+            0
+          ],
+          [
+            39.3075545,
+            23.3922666,
+            0
+          ],
+          [
+            39.3076262,
+            23.3924865,
+            0
+          ],
+          [
+            39.3079662,
+            23.3929033,
+            0
+          ],
+          [
+            39.308528,
+            23.393225,
+            0
+          ],
+          [
+            39.3088136,
+            23.3942177,
+            0
+          ],
+          [
+            39.3098718,
+            23.395683,
+            0
+          ],
+          [
+            39.3097565,
+            23.3964473,
+            0
+          ],
+          [
+            39.3093742,
+            23.3971101,
+            0
+          ],
+          [
+            39.3087989,
+            23.397773,
+            0
+          ],
+          [
+            39.3083899,
+            23.3984505,
+            0
+          ],
+          [
+            39.3080218,
+            23.4015511,
+            0
+          ],
+          [
+            39.3073013,
+            23.4033181,
+            0
+          ],
+          [
+            39.3073702,
+            23.4052059,
+            0
+          ],
+          [
+            39.3068724,
+            23.4060963,
+            0
+          ],
+          [
+            39.3060528,
+            23.4069867,
+            0
+          ],
+          [
+            39.3055979,
+            23.4079214,
+            0
+          ],
+          [
+            39.3054919,
+            23.4087732,
+            0
+          ],
+          [
+            39.3053108,
+            23.4102453,
+            0
+          ],
+          [
+            39.3048293,
+            23.4112152,
+            0
+          ],
+          [
+            39.3044437,
+            23.4114393,
+            0
+          ],
+          [
+            39.3042158,
+            23.4115372,
+            0
+          ],
+          [
+            39.3038914,
+            23.4115957,
+            0
+          ],
+          [
+            39.3030842,
+            23.4119988,
+            0
+          ],
+          [
+            39.3023802,
+            23.4135885,
+            0
+          ],
+          [
+            39.3021462,
+            23.4151858,
+            0
+          ],
+          [
+            39.301482,
+            23.4164816,
+            0
+          ],
+          [
+            39.3003238,
+            23.4172279,
+            0
+          ],
+          [
+            39.3003488,
+            23.4179321,
+            0
+          ],
+          [
+            39.300567,
+            23.418203,
+            0
+          ],
+          [
+            39.3004291,
+            23.4231514,
+            0
+          ],
+          [
+            39.2995339,
+            23.4249464,
+            0
+          ],
+          [
+            39.2987108,
+            23.4256372,
+            0
+          ],
+          [
+            39.2976233,
+            23.428611,
+            0
+          ],
+          [
+            39.2969937,
+            23.4309643,
+            0
+          ],
+          [
+            39.296686,
+            23.432589,
+            0
+          ],
+          [
+            39.2958492,
+            23.4365363,
+            0
+          ],
+          [
+            39.2941004,
+            23.4401637,
+            0
+          ],
+          [
+            39.2926935,
+            23.4421513,
+            0
+          ],
+          [
+            39.2910291,
+            23.4468557,
+            0
+          ],
+          [
+            39.2903301,
+            23.4493159,
+            0
+          ],
+          [
+            39.2898948,
+            23.4529082,
+            0
+          ],
+          [
+            39.288644,
+            23.458036,
+            0
+          ],
+          [
+            39.2815211,
+            23.4881054,
+            0
+          ],
+          [
+            39.2805763,
+            23.528757,
+            0
+          ],
+          [
+            39.2822712,
+            23.53823,
+            0
+          ],
+          [
+            39.2867128,
+            23.5483324,
+            0
+          ],
+          [
+            39.2921845,
+            23.5574117,
+            0
+          ],
+          [
+            39.2935896,
+            23.5620668,
+            0
+          ],
+          [
+            39.2967813,
+            23.5691154,
+            0
+          ],
+          [
+            39.2968323,
+            23.5764158,
+            0
+          ],
+          [
+            39.2959995,
+            23.5825048,
+            0
+          ],
+          [
+            39.293609,
+            23.5937298,
+            0
+          ],
+          [
+            39.2906972,
+            23.6025674,
+            0
+          ],
+          [
+            39.290314,
+            23.6077326,
+            0
+          ],
+          [
+            39.2901229,
+            23.6204191,
+            0
+          ],
+          [
+            39.2899417,
+            23.6238535,
+            0
+          ],
+          [
+            39.2865036,
+            23.6295027,
+            0
+          ],
+          [
+            39.2851277,
+            23.6330352,
+            0
+          ],
+          [
+            39.2859846,
+            23.6432149,
+            0
+          ],
+          [
+            39.2854262,
+            23.663713,
+            0
+          ],
+          [
+            39.2868635,
+            23.6673586,
+            0
+          ],
+          [
+            39.2918737,
+            23.6751936,
+            0
+          ],
+          [
+            39.2920612,
+            23.67864,
+            0
+          ],
+          [
+            39.2924124,
+            23.6809135,
+            0
+          ],
+          [
+            39.2919873,
+            23.6835437,
+            0
+          ],
+          [
+            39.2910025,
+            23.6861166,
+            0
+          ],
+          [
+            39.2880847,
+            23.6962687,
+            0
+          ],
+          [
+            39.2856814,
+            23.7075211,
+            0
+          ],
+          [
+            39.278642,
+            23.723267,
+            0
+          ],
+          [
+            39.2767502,
+            23.7338565,
+            0
+          ],
+          [
+            39.2757592,
+            23.7372174,
+            0
+          ],
+          [
+            39.274339,
+            23.740264,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Hijrah to Madinah - Day 4 - Thursday",
+        "year": 622,
+        "stroke": "#8b4513",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            39.274339,
+            23.740264,
+            0
+          ],
+          [
+            39.2713408,
+            23.7407965,
+            0
+          ],
+          [
+            39.2669478,
+            23.7411129,
+            0
+          ],
+          [
+            39.2629839,
+            23.7418023,
+            0
+          ],
+          [
+            39.2598568,
+            23.7423149,
+            0
+          ],
+          [
+            39.2560274,
+            23.7426133,
+            0
+          ],
+          [
+            39.2527988,
+            23.7433437,
+            0
+          ],
+          [
+            39.2455912,
+            23.7501932,
+            0
+          ],
+          [
+            39.2446511,
+            23.7522647,
+            0
+          ],
+          [
+            39.243829,
+            23.7530596,
+            0
+          ],
+          [
+            39.2433072,
+            23.753383,
+            0
+          ],
+          [
+            39.2427574,
+            23.7530381,
+            0
+          ],
+          [
+            39.2424221,
+            23.7526539,
+            0
+          ],
+          [
+            39.2411021,
+            23.7528256,
+            0
+          ],
+          [
+            39.240576,
+            23.753508,
+            0
+          ],
+          [
+            39.2406722,
+            23.7543082,
+            0
+          ],
+          [
+            39.2412929,
+            23.7554666,
+            0
+          ],
+          [
+            39.2434347,
+            23.7624975,
+            0
+          ],
+          [
+            39.2436322,
+            23.766247,
+            0
+          ],
+          [
+            39.2433018,
+            23.7686716,
+            0
+          ],
+          [
+            39.2417697,
+            23.7707035,
+            0
+          ],
+          [
+            39.2386241,
+            23.7726064,
+            0
+          ],
+          [
+            39.2351351,
+            23.7764729,
+            0
+          ],
+          [
+            39.2297578,
+            23.7777081,
+            0
+          ],
+          [
+            39.2254962,
+            23.7791787,
+            0
+          ],
+          [
+            39.2210272,
+            23.7835855,
+            0
+          ],
+          [
+            39.219047,
+            23.7919194,
+            0
+          ],
+          [
+            39.2144056,
+            23.799507,
+            0
+          ],
+          [
+            39.2120846,
+            23.8060885,
+            0
+          ],
+          [
+            39.2078751,
+            23.8107853,
+            0
+          ],
+          [
+            39.2007988,
+            23.8171296,
+            0
+          ],
+          [
+            39.1926918,
+            23.8223743,
+            0
+          ],
+          [
+            39.196216,
+            23.8284241,
+            0
+          ],
+          [
+            39.2026152,
+            23.8356479,
+            0
+          ],
+          [
+            39.2258592,
+            23.841297,
+            0
+          ],
+          [
+            39.24332,
+            23.8431771,
+            0
+          ],
+          [
+            39.2565148,
+            23.8422316,
+            0
+          ],
+          [
+            39.2720393,
+            23.8470963,
+            0
+          ],
+          [
+            39.2804892,
+            23.8539243,
+            0
+          ],
+          [
+            39.2793076,
+            23.8595364,
+            0
+          ],
+          [
+            39.2745125,
+            23.8794508,
+            0
+          ],
+          [
+            39.271289,
+            23.8917335,
+            0
+          ],
+          [
+            39.2643558,
+            23.9027405,
+            0
+          ],
+          [
+            39.2608895,
+            23.909186,
+            0
+          ],
+          [
+            39.2653363,
+            23.9153905,
+            0
+          ],
+          [
+            39.2689334,
+            23.9170018,
+            0
+          ],
+          [
+            39.2716333,
+            23.9175719,
+            0
+          ],
+          [
+            39.2764594,
+            23.9176215,
+            0
+          ],
+          [
+            39.2841296,
+            23.9188623,
+            0
+          ],
+          [
+            39.286806,
+            23.9185018,
+            0
+          ],
+          [
+            39.289697,
+            23.918769,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Hijrah to Madinah - Day 5 - Friday",
+        "year": 622,
+        "stroke": "#8b4513",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            39.289697,
+            23.918769,
+            0
+          ],
+          [
+            39.2907526,
+            23.9187062,
+            0
+          ],
+          [
+            39.2923125,
+            23.9185453,
+            0
+          ],
+          [
+            39.2938166,
+            23.918602,
+            0
+          ],
+          [
+            39.2954055,
+            23.9185323,
+            0
+          ],
+          [
+            39.2975518,
+            23.9181297,
+            0
+          ],
+          [
+            39.3000414,
+            23.9176092,
+            0
+          ],
+          [
+            39.3018582,
+            23.9175097,
+            0
+          ],
+          [
+            39.3041185,
+            23.9170873,
+            0
+          ],
+          [
+            39.307727,
+            23.916572,
+            0
+          ],
+          [
+            39.3112925,
+            23.9160272,
+            0
+          ],
+          [
+            39.3143465,
+            23.9158569,
+            0
+          ],
+          [
+            39.3209625,
+            23.9156276,
+            0
+          ],
+          [
+            39.330797,
+            23.915128,
+            0
+          ],
+          [
+            39.3413736,
+            23.9143187,
+            0
+          ],
+          [
+            39.3500897,
+            23.9133251,
+            0
+          ],
+          [
+            39.360136,
+            23.911919,
+            0
+          ],
+          [
+            39.3621753,
+            23.9117052,
+            0
+          ],
+          [
+            39.3722829,
+            23.9203575,
+            0
+          ],
+          [
+            39.3727892,
+            23.9237615,
+            0
+          ],
+          [
+            39.3734671,
+            23.9246549,
+            0
+          ],
+          [
+            39.3752655,
+            23.9243565,
+            0
+          ],
+          [
+            39.3768942,
+            23.9233051,
+            0
+          ],
+          [
+            39.3794682,
+            23.9240347,
+            0
+          ],
+          [
+            39.3815705,
+            23.9254978,
+            0
+          ],
+          [
+            39.3834584,
+            23.9271963,
+            0
+          ],
+          [
+            39.3875335,
+            23.9305968,
+            0
+          ],
+          [
+            39.3885414,
+            23.9322578,
+            0
+          ],
+          [
+            39.3899466,
+            23.935834,
+            0
+          ],
+          [
+            39.3941254,
+            23.9400148,
+            0
+          ],
+          [
+            39.3959146,
+            23.9413599,
+            0
+          ],
+          [
+            39.3987833,
+            23.9416402,
+            0
+          ],
+          [
+            39.4014804,
+            23.9428227,
+            0
+          ],
+          [
+            39.4036929,
+            23.9450662,
+            0
+          ],
+          [
+            39.4053191,
+            23.9472743,
+            0
+          ],
+          [
+            39.4074196,
+            23.9549673,
+            0
+          ],
+          [
+            39.4075462,
+            23.9572481,
+            0
+          ],
+          [
+            39.4084439,
+            23.9606727,
+            0
+          ],
+          [
+            39.4154162,
+            23.961444,
+            0
+          ],
+          [
+            39.4195895,
+            23.9666922,
+            0
+          ],
+          [
+            39.4238224,
+            23.9759043,
+            0
+          ],
+          [
+            39.4269264,
+            23.9816867,
+            0
+          ],
+          [
+            39.4410179,
+            23.995311,
+            0
+          ],
+          [
+            39.4515696,
+            24.0064124,
+            0
+          ],
+          [
+            39.4587369,
+            24.0119623,
+            0
+          ],
+          [
+            39.476055,
+            24.0181864,
+            0
+          ],
+          [
+            39.5025691,
+            24.0368184,
+            0
+          ],
+          [
+            39.539392,
+            24.055444,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Hijrah to Madinah - Day 6 - Saturday",
+        "year": 622,
+        "stroke": "#8b4513",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            39.539392,
+            24.055444,
+            0
+          ],
+          [
+            39.5517517,
+            24.0571648,
+            0
+          ],
+          [
+            39.5562177,
+            24.0619441,
+            0
+          ],
+          [
+            39.566863,
+            24.0622972,
+            0
+          ],
+          [
+            39.5709863,
+            24.0698407,
+            0
+          ],
+          [
+            39.5618905,
+            24.0856034,
+            0
+          ],
+          [
+            39.5603445,
+            24.1060225,
+            0
+          ],
+          [
+            39.5606008,
+            24.1191323,
+            0
+          ],
+          [
+            39.5582396,
+            24.1304664,
+            0
+          ],
+          [
+            39.554827,
+            24.1453763,
+            0
+          ],
+          [
+            39.5514036,
+            24.1559642,
+            0
+          ],
+          [
+            39.549353,
+            24.170781,
+            0
+          ],
+          [
+            39.5500568,
+            24.1726302,
+            0
+          ],
+          [
+            39.5498036,
+            24.1748449,
+            0
+          ],
+          [
+            39.5500632,
+            24.1811593,
+            0
+          ],
+          [
+            39.549679,
+            24.1840284,
+            0
+          ],
+          [
+            39.5492756,
+            24.1869678,
+            0
+          ],
+          [
+            39.5484301,
+            24.1897687,
+            0
+          ],
+          [
+            39.5495094,
+            24.1934399,
+            0
+          ],
+          [
+            39.550564,
+            24.1973112,
+            0
+          ],
+          [
+            39.5524647,
+            24.2023786,
+            0
+          ],
+          [
+            39.5515268,
+            24.2067914,
+            0
+          ],
+          [
+            39.5508861,
+            24.2100939,
+            0
+          ],
+          [
+            39.551424,
+            24.2142503,
+            0
+          ],
+          [
+            39.5477447,
+            24.2200858,
+            0
+          ],
+          [
+            39.5470636,
+            24.2223383,
+            0
+          ],
+          [
+            39.5471951,
+            24.2248735,
+            0
+          ],
+          [
+            39.5470034,
+            24.226689,
+            0
+          ],
+          [
+            39.5455342,
+            24.2293579,
+            0
+          ],
+          [
+            39.546125,
+            24.231244,
+            0
+          ],
+          [
+            39.5477725,
+            24.2427938,
+            0
+          ],
+          [
+            39.5467086,
+            24.2462223,
+            0
+          ],
+          [
+            39.5439449,
+            24.2515369,
+            0
+          ],
+          [
+            39.5473694,
+            24.2624895,
+            0
+          ],
+          [
+            39.5520005,
+            24.2728179,
+            0
+          ],
+          [
+            39.55466,
+            24.2831464,
+            0
+          ],
+          [
+            39.5565051,
+            24.2970729,
+            0
+          ],
+          [
+            39.5563978,
+            24.3026283,
+            0
+          ],
+          [
+            39.5546276,
+            24.3074398,
+            0
+          ],
+          [
+            39.5568324,
+            24.3126616,
+            0
+          ],
+          [
+            39.558694,
+            24.316006,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Hijrah to Madinah - Day 7-8: Sun-Mon",
+        "year": 622,
+        "stroke": "#8b4513",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            39.558694,
+            24.316006,
+            0
+          ],
+          [
+            39.582947,
+            24.354608,
+            0
+          ],
+          [
+            39.5868848,
+            24.3592527,
+            0
+          ],
+          [
+            39.5894496,
+            24.3629199,
+            0
+          ],
+          [
+            39.5929641,
+            24.3649688,
+            0
+          ],
+          [
+            39.5961805,
+            24.3679869,
+            0
+          ],
+          [
+            39.597423,
+            24.3712787,
+            0
+          ],
+          [
+            39.5957459,
+            24.3890421,
+            0
+          ],
+          [
+            39.5964524,
+            24.405272,
+            0
+          ],
+          [
+            39.5996385,
+            24.4166698,
+            0
+          ],
+          [
+            39.6013605,
+            24.4229158,
+            0
+          ],
+          [
+            39.605572,
+            24.430881,
+            0
+          ],
+          [
+            39.6109353,
+            24.4330908,
+            0
+          ],
+          [
+            39.6123934,
+            24.4339721,
+            0
+          ],
+          [
+            39.6140559,
+            24.4347253,
+            0
+          ],
+          [
+            39.6149193,
+            24.4352435,
+            0
+          ],
+          [
+            39.615418,
+            24.4356739,
+            0
+          ],
+          [
+            39.6156161,
+            24.4358068,
+            0
+          ],
+          [
+            39.6160906,
+            24.4368256,
+            0
+          ],
+          [
+            39.6164513,
+            24.4373888,
+            0
+          ],
+          [
+            39.6165189,
+            24.4376899,
+            0
+          ],
+          [
+            39.617284,
+            24.439251,
+            0
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Hijrah to Madinah - Day 9 - Tuesday",
+        "year": 622,
+        "stroke": "#8b4513",
+        "stroke-opacity": 1,
+        "stroke-width": 4
+      }
+    }
+  ]
+}

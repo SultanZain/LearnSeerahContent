@@ -3,7 +3,7 @@
   "tagline": "Heritage of Knowledge",
   "navigation": {
     "home": "Home",
-    "contentBrowser": "Seerah",
+    "chapters": "Chapters",
     "quizEngine": "Quiz Engine",
     "glossary": "Glossary",
     "references": "References",
@@ -11,9 +11,10 @@
     "settings": "Settings",
     "search": "Search",
     "timeline": "Timeline",
-    "timelineV2": "Timeline v2",
+    "chronicle": "Chronicle",
     "maps": "Maps",
-    "newFeatureBadge": "New"
+    "newFeatureBadge": "New",
+    "whatsNew": "What's New"
   },
   "header": {
     "searchPlaceholder": "Search LearnSeerah...",
@@ -23,6 +24,7 @@
     "title": "Settings",
     "description": "Manage your application preferences.",
     "theme": "Theme",
+    "preferredThemeDescription": "Personalize your reading experience.",
     "themeTitle": "Select a Theme",
     "themeDescription": "Your experience will be updated to the new Theme.",
     "light": "Light",
@@ -33,8 +35,10 @@
     "amber": "Amber",
     "fontSize": "Font Size",
     "language": "Language",
+    "preferredLanguageDescription": "Choose your preferred language for the application.",
     "languageTitle": "Select a Language",
     "languageDescription": "Your experience will be updated to the new language.",
+    "searchLanguages": "Search languages...",
     "cachingTitle": "Data & Performance",
     "cachingDescription": "Choose how the app fetches data to balance speed and freshness.",
     "performanceModeLabel": "Performance Mode",
@@ -56,6 +60,12 @@
     "reminders": {
       "title": "Notification Reminders",
       "description": "Set daily or weekly reminders to continue your studies.",
+      "ctaTitle": "Get Better Experience in the App",
+      "ctaDescription": "Our desktop and mobile apps offer offline access, reminders, and a better experience. Download now!",
+      "ctaDownloadButton": "Download for {os}",
+      "unsupportedPlatform": "Your platform is not currently supported for direct download. Please check our releases page.",
+      "otherPlatformsLink": "See all platforms",
+      "neverAgain": "Never show this again",
       "permissionDeniedTitle": "Permission Denied",
       "permissionDeniedDesc": "You need to grant notification permissions in your system settings to enable reminders.",
       "addReminderButton": "Add Reminder",
@@ -76,7 +86,17 @@
       "saveButton": "Save Reminder",
       "addErrorTitle": "Could not add reminder",
       "addErrorDescDays": "Please select at least one day for the reminder.",
-      "addErrorDescLimit": "You have reached the maximum of 5 reminders."
+      "addErrorDescLimit": "You have reached the maximum of 5 reminders.",
+      "timeErrorTitle": "Invalid Time",
+      "timeErrorDesc": "Please enter a valid time.",
+      "daysErrorTitle": "Invalid Days",
+      "daysErrorDesc": "Please select at least one day.",
+      "successAddTitle": "Success",
+      "successAddDesc": "Reminder added successfully!",
+      "successDeleteTitle": "Success",
+      "successDeleteDesc": "Reminder deleted successfully!",
+      "errorTitle": "Error",
+      "errorDesc": "Failed to add reminder. Please try again."
     },
     "notifications": {
       "titles": {
@@ -116,44 +136,42 @@
         "night": "night"
       }
     },
-    "update":{
+    "update": {
       "title": "NEW UPDATE IS AVAILABLE",
       "description": "A new version is available with improvements and bug fixes.",
       "updateButton": "Update Now"
-    }
+    },
+    "aboutAndSupport": "About & Support",
+    "support": "Support",
+    "privacyPolicy": "Privacy Policy",
+    "privacyPolicyDescription": "Learn about how we handle your data and our commitment to your privacy."
   },
   "homePage": {
     "welcome": "Welcome to LearnSeerah",
-    "explore": "Explore the life and legacy of Prophet Muhammad ﷺ with LearnSeerah — your gateway to authentic Seerah content, timelines, maps, and more.",
-    "quickLinks": "Quick Links",
+    "explore": "Explore the life and legacy of Prophet Muhammad ﷺ with LearnSeerah — your gateway to authentic Seerah content, interactive timelines, historical maps, and more.",
     "beginJourney": "Begin Journey",
     "learnMore": "Learn More",
     "aboutUs": "About Us",
     "exploreHeritage": "Explore Rich Heritage",
-    "seerahDescription": "Discover the comprehensive biography and historical accounts of the life of Prophet Muhammad (PBUH).",
+    "chaptersDescription": "Discover the comprehensive chapters and historical accounts of the life of Prophet Muhammad (PBUH).",
     "timelineDescription": "Navigate through the key events and developments in the timeline of Prophet Muhammad's (PBUH) life.",
     "glossaryDescription": "Reference comprehensive definitions of important terms related to the Seerah of Prophet Muhammad (PBUH).",
     "referencesDescription": "Access scholarly sources and bibliographical information supporting our content on the life of Prophet Muhammad (PBUH).",
-    "timelineV2Description": "Enhanced interactive timeline with advanced features and better visualization.",
+    "chronicleDescription": "Enhanced interactive timeline with advanced features and better visualization.",
     "bookmarksDescription": "Save and organize your favorite content for easy access during your study.",
     "exploreEvents": "Explore Events",
     "viewTerms": "View Terms",
     "browseSources": "Browse Sources",
     "viewMap": "Explore Maps",
-    "viewTimelineV2": "Try New Timeline",
+    "viewChronicle": "Try Chronicle",
     "viewBookmarks": "View Bookmarks",
-    "quote": "The best among you are those who have the best manners and character.",
-    "quoteSource": "Prophet Muhammad (PBUH) - Sahih al-Bukhari"
+    "copyright": "© {year} LearnSeerah. All rights reserved."
   },
-  "contentBrowserPage": {
-    "title": "Seerah Collection",
-    "explore": "Browse detailed chapters and events from the Seerah of Prophet Muhammad ﷺ. A trusted digital resource for seekers of authentic knowledge.",
-    "timelinePlaceholder": "Timeline Visualization (Coming Soon)",
-    "mapsPlaceholder": "Interactive Maps (Coming Soon)"
-  },
-  "contentPage": {
-    "errorTitle": "Seerah article not found",
-"errorDecription": "Please ensure you're connected to the internet. If the problem continues, contact our support to report this issue.",
+  "chaptersPage": {
+    "title": "Chapters",
+    "explore": "Browse detailed chapters and events from the Seerah of Prophet Muhammad ﷺ. Discover a trusted digital resource for seekers of authentic knowledge and history.",
+    "errorTitle": "Chapter not found",
+    "errorDescription": "Please ensure you're connected to the internet. If the problem continues, contact our support to report this issue.",
     "by": "By",
     "author": "Author",
     "bookmark": "Bookmark",
@@ -162,7 +180,18 @@
     "readMore": "Read More",
     "linkCopied": "Link copied to clipboard!",
     "linkCopyFailed": "Failed to copy link.",
-    "shareLabel": "Share this content"
+    "shareLabel": "Share this content",
+    "chapterContext": "Chapter Context",
+    "associatedLocations": "Associated Locations",
+    "timelineConnections": "Timeline Connections",
+    "exploreJourney": "Explore Journey",
+    "viewOnMap": "View on Map",
+    "timelineJourney": "Timeline Journey",
+    "interactiveMap": "Interactive Map",
+    "journeyChoiceTitle": "How would you like to explore?",
+    "journeyChoiceDesc": "Follow the journey through either time or space.",
+    "timelineJourneyDesc": "See the chronological context and details.",
+    "interactiveMapDesc": "Focus geographic context on this location."
   },
   "quizEnginePage": {
     "title": "Quizzes",
@@ -178,7 +207,7 @@
     "knowledgeBaseDescription": "Select the specific content areas you want to include in your quiz. Mix and match for a diverse challenge!",
     "configureQuizTitle": "Configure Your Quiz",
     "configureQuizDescription": "Set the number of questions and choose the types of questions you'd like the AI to generate.",
-    "seerahTopics": "Seerah Topics",
+    "chapters": "Seerah Topics",
     "glossaryTerms": "Glossary Terms",
     "timelineEvents": "Timeline Events",
     "addTopicsButton": "Add Topics",
@@ -235,13 +264,13 @@
   },
   "referencesPage": {
     "title": "References",
-    "description": "Access authentic scholarly references and sources behind the Seerah content of Prophet Muhammad ﷺ. Verified, cited, and reliable.",
+    "description": "Access authentic scholarly references and sources behind the Seerah content of Prophet Muhammad ﷺ. Explore verified, cited, and reliable historical sources.",
     "errorTitle": "Reference not found",
     "errorDescription": "Please ensure you're connected to the internet. If the problem continues, contact our support to report this issue."
   },
   "bookmarksPage": {
     "title": "Bookmarks",
-    "description": "Quickly revisit your saved Seerah articles, terms, maps, and quizzes. Your personalized learning space on LearnSeerah.",
+    "description": "Quickly revisit your saved Seerah articles, terms, maps, and quizzes. Your personalized learning space on LearnSeerah for easy access during your study.",
     "noBookmarks": "You have no bookmarked items yet.",
     "bookmarkedOn": "Bookmarked on:",
     "type": "Type:",
@@ -256,8 +285,10 @@
     "noResultsFound": "No results found.",
     "pleaseEnterQuery": "Please enter a search term to find content.",
     "searchButton": "Search",
+    "searchStartTyping": "Start typing to search...",
+    "loadingInitialData": "Loading initial data...",
     "typeLabels": {
-      "seerah": "Seerah Content",
+      "chapters": "Seerah Content",
       "quiz": "Quizzes",
       "glossary": "Glossary Terms",
       "references": "References"
@@ -267,7 +298,7 @@
     "title": "Prophet's Life Timeline",
     "description": "Visualize the life of Prophet Muhammad ﷺ through a chronological timeline of key events, from birth to the final sermon and beyond.",
     "GeorgianNotation": "CE",
-    "loadingEvents": "Commen Era`s events are loading...",
+    "loadingTimeline": "Loading Timeline...",
     "loadMoreEvents": "Load More Events",
     "nextTimelineYear": "Next Timeline Year",
     "endOfTimeline": "You've reached the end of the timeline.",
@@ -304,7 +335,8 @@
     "noContributorsText": "Be the first to join this blessed project and leave a lasting legacy.",
     "duaTitle": "Request for Dua",
     "duaText": "We humbly request your duas for everyone involved in the creation and maintenance of this project, and for all those who benefit from it. May Allah ﷻ bless you with beneficial knowledge, grant you understanding of the beautiful Seerah of our beloved Prophet Muhammad ﷺ, and allow us all to follow his example in our daily lives. May this humble resource be a means of guidance and enlightenment for all who seek it. May Allah accept this work, forgive our shortcomings, and make it a means of spreading the beautiful seerah of our beloved Prophet Muhammad ﷺ.",
-    "onboardingDua": "We humbly request your duas for everyone involved in the creation and maintenance of this project, and for all those who benefit from it."
+    "onboardingTitle": "All Set!",
+    "onboardingMessage": "May this humble resource be a means of guidance and enlightenment for all who seek it."
   },
   "editContentModal": {
     "title": "Edit Content",
@@ -316,25 +348,25 @@
   },
   "mapsPage": {
     "title": "Interactive Seerah Map",
-    "description": "Discover the key locations and regions from the Seerah of Prophet Muhammad ﷺ using interactive maps and historical context.",
+    "description": "Discover the key locations and regions from the Seerah of Prophet Muhammad ﷺ using interactive maps, historical context, and detailed geographical insights.",
     "readMore": "Read More Details",
+    "openMap": "Open Map",
     "ceNotation": "CE",
     "loadingDetails": "Loading details...",
     "errorLoadingDetails": "Error loading details:",
-    "eventsAtLocation": "Learn more about Events at {locationName} till {year} CE",
-    "noEventsForLocation": "No specific events listed for this location.",
+    "eventsAtLocation": "View Events here till {year} CE",
+    "noEventsForLocation": "No events listed for this location.",
     "legendsModalTitle": "Map Legends",
     "legendsModalDescription": "Understanding the symbols and colors on the map.",
     "legendDefaultArea": "Area",
     "legendDefaultMarker": "Location",
     "legendAreasTitle": "Highlighted Areas",
-    "legendMarkersTitle": "Location Markers",
-    "noLegendsToShow": "No legend items to display.",
-    "noAreaLegends": "No area legend items to display.",
-    "noMarkerLegends": "No marker legend items to display.",
-    "closeButtonLabel": "Close",
-    "legendsButtonLabel": "Map Legends",
-    "timelineSliderAriaLabel": "Selected Year",
+    "markerLegendMarker": "Target Location Indicator",
+    "searchPlaceholder": "Search by name, title or ID...",
+    "searchStartTyping": "Start typing to find locations...",
+    "futureEra": "Later Era",
+    "searchNoResults": "No locations found matching your search.",
+    "searchResultsFound": "Locations matching search",
     "listingTitle": "Interactive Maps",
     "listingDescription": "Explore the Seerah through different interactive map formats.",
     "interactiveMapTitle": "Interactive Seerah Map",
@@ -342,6 +374,64 @@
     "highlightsMapTitle": "Seerah Highlights Map",
     "highlightsMapDescription": "Explore key events from the life of Prophet Muhammad ﷺ in this interactive Seerah Highlights map. See where and when major moments happened — with quick facts, dates, and places.",
     "eventsMapTitle": "Seerah Events Map",
-    "eventsMapDescription": "Dive into the full story of the Seerah with our detailed Events Map. Read in-depth narratives of each key event in the life of Prophet Muhammad ﷺ, shown across time and place."
+    "eventsMapDescription": "Dive into the full story of the Seerah with our detailed Events Map. Read in-depth narratives of each key event in the life of Prophet Muhammad ﷺ, shown across time and place.",
+    "mapTour": {
+      "welcomeTitle": "Welcome to the Interactive Seerah Map",
+      "welcomeDescription": "Embark on a visual journey through the blessed life of Prophet Muhammad ﷺ. This guide will help you navigate the historical landscapes and landmark events.",
+      "startButton": "Start Guided Tour",
+      "skipButton": "Explore on my own",
+      "nextButton": "Next",
+      "previousButton": "Previous",
+      "stepSearchTitle": "Find Locations",
+      "stepSearchDescription": "Use the search tool to find specific cities, regions, or historical landmarks mentioned in the Seerah.",
+      "stepLayersTitle": "Change Perspectives",
+      "stepLayersDescription": "Switch between historical watercolor textures, satellite views, or topographic maps to see the terrain as it was or as it is today.",
+      "stepTimelineTitle": "Travel Through Time",
+      "stepTimelineDescription": "Drag the slider to see how the landscape of the Seerah evolved year by year, unfolding the history chronologically.",
+      "stepSidebarTitle": "Explore Details",
+      "stepSidebarDescription": "Click on any marker or highlighted region to open a detailed sidebar with stories, events, and historical context for that location.",
+      "finishButton": "Start Exploring"
+    },
+    "aboutMap": "Map Information",
+    "dataSources": "Data Sources",
+    "dataSourceDescription": "This interactive map uses a combination of historical records and modern geographical data to visualize the Seerah of Prophet Muhammad (ﷺ).",
+    "attributions": "Attributions",
+    "projectInfo": "Project Info",
+    "projectCredits": "Developed as part of the LearnSeerah Platform."
+  },
+  "hadithReflection": {
+    "title": "Hadith Reflection",
+    "randomMode": "Random Wisdom",
+    "randomModeDesc": "Fresh on every load",
+    "dailyMode": "Daily Reflection",
+    "dailyModeDesc": "One Hadith per day",
+    "export": "Export",
+    "customizeExport": "Customize Export",
+    "backgroundStyle": "Background Style",
+    "dimensions": "Dimensions",
+    "fontScaling": "Font Scaling",
+    "generateImage": "Save as Image",
+    "generating": "Generating...",
+    "saving": "Saving...",
+    "sharing": "Sharing...",
+    "done": "Done!",
+    "reflecting": "Reflecting...",
+    "displayMode": "Reflection Settings",
+    "learnSeerah": "LearnSeerah.com",
+    "templates": {
+      "minimal": "Minimal",
+      "geometric": "Geometric",
+      "royal": "Royal",
+      "emerald": "Emerald",
+      "heritage": "Heritage",
+      "night": "Night"
+    },
+    "formats": {
+      "square": "Square (1:1)",
+      "portrait": "Story (9:16)",
+      "landscape": "Post (16:9)"
+    },
+    "copy": "Copy",
+    "copied": "Copied!"
   }
 }
