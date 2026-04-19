@@ -127,83 +127,81 @@
             "eventId": 1
           },
           {
-            "title": "The Islam of At-Tufail ibn Amr Ad-Dausi (may Allah be pleased with him)",
-            "location": "Mecca",
-            "date": "6 BH / 616 CE",
+            "title": "আত-তুফাইল ইবনে আমর আদ-দাউসী (রা.)-এর ইসলাম গ্রহণ",
+            "location": "মক্কা",
+            "date": "৬ হিজরি পূর্ব / ৬১৬ খ্রিস্টাব্দ",
             "age": "47",
             "year": 616,
             "eventId": 2
           },
           {
-            "title": "The Siege of Quraysh on the Muslims in Shi'b Abi Talib",
-            "location": "Shi'b Abi Talib, Mecca",
-            "date": "Muharram 6 BH / 616 CE",
-            "image": "https://www.islamiclandmarks.com/wp-content/uploads/2014/04/Location-of-the-Valley-of-Abu-Talib-in-Makkah-740x456.jpg",
+            "title": "শিয়াবে আবি তালিবে মুসলিমদের ওপর কুরাইশদের অবরোধ",
+            "location": "শিয়াবে আবি তালিব, মক্কা",
+            "date": "মুহাররাম ৬ হিজরি পূর্ব / ৬১৬ খ্রিস্টাব্দ",
             "age": "47",
             "year": 616,
             "eventId": 3
           },
           {
-            "title": "Quraysh Annuls the Document of Boycott",
-            "location": "Shi'b Abi Talib, Mecca",
-            "date": "Muharram 3 BH / 619 CE",
-            "image": "https://www.islamiclandmarks.com/wp-content/uploads/2014/04/Location-of-the-Valley-of-Abu-Talib-in-Makkah-740x456.jpg",
+            "title": "কুরাইশ কর্তৃক বয়কটের চুক্তিপত্র বাতিল",
+            "location": "শিয়াবে আবি তালিব, মক্কা",
+            "date": "মুহাররাম ৩ হিজরি পূর্ব / ৬১৯ খ্রিস্টাব্দ",
             "age": "49",
             "year": 619,
             "eventId": 1
           },
           {
-            "title": "The Death of Umm al-Mu'minin Khadijah bint Khuwaylid (may Allah be pleased with her)",
-            "location": "Mecca",
-            "date": "Ramadan 3 BH / 620 CE",
+            "title": "উম্মুল মুমিনীন খাদিজা বিনতে খুওয়াইলিদ (রা.)-এর ওফাত",
+            "location": "মক্কা",
+            "date": "রমজান ৩ হিজরি পূর্ব / ৬২০ খ্রিস্টাব্দ",
             "age": "50",
             "year": 620,
             "eventId": 1
           },
           {
-            "title": "The Death of Abu Talib, the Prophet's ﷺ Uncle",
-            "location": "Mecca",
-            "date": "Shawwal 3 BH / 620 CE",
+            "title": "আবু তালিবের ওফাত, নবী ﷺ-এর চাচা",
+            "location": "মক্কা",
+            "date": "শাওয়াল ৩ হিজরি পূর্ব / 620 খ্রিস্টাব্দ",
             "age": "50",
             "year": 620,
             "eventId": 4
           },
           {
-            "title": "The Prophet's ﷺ Marriage to Sawdah bint Zam'ah (may Allah be pleased with her)",
-            "location": "Mecca",
-            "date": "Shawwal 3 BH / 620 CE",
+            "title": "রাসূলুল্লাহ ﷺ-এর সাথে সওদাহ বিনতে জামআ (রা.)-এর বিবাহ",
+            "location": "মক্কা",
+            "date": "শাওয়াল 3 হিজরি পূর্ব / 620 খ্রিস্টাব্দ",
             "age": "50",
             "year": 620,
             "eventId": 5
           },
           {
-            "title": "The Beginning of the Ansar's Entry into Islam",
-            "location": "Mecca",
-            "date": "Dhul-Hijjah 3 BH / 620 CE",
+            "title": "আনসারদের ইসলামে প্রবেশের সূচনা",
+            "location": "মক্কা",
+            "date": "জিলহজ 3 হিজরি পূর্ব / 620 খ্রিস্টাব্দ",
             "age": "50",
             "year": 620,
             "eventId": 6
           },
           {
-            "title": "The Prophet's ﷺ Marriage to Aisha bint Abu Bakr As-Siddiq (may Allah be pleased with them both)",
-            "location": "Mecca (Marriage Contract)",
-            "date": "Muharram 2 BH / 620 CE",
+            "title": "রাসূলুল্লাহ ﷺ-এর সাথে আয়েশা বিনতে আবু বকর আস-সিদ্দিক (রা.)-এর বিবাহ",
+            "location": "মক্কা (বিবাহের চুক্তি)",
+            "date": "মুহাররাম 2 হিজরি পূর্ব / 620 খ্রিস্টাব্দ",
             "age": "50",
             "year": 620,
             "eventId": 7
           },
           {
-            "title": "The Night Journey (Isra) and Ascension (Mi'raj) and the Obligation of the Five Prayers",
-            "location": "Mecca (beginning), Jerusalem, Sidrat al-Muntaha",
-            "date": "1 BH / 621 CE",
+            "title": "ইসরা ও মিরাজ (নিশিতাভিযান ও ঊর্ধ্বগমন) এবং পাঁচ ওয়াক্ত সালাত ফরজ হওয়া",
+            "location": "মক্কা (সূচনা), জেরুজালেম, সিদরাতুল মুনতাহা",
+            "date": "1 হিজরি পূর্ব / 621 খ্রিস্টাব্দ",
             "age": "51",
             "year": 621,
             "eventId": 2
           },
           {
-            "title": "The Migration of Abu Salama and Umm Salama (May Allah be pleased with them)",
-            "location": "Mecca, Medina, Al-Tan'im",
-            "date": "1 BH / Muharram / 621 CE",
+            "title": "আবু সালামাহ এবং উম্মে সালামাহ (রা.)-এর হিজরত",
+            "location": "মক্কা, মদিনা, আল-তানইম",
+            "date": "1 হিজরি পূর্ব / মুহাররাম / 621 খ্রিস্টাব্দ",
             "age": "52",
             "year": 621,
             "eventId": 3
@@ -381,9 +379,9 @@
         "year": 620,
         "events": [
           {
-            "title": "The Prophet's ﷺ Journey to Ta'if",
-            "location": "Ta'if, Mecca",
-            "date": "Shawwal 3 BH / 620 CE",
+            "title": "রাসূলুল্লাহ ﷺ-এর তায়েফ সফর",
+            "location": "তায়েফ, মক্কা",
+            "date": "শাওয়াল ৩ হিজরি পূর্ব / ৬২০ খ্রিস্টাব্দ",
             "age": "50",
             "year": 620,
             "eventId": 2
@@ -409,9 +407,9 @@
         "year": 620,
         "events": [
           {
-            "title": "The Islam of the Jinn and Their Arrival to the Prophet ﷺ",
-            "location": "Nakhlah, Mecca",
-            "date": "Shawwal 3 BH / 620 CE",
+            "title": "জিনদের ইসলাম গ্রহণ এবং নবী ﷺ এর কাছে তাদের আগমন",
+            "location": "নাখলা, মক্কা",
+            "date": "শাওয়াল ৩ হিজরি-পূর্ব / ৬২০ খ্রিস্টাব্দ",
             "age": "50",
             "year": 620,
             "eventId": 3
@@ -437,11 +435,11 @@
         "year": 621,
         "events": [
           {
-            "title": "The First Pledge of Aqabah",
-            "location": "Aqabah, Mecca",
+            "title": "প্রথম আকাবার বায়াত",
+            "location": "আকাবা, মক্কা",
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/%D9%85%D8%B3%D8%AC%D8%AF_%D8%A7%D9%84%D8%A8%D9%8A%D8%B9%D8%A9.jpeg/960px-%D9%85%D8%B3%D8%AC%D8%AF_%D8%A7%D9%84%D8%A8%D9%8A%D8%B9%D8%A9.jpeg",
             "mediaCaption": "Bay'ah Mosque, also known as Aqabah Mosque built at the site of al-Bay'ah, i.e. the place where the Islamic prophet Muhammad met with the Ansar (the supporters), and they took the pledge ('bay'ah', hence the name) of 'Aqaba.",
-            "date": "Dhul-Hijjah 2 BH / 621 CE",
+            "date": "জিলহজ 2 হিজরি পূর্ব / 621 খ্রিস্টাব্দ",
             "age": "52",
             "year": 621,
             "eventId": 1
@@ -477,9 +475,9 @@
         "year": 621,
         "events": [
           {
-            "title": "The Spread of Islam in Madinah After the First Pledge of Aqabah",
-            "location": "Madinah",
-            "date": "1 BH / Muharram / 621 CE",
+            "title": "প্রথম আকাবার বায়াতের পর ইয়াথরিবে ইসলামের প্রসার",
+            "location": "ইয়াথরিব (মদিনা)",
+            "date": "1 হিজরি পূর্ব / মুহাররাম / 621 খ্রিস্টাব্দ",
             "age": "52",
             "year": 621,
             "eventId": 4
