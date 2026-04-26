@@ -207,25 +207,25 @@
             "eventId": 3
           },
           {
-            "title": "The Miracle of the Splitting of the Moon",
-            "location": "Mecca",
-            "date": "0 AH / 622 CE",
+            "title": "চাঁদ দ্বিখণ্ডিত হওয়ার মুজিজা",
+            "location": "মক্কা",
+            "date": "0 হিজরি / 622 খ্রিস্টাব্দ",
             "age": "52",
             "year": 622,
             "eventId": 2
           },
           {
-            "title": "The Meeting in Dar al-Nadwah and Plot to Kill the Prophet (ﷺ)",
-            "location": "Mecca",
-            "date": "1 AH | Safar | 622 CE",
+            "title": "দারুন নদওয়ায় বৈঠক এবং নবী (সা.)-কে হত্যার ষড়যন্ত্র",
+            "location": "মক্কা",
+            "date": "১ হিজরি | সফর | ৬২২ খ্রিস্টাব্দ",
             "age": "53",
             "year": 622,
             "eventId": 7
           },
           {
-            "title": "The Migration of the Messenger (ﷺ) and Abu Bakr (RA) to Medina",
-            "location": "Mecca to Medina",
-            "date": "1 AH | Safar | 622 CE",
+            "title": "আল্লাহর রাসূল (সা.) এবং আবু বকর (রা.)-এর মদিনায় হিজরত",
+            "location": "মক্কা থেকে মদিনা",
+            "date": "১ হিজরি | সফর | ৬২২ খ্রিস্টাব্দ",
             "age": "53",
             "year": 622,
             "eventId": 8
@@ -287,9 +287,9 @@
             "eventId": 1
           },
           {
-            "title": "The Battle of al-Abwaa’ (Waddan)",
-            "location": "Al-Abwaa’ / Waddan",
-            "date": "2 AH | Safar | 623 CE",
+            "title": "আল-আবওয়া (ওয়াদ্দান)-এর যুদ্ধ",
+            "location": "আল-আবওয়া / ওয়াদ্দান",
+            "date": "২ হিজরি | সফর | ৬২৩ খ্রিস্টাব্দ",
             "age": "54",
             "year": 623,
             "eventId": 4
@@ -445,11 +445,11 @@
             "eventId": 1
           },
           {
-            "title": "The Second Pledge of Aqabah",
-            "location": "Shi'b al-Aqabah, Mecca",
+            "title": "দ্বিতীয় আকাবার বায়াত",
+            "location": "শি'ব আল-আকাবা, মক্কা",
             "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/%D9%85%D8%B3%D8%AC%D8%AF_%D8%A7%D9%84%D8%A8%D9%8A%D8%B9%D8%A9.jpeg/960px-%D9%85%D8%B3%D8%AC%D8%AF_%D8%A7%D9%84%D8%A8%D9%8A%D8%B9%D8%A9.jpeg",
             "mediaCaption": "Bay'ah Mosque, also known as Aqabah Mosque built at the site of al-Bay'ah, i.e. the place where the Islamic prophet Muhammad met with the Ansar (the supporters), and they took the pledge ('bay'ah', hence the name) of 'Aqaba.",
-            "date": "1 BH / Dhu al-Hijjah / 622 CE",
+            "date": "1 হিজরি পূর্ব / জিলহজ / 622 খ্রিস্টাব্দ",
             "age": "52",
             "year": 622,
             "eventId": 1
@@ -483,57 +483,57 @@
             "eventId": 4
           },
           {
-            "title": "The Conversion of Abdullah ibn Salam",
-            "location": "Medina (Quba)",
-            "date": "1 AH | 622 CE",
+            "title": "আব্দুল্লাহ ইবনে সালাম (রা.)-এর ইসলাম গ্রহণ",
+            "location": "মদিনা (কুবা)",
+            "date": "1 হিজরি | 622 খ্রিস্টাব্দ",
             "age": "53",
             "year": 622,
             "eventId": 3
           },
           {
-            "title": "The Treaty of the Prophet (ﷺ) with the Jews",
-            "location": "Medina",
-            "date": "1 AH | 622 CE",
+            "title": "ইহুদিদের সাথে নবী (সা.)-এর চুক্তি",
+            "location": "মদিনা",
+            "date": "1 হিজরি | 622 খ্রিস্টাব্দ",
             "age": "53",
             "year": 622,
             "eventId": 4
           },
           {
-            "title": "The Legislation of the Adhan",
-            "location": "Medina",
-            "date": "1 AH | 622 CE",
+            "title": "আযানের বিধান",
+            "location": "মদিনা",
+            "date": "1 হিজরি | 622 খ্রিস্টাব্দ",
             "age": "53",
             "year": 622,
             "eventId": 5
           },
           {
-            "title": "The Migration of the Companions to Medina",
-            "location": "Mecca to Medina",
-            "date": "1 AH | Muharram | 622 CE",
+            "title": "মদিনায় সাহাবীদের হিজরত",
+            "location": "মক্কা থেকে মদিনা",
+            "date": "1 হিজরি | মুহাররাম | 622 খ্রিস্টাব্দ",
             "age": "53",
             "year": 622,
             "eventId": 6
           },
           {
-            "title": "Construction of Quba Mosque",
-            "location": "Quba (near Medina)",
-            "date": "1 AH | Rabi' al-Awwal | 622 CE",
+            "title": "কুবা মসজিদ নির্মাণ",
+            "location": "কুবা (মদিনার কাছে)",
+            "date": "১ হিজরি | রবিউল আউয়াল | ৬২২ খ্রিস্টাব্দ",
             "age": "53",
             "year": 622,
             "eventId": 9
           },
           {
-            "title": "Construction of the Prophet's Mosque",
-            "location": "Medina",
-            "date": "1 AH | Rabi' al-Awwal | 622 CE",
+            "title": "রাসূলুল্লাহর (সা.) মসজিদ নির্মাণ",
+            "location": "মদিনা",
+            "date": "১ হিজরি | রবিউল আউয়াল | ৬২২ খ্রিস্টাব্দ",
             "age": "53",
             "year": 622,
             "eventId": 10
           },
           {
-            "title": "The Brotherhood between the Muhajirin and Ansar",
-            "location": "Medina",
-            "date": "1 AH | Rabi' al-Awwal | 622 CE",
+            "title": "মুহাজির ও আনসারদের মাঝে ভ্রাতৃত্ব প্রতিষ্ঠা",
+            "location": "মদিনা",
+            "date": "১ হিজরি | রবিউল আউয়াল | ৬২২ খ্রিস্টাব্দ",
             "age": "54",
             "year": 622,
             "eventId": 11
@@ -885,9 +885,9 @@
         "year": 623,
         "events": [
           {
-            "title": "The Expedition of 'Ubaydah ibn al-Harith to Rabigh",
-            "location": "Batn Rabigh",
-            "date": "1 AH | Sha'ban | 623 CE",
+            "title": "রাবিগের পথে উবাইদাহ ইবনুল হারিস (রা.)-এর অভিযান",
+            "location": "বাতনে রাবিগ",
+            "date": "১ হিজরি | শাবান | ৬২৩ খ্রিস্টাব্দ",
             "age": "54",
             "year": 623,
             "eventId": 1
@@ -913,9 +913,9 @@
         "year": 623,
         "events": [
           {
-            "title": "The Expedition of Hamzah to the Seashore (Sif al-Bahr)",
-            "location": "Al-'Is (Seashore)",
-            "date": "1 AH | Ramadan | 623 CE",
+            "title": "সমুদ্র উপকূলে (সিফ আল-বাহর) হাময়াহ (রা.)-এর অভিযান",
+            "location": "আল-ইস (সমুদ্র উপকূল)",
+            "date": "১ হিজরি | রমজান | ৬২৩ খ্রিস্টাব্দ",
             "age": "54",
             "year": 623,
             "eventId": 2
@@ -941,9 +941,9 @@
         "year": 623,
         "events": [
           {
-            "title": "The Expedition of Sa’d ibn Abi Waqqas to al-Kharrar",
-            "location": "Al-Kharrar",
-            "date": "1 AH | Dhu al-Qi'dah | 623 CE",
+            "title": "আল-খার্রার অভিমুখে সা'দ ইবনে আবি ওয়াক্কাস (রা.)-এর অভিযান",
+            "location": "আল-খার্রার",
+            "date": "১ হিজরি | জিলকদ | ৬২৩ খ্রিস্টাব্দ",
             "age": "54",
             "year": 623,
             "eventId": 3
@@ -969,9 +969,9 @@
         "year": 623,
         "events": [
           {
-            "title": "The First Battle of Badr (The Valley of Safwan)",
-            "location": "Valley of Safwan (near Badr)",
-            "date": "2 AH | Rabi' al-Awwal | 623 CE",
+            "title": "বদর-ই-উলা বা প্রথম বদর যুদ্ধ (সাফওয়ান উপত্যকা)",
+            "location": "সাফওয়ান উপত্যকা (বদরের নিকরবর্তী)",
+            "date": "২ হিজরি | রবিউল আউয়াল | ৬২৩ খ্রিস্টাব্দ",
             "age": "55",
             "year": 623,
             "eventId": 5
@@ -997,9 +997,9 @@
         "year": 623,
         "events": [
           {
-            "title": "The Battle of Buwat",
-            "location": "Buwat (Near Yanbu')",
-            "date": "2 AH | Rabi' al-Akhir | 623 CE",
+            "title": "বুওয়াত-এর যুদ্ধ",
+            "location": "বুওয়াত (ইয়ানবুর নিকরবর্তী)",
+            "date": "২ হিজরি | রবিউস সানি | ৬২৩ খ্রিস্টাব্দ",
             "age": "55",
             "year": 623,
             "eventId": 6
@@ -1025,9 +1025,9 @@
         "year": 623,
         "events": [
           {
-            "title": "The Battle of al-Ushayrah (Yanbu' Valley)",
-            "location": "Al-Ushayrah (Yanbu' Valley)",
-            "date": "2 AH | Jumada al-Ula | 623 CE",
+            "title": "আল-উশায়রাহ (আল-উসাইরাহ)-এর যুদ্ধ",
+            "location": "আল-উশায়রাহ (ইয়ানবু উপত্যকা)",
+            "date": "২ হিজরি | জমাদিউল আউয়াল | ৬২৩ খ্রিস্টাব্দ",
             "age": "55",
             "year": 623,
             "eventId": 7
