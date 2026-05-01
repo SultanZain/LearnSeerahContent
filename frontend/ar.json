@@ -43,6 +43,13 @@
     "cachingDescription": "اختر طريقة جلب البيانات لتوازن بين السرعة وحداثة المحتوى.",
     "performanceModeLabel": "وضع الأداء",
     "performanceModeDescription": "يخزّن البيانات لتحميل الصفحات بشكل أسرع. مناسب لمعظم المستخدمين. يتم تحديث المحتوى تلقائيًا كل ٥ أيام.",
+    "offlineModeLabel": "وضع عدم الاتصال",
+    "offlineModeDescription": "تنزيل المحتوى إلى جهازك للحصول على تجربة كاملة بدون إنترنت. يتم مزامنة المحتوى تلقائيًا عند توفر تحديثات.",
+    "offlineSyncLatest": "مزامنة أحدث البيانات",
+    "offlineChecking": "جاري التحقق...",
+    "offlineSyncing": "جاري المزامنة...",
+    "offlineReady": "جاهز للاستخدام بدون إنترنت",
+    "offlineError": "خطأ في المزامنة",
     "freshnessModeLabel": "وضع التحديث الفوري",
     "freshnessModeDescription": "يجلب دائمًا أحدث المحتوى. استخدمه إذا كنت بحاجة إلى أحدث المعلومات في كل مرة.",
     "enableCacheConfirmTitle": "تفعيل وضع الأداء؟",
@@ -433,5 +440,17 @@
     },
     "copy": "نسخ",
     "copied": "تم النسخ!"
+  },
+  "offline": {
+    "noticeTitle": "مطلوب اتصال بالإنترنت",
+    "noticeDesc": "{feature} يتطلب اتصالاً نشطاً بالإنترنت لتحميل الموارد الخارجية الديناميكية وخرائط الموقع.",
+    "tryAgain": "حاول مرة أخرى",
+    "downloadTitleChecking": "جاري التحقق من التحديثات",
+    "downloadTitleUpdating": "جاري تحديث الأصول",
+    "downloadTitleReady": "جاهز للعمل!",
+    "downloadTitleFailed": "فشل التحديث",
+    "downloadDescChecking": "جاري التحقق من التحديثات على Github...",
+    "downloadDescUpdating": "يرجى الانتظار بينما نقوم بتنزيل أحدث محتوى للحصول على أفضل تجربة بدون إنترنت.",
+    "downloadDescReady": "تم تحديث جميع المحتويات التي تعمل بدون اتصال بالإنترنت بنجاح."
   }
 }

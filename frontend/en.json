@@ -43,9 +43,16 @@
     "cachingDescription": "Choose how the app fetches data to balance speed and freshness.",
     "performanceModeLabel": "Performance Mode",
     "performanceModeDescription": "Caches data for faster page loads. Ideal for most users. Content is automatically refreshed every 5 days.",
+    "offlineModeLabel": "Offline Mode",
+    "offlineModeDescription": "Downloads content to your device for a fully offline experience. Content is automatically synced when updates are available.",
+    "offlineSyncLatest": "Sync Latest Data",
+    "offlineChecking": "Checking...",
+    "offlineSyncing": "Syncing...",
+    "offlineReady": "Ready for Offline Use",
+    "offlineError": "Sync Error",
     "freshnessModeLabel": "Freshness Mode",
     "freshnessModeDescription": "Always fetches the latest content. Use this if you need the most up-to-date information.",
-    "enableCacheConfirmTitle": "Enable Performance Mode?",
+    "enableCacheConfirmTitle": "Enable Offline Mode?",
     "enableCacheConfirmDesc1": "This will store data in your browser for faster loading.",
     "enableCacheConfirmDesc2": "Content is automatically refreshed every 5 days. You can also manually clear the cache at any time to see the latest changes.",
     "enableCacheConfirmButton": "Enable",
@@ -433,5 +440,17 @@
     },
     "copy": "Copy",
     "copied": "Copied!"
+  },
+  "offline": {
+    "noticeTitle": "Internet Required",
+    "noticeDesc": "{feature} requires an active internet connection to load dynamic external resources and map tiles.",
+    "tryAgain": "Try Again",
+    "downloadTitleChecking": "Checking for Updates",
+    "downloadTitleUpdating": "Updating Assets",
+    "downloadTitleReady": "Ready to go!",
+    "downloadTitleFailed": "Update Failed",
+    "downloadDescChecking": "Checking for updates on Github...",
+    "downloadDescUpdating": "Please wait while we download the latest content for an optimal offline experience.",
+    "downloadDescReady": "All offline content has been successfully updated."
   }
 }
