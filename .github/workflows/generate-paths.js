@@ -7,7 +7,7 @@ const path = require('path');
 // For the LearnSeerahContent repo, 'content' is likely at the root.
 const ROOT_DIR = 'content';
 const OUTPUT_DIR = 'paths';
-const CONTENT_TYPES = ['chapters', 'quiz', 'glossary', 'references', 'timeline'];
+const CONTENT_TYPES = ['lessons', 'quiz', 'glossary', 'references', 'sections', 'timeline'];
 const SUPPORTED_LOCALES = ['en', 'ar', 'ur', 'bn']; // Define your supported languages
 
 function getSlugFromFile(file) {
@@ -38,10 +38,11 @@ function generatePaths() {
     // Iterate through locales to build individual JSON files
     for (const locale of SUPPORTED_LOCALES) {
         const localeData = {
-            chapters: [],
+            lessons: [],
             quiz: [],
             glossary: [],
             references: [],
+            sections: [],
             timeline: {}
         };
 

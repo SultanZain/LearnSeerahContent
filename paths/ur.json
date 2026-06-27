@@ -1,7 +1,5 @@
 {
-  "chapters": [
-    "early-life"
-  ],
+  "lessons": [],
   "quiz": [
     "early-life-quiz"
   ],
@@ -12,6 +10,7 @@
   "references": [
     "sealed-nectar"
   ],
+  "sections": [],
   "timeline": {
     "571": [
       "571-event-1"

@@ -75,9 +75,13 @@ content/
 │   └── {lang}/
 │       └── {reference}.mdx
 │
-├── chapters/
+├── sections/
 │   └── {lang}/
 │       └── {section}.mdx
+│
+├── lessons/
+│   └── {lang}/
+│       └── lesson-{index}.mdx
 |
 ├── maps/
 │   └── {lang}/
