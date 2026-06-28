@@ -71,7 +71,7 @@
 - [x] Lesson 9 — Ismail & Ishaq عليه السلام — Two Lines, One Root
 - [x] Lesson 10 — Musa عليه السلام — The Lawgiver
 - [x] Lesson 11 — Dawud & Sulayman عليه السلام — The Kingdom of Faith
-- [x] Lesson 12 — Isa عليه السلام — The Word of Allah *(+ Qisas al-Anbiya reference)*
+- [x] Lesson 12 — Isa عليه السلام — The Word of Allah
 
 #### Unit 3 — The Seal of Prophethood
 - [x] Lesson 13 — What Does "Final Prophet" Mean?
@@ -100,30 +100,58 @@
 
 #### Unit 6 — The School of Solitude
 
-- [ ] Lesson 24 — The Wisdom of the Orphan — Why Every Pillar Was Removed
-- [ ] Lesson 25 — The Desert Years — Banu Sa'd and the Pure Beginning
-- [ ] Lesson 26 — The Shepherd and the Soul — What Herding Taught Every Prophet
+- [x] Lesson 24 — The Wisdom of the Orphan — Why Every Pillar Was Removed
+- [x] Lesson 25 — The Desert Years — Banu Sa'd and the Pure Beginning
+- [x] Lesson 26 — The Shepherd and the Soul — What Herding Taught Every Prophet
 
 #### Unit 7 — The Making of Al-Amin
 
-- [ ] Lesson 27 — The Journey to Syria — Bahira's Recognition
-- [ ] Lesson 28 — A Young Man in a Corrupt City — Staying Apart While Living Within
-- [ ] Lesson 29 — Hilf al-Fudul — The Pact of the Virtuous
-- [ ] Lesson 30 — Khadijah and the Merchant of Truth
+- [x] Lesson 27 — The Journey to Syria — Bahira's Recognition
+- [x] Lesson 28 — A Young Man in a Corrupt City — Staying Apart While Living Within
+- [x] Lesson 29 — Hilf al-Fudul — The Pact of the Virtuous
+- [x] Lesson 30 — Khadijah and the Merchant of Truth
 
 ---
 
 ### Section 4 — The Makkan Period
 
-#### Unit TBD
-- [ ] Lessons TBD
+#### Unit 8 — The First Light
+- [x] Lesson 31 — The Cave of Hira
+- [x] Lesson 32 — Iqra — The First Revelation
+- [x] Lesson 33 — The Secret Dawah — The First Muslims
+- [x] Lesson 34 — Ya Sabahah — Going Public on the Hill of Safa
+
+#### Unit 9 — The Years of Fire
+- [x] Lesson 35 — The Persecution Begins
+- [x] Lesson 36 — Bilal and the Companions of the Earth
+- [x] Lesson 37 — The Lion and the Eagle — Hamzah's and Umar's Islam
+- [x] Lesson 38 — The Two Migrations to Abyssinia
+- [x] Lesson 39 — The Boycott — Three Years in the Valley
+- [x] Lesson 40 — The Attempted Compromises
+
+#### Unit 10 — The Year of Grief and the Night Journey
+- [x] Lesson 41 — The Year of Grief
+- [x] Lesson 42 — Ta'if — The Worst Day
+- [x] Lesson 43 — The Isra and Mi'raj
+
+#### Unit 11 — The Dawn of Hijrah
+- [x] Lesson 44 — The Ansar — How Yathrib Found Islam
+- [x] Lesson 45 — The Pledges of Aqabah
+- [x] Lesson 46 — Mecca Discovers the Plan — The Final Days Before Hijrah
 
 ---
 
 ### Section 5 — The Migration (Hijrah)
 
-#### Unit TBD
-- [ ] Lessons TBD
+#### Unit 12 — The Journey
+- [ ] Lesson 47 — The Road to Medina — Cave, Desert, Arrival
+- [ ] Lesson 48 — Quba — The First Mosque
+- [ ] Lesson 49 — Entering Medina — A City Receives Its Prophet
+
+#### Unit 13 — Building a Community
+- [ ] Lesson 50 — The Prophet's Mosque — Where the Camel Stopped
+- [ ] Lesson 51 — The Brotherhood — Muhajirin and Ansar United
+- [ ] Lesson 52 — The Constitution of Medina — A New Order
 
 ---
 
@@ -134,4 +162,4 @@
 
 ---
 
-*Last updated: Section 2 complete — 23 lessons across 5 units.*
+*Last updated: Section 4 complete — 46 lessons across 11 units.*
