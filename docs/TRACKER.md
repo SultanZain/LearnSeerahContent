@@ -77,7 +77,7 @@
 - [x] Lesson 13 — What Does "Final Prophet" Mean?
 - [x] Lesson 14 — Why Was Muhammad ﷺ the Last?
 - [x] Lesson 15 — The Preserved Message
-- [x] Lesson 16 — Recognizing the Seal — Signs and Proofs of His Prophethood
+- [x] Lesson 16 — Signs of His Prophethood
 
 ---
 
@@ -90,9 +90,9 @@
 - [x] Lesson 20 — The Vow and the Sacrifice — Abdullah's Story
 
 #### Unit 5 — The Year of the Elephant and the Birth
-- [x] Lesson 21 — Arabia Before the Prophet ﷺ — The World He Was Born Into
-- [x] Lesson 22 — Abraha and the Elephant — The Year That Changed Everything
-- [x] Lesson 23 — The Birth of Muhammad ﷺ — Signs, Loss, and Light
+- [x] Lesson 21 — Arabia Before the Prophet ﷺ
+- [x] Lesson 22 — Abraha and the Elephant
+- [x] Lesson 23 — The Birth of Muhammad ﷺ
 
 ---
 
@@ -100,14 +100,14 @@
 
 #### Unit 6 — The School of Solitude
 
-- [x] Lesson 24 — The Wisdom of the Orphan — Why Every Pillar Was Removed
-- [x] Lesson 25 — The Desert Years — Banu Sa'd and the Pure Beginning
-- [x] Lesson 26 — The Shepherd and the Soul — What Herding Taught Every Prophet
+- [x] Lesson 24 — The Wisdom of the Orphan
+- [x] Lesson 25 — The Desert Years
+- [x] Lesson 26 — The Shepherd and the Soul
 
 #### Unit 7 — The Making of Al-Amin
 
-- [x] Lesson 27 — The Journey to Syria — Bahira's Recognition
-- [x] Lesson 28 — A Young Man in a Corrupt City — Staying Apart While Living Within
+- [x] Lesson 27 — The Journey to Syria
+- [x] Lesson 28 — A Young Man in a Corrupt City
 - [x] Lesson 29 — Hilf al-Fudul — The Pact of the Virtuous
 - [x] Lesson 30 — Khadijah and the Merchant of Truth
 
@@ -119,11 +119,11 @@
 - [x] Lesson 31 — The Cave of Hira
 - [x] Lesson 32 — Iqra — The First Revelation
 - [x] Lesson 33 — The Secret Dawah — The First Muslims
-- [x] Lesson 34 — Ya Sabahah — Going Public on the Hill of Safa
+- [x] Lesson 34 — Ya Sabahah — The Call on Safa
 
 #### Unit 9 — The Years of Fire
 - [x] Lesson 35 — The Persecution Begins
-- [x] Lesson 36 — Bilal and the Companions of the Earth
+- [x] Lesson 36 — Bilal — Torture and Steadfastness
 - [x] Lesson 37 — The Lion and the Eagle — Hamzah's and Umar's Islam
 - [x] Lesson 38 — The Two Migrations to Abyssinia
 - [x] Lesson 39 — The Boycott — Three Years in the Valley
@@ -137,7 +137,7 @@
 #### Unit 11 — The Dawn of Hijrah
 - [x] Lesson 44 — The Ansar — How Yathrib Found Islam
 - [x] Lesson 45 — The Pledges of Aqabah
-- [x] Lesson 46 — Mecca Discovers the Plan — The Final Days Before Hijrah
+- [x] Lesson 46 — Mecca Discovers the Plan
 
 ---
 
