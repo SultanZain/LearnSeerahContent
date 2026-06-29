@@ -144,14 +144,14 @@
 ### Section 5 — The Migration (Hijrah)
 
 #### Unit 12 — The Journey
-- [ ] Lesson 47 — The Road to Medina — Cave, Desert, Arrival
-- [ ] Lesson 48 — Quba — The First Mosque
-- [ ] Lesson 49 — Entering Medina — A City Receives Its Prophet
+- [x] Lesson 47 — The Road to Medina — Cave, Desert, Arrival
+- [x] Lesson 48 — Quba — The First Mosque
+- [x] Lesson 49 — Entering Medina — A City Receives Its Prophet
 
 #### Unit 13 — Building a Community
-- [ ] Lesson 50 — The Prophet's Mosque — Where the Camel Stopped
-- [ ] Lesson 51 — The Brotherhood — Muhajirin and Ansar United
-- [ ] Lesson 52 — The Constitution of Medina — A New Order
+- [x] Lesson 50 — The Prophet's Mosque — Where the Camel Stopped
+- [x] Lesson 51 — The Brotherhood — Muhajirin and Ansar United
+- [x] Lesson 52 — The Constitution of Medina — A New Order
 
 ---
 
@@ -162,4 +162,4 @@
 
 ---
 
-*Last updated: Section 4 complete — 46 lessons across 11 units.*
+*Last updated: Section 5 complete — 52 lessons across 13 units.*

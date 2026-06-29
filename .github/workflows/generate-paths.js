@@ -18,7 +18,8 @@ function readMdxFilesFromDir(dirPath) {
     if (!fs.existsSync(dirPath)) return [];
     return fs.readdirSync(dirPath)
         .filter(file => file.endsWith('.mdx'))
-        .map(getSlugFromFile);
+        .map(getSlugFromFile)
+        .sort((a, b) => a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' }));
 }
 
 function generatePaths() {
