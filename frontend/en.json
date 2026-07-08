@@ -232,7 +232,7 @@
       "S",
       "S"
     ],
-    "goalReadHadith": "Read a hadith reflection",
+    "goalReadHadith": "Discover a hadith",
     "goalCompleteLesson": "Complete one lesson",
     "goalViewTimeline": "View a timeline event",
     "goalExploreMaps": "Explore the maps",
@@ -686,6 +686,11 @@
     },
     "copy": "Copy",
     "copied": "Copied!"
+  },
+  "quranEmbed": {
+    "offlineTitle": "No Internet Connection",
+    "offlineDesc": "Connect to the internet to load the Quran widget here.",
+    "readManually": "Read Quran {verse}"
   },
   "offline": {
     "noticeTitle": "Internet Required",

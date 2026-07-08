@@ -186,6 +186,11 @@ function generateManifest(commitSha) {
     const manifest = {
         commit: commitSha || 'local',
         generatedAt: new Date().toISOString(),
+        // The mobile app's target version, used by its in-app update prompt. This is
+        // the APP release version (independent of the content commit above). Sourced
+        // from the APP_VERSION env var (the workflow injects the repo variable
+        // vars.APP_VERSION); falls back to 0.0.0 when unset (e.g. local runs).
+        appVersion: process.env.APP_VERSION || '0.0.0',
         files,
     };
 

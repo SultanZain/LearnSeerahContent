@@ -13,6 +13,10 @@ on:
       - 'content/**/*'
       - '.github/workflows/update-paths.yml'
       - '.github/workflows/generate-paths.js'
+  # Manual run: use this after bumping the APP_VERSION repo variable to regenerate
+  # manifest.json (which carries the app's update-prompt version) without needing a
+  # content change. Actions tab → this workflow → "Run workflow".
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -34,6 +38,11 @@ jobs:
           node-version: 20
 
       - name: Generate Paths Files
+        env:
+          # App release version baked into manifest.json for the in-app update
+          # prompt. Set/update the APP_VERSION variable in repo Settings > Variables,
+          # then run this workflow. Defaults to 0.0.0 if the variable is unset.
+          APP_VERSION: ${{ vars.APP_VERSION }}
         run: |
           # Copy the script from workflows folder to root if it exists
           if [ -f ".github/workflows/generate-paths.js" ]; then
@@ -87,7 +96,7 @@ jobs:
           # Stage all files under paths/ recursively, if they exist
           if [ -d paths ]; then
             git add paths
-            git commit -m "Update paths/{locale}.json [Skip CI]" || echo "No changes to commit"
+            git commit -m "Update paths/{locale}.json [skip ci]" || echo "No changes to commit"
             git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:${{ github.ref }}
           else
             echo "No paths/ folder to commit"
