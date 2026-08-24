@@ -101,3 +101,17 @@ jobs:
           else
             echo "No paths/ folder to commit"
           fi
+
+      # Broadcast a "new content available" push to every install (FCM topic
+      # `broadcast`). Gated to REAL pushes on the live branch that actually changed
+      # content — so manual APP_VERSION regens (workflow_dispatch) and no-op runs stay
+      # silent. Must live as a step here, not a separate `on: push` workflow, because
+      # the bot's manifest commit above carries `[skip ci]`.
+      - name: Notify subscribers (new content)
+        if: github.event_name == 'push' && github.ref == 'refs/heads/production' && steps.check_changes.outputs.has_changes == 'true'
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+          FCM_TITLE: New content available
+          FCM_BODY: Fresh lessons are ready. Open to sync.
+          FCM_TYPE: content-update
+        run: node .github/workflows/send-push.js

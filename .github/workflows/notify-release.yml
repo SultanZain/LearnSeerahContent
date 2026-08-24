@@ -1,0 +1,32 @@
+name: Notify App Update
+
+# Publishing a GitHub Release (or tag → release) in THIS content repo broadcasts an
+# "app update available" push to every install. Releases are cut here, not in the
+# private code monorepo. Token-less: sends to the single FCM `broadcast` topic.
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: read
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+
+      - name: Notify subscribers (app update)
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+          FCM_TITLE: App update available
+          FCM_BODY: A new version is ready. Open to update.
+          FCM_TYPE: app-update
+          FCM_VERSION: ${{ github.event.release.tag_name }}
+        run: node .github/workflows/send-push.js
