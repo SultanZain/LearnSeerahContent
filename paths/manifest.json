@@ -1,6 +1,6 @@
 {
-  "commit": "2cb0033e2642c8e1ba091334ebf36368e9dcaedd",
-  "generatedAt": "2026-08-24T19:04:48.625Z",
+  "commit": "44aa900aad17d857bd02fefd3ca9e20bc9999520",
+  "generatedAt": "2026-08-25T12:02:30.931Z",
   "appVersion": "2.0.2",
   "files": {
     "content/lessons/en/lesson-1.mdx": "e61a3dc1a0dab3cb",
@@ -305,13 +305,23 @@
     "content/lessons/ur/lesson-6.mdx": "694bef7e22833c7b",
     "content/lessons/ur/lesson-7.mdx": "43e3c4587674900b",
     "content/lessons/ur/lesson-8.mdx": "f6b8a715bcccabc5",
-    "content/lessons/ur/lesson-9.mdx": "1ce675f3b433ec30",
+    "content/lessons/ur/lesson-9.mdx": "73dbb73a4ffe3025",
     "content/lessons/ur/lesson-10.mdx": "accf5c273f218fc1",
     "content/lessons/ur/lesson-11.mdx": "f47eae359bfea9c7",
-    "content/lessons/ur/lesson-12.mdx": "478633fef932b3f6",
+    "content/lessons/ur/lesson-12.mdx": "6a59263a1b70988a",
     "content/lessons/ur/lesson-13.mdx": "f652793e02a41bad",
     "content/lessons/ur/lesson-14.mdx": "d8f09444301dd2cc",
     "content/lessons/ur/lesson-15.mdx": "e601c4102fa55019",
+    "content/lessons/ur/lesson-16.mdx": "376f1f0c112fad70",
+    "content/lessons/ur/lesson-17.mdx": "383ec99023b7a32a",
+    "content/lessons/ur/lesson-18.mdx": "f049a8623413dae7",
+    "content/lessons/ur/lesson-19.mdx": "3a0a03a6c42a0c25",
+    "content/lessons/ur/lesson-20.mdx": "0449cd1eb2344968",
+    "content/lessons/ur/lesson-21.mdx": "340e8d2456f48a3f",
+    "content/lessons/ur/lesson-22.mdx": "563b2ffac86337b1",
+    "content/lessons/ur/lesson-23.mdx": "3e21153009f26443",
+    "content/lessons/ur/lesson-24.mdx": "fcd715bcfae6198c",
+    "content/lessons/ur/lesson-25.mdx": "04cb8bf23b9cc3cb",
     "content/quiz/ur/early-life-quiz.mdx": "06b518024a703c21",
     "content/glossary/ur/sahabah.mdx": "aeb580a45f5f7bfb",
     "content/glossary/ur/seerah.mdx": "36330715c65726d6",
@@ -455,7 +465,7 @@
     "content/chronicle.json": "876d20a4127f1901",
     "paths/en.json": "f7d6992edb6cb278",
     "paths/ar.json": "63440183cf020f84",
-    "paths/ur.json": "71cf3de341d4f393",
+    "paths/ur.json": "a2c09c3750af7e77",
     "paths/bn.json": "3a38e3cac9baaed3"
   }
 }

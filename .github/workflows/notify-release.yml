@@ -5,7 +5,7 @@ name: Notify App Update
 # private code monorepo. Token-less: sends to the single FCM `broadcast` topic.
 on:
   release:
-    types: [published]
+    types: [published, edited, released]
 
 permissions:
   contents: read

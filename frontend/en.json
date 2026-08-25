@@ -182,13 +182,107 @@
     "aboutUs": "About Us",
     "privacyPolicyDescription": "Learn about how we handle your data and our commitment to your privacy.",
     "offlineModeLabel": "Offline Mode",
+    "offlineLocaleTitle": "Download for offline access?",
+    "offlineLocaleDescription": "Get all {lang} content on your device so it works without internet.",
+    "offlineLocaleDownload": "Download now",
+    "offlineLocaleLater": "Not now",
+    "offlineLocaleHint": "You can download it anytime from Settings.",
+    "offlineLocaleBannerTitle": "{lang} isn’t available offline",
+    "offlineLocaleBannerDescription": "Download this language to use it without internet.",
     "offlineModeDescription": "Downloads content to your device for a fully offline experience. Content is automatically synced when updates are available.",
     "offlineSyncLatest": "Sync Latest Data",
     "offlineChecking": "Checking...",
     "offlineSyncing": "Syncing...",
     "offlineReady": "Ready for Offline Use",
-    "offlineError": "Sync Error",
-    "appearance": "Appearance"
+    "offlineError": "Sync incomplete",
+    "offlineStatusReady": "Available offline",
+    "offlineStatusContentUpdated": "Content updated {when}",
+    "offlineStatusLastChecked": "Last checked {when}",
+    "offlineStatusChecking": "Checking for new content…",
+    "offlineStatusDownloading": "Downloading content…",
+    "offlineStatusDownloadingDetail": "Keep the app open until this finishes.",
+    "offlineStatusNotDownloaded": "Not yet available offline",
+    "offlineStatusNotDownloadedDetail": "Download this language to read it without internet.",
+    "offlineUpToDate": "Everything is up to date",
+    "offlineUpToDateDescription": "Your offline content already matches the latest version.",
+    "appearance": "Appearance",
+    "widget": {
+      "title": "Home Screen Widget",
+      "description": "Keep your streak in sight. Add a widget to your home screen and never miss a day.",
+      "cardCta": "Add to Home Screen",
+      "guideTitle": "Add the Streak Widget",
+      "guideSubtitle": "See your streak every time you unlock your phone.",
+      "sizeLabel": "Pick a size",
+      "sizeSmall": "Small",
+      "sizeMedium": "Medium",
+      "sizeLarge": "Large",
+      "previewLabel": "Preview",
+      "addNow": "Add to Home Screen",
+      "adding": "Opening…",
+      "addedTitle": "Almost there!",
+      "addedDescription": "Confirm the placement on your home screen to finish.",
+      "manualTitle": "Add it manually",
+      "manualSubtitle": "Your launcher does the placing — just a few taps.",
+      "step1": "Touch and hold any empty spot on your home screen.",
+      "step2": "Tap Widgets, then find LearnSeerah.",
+      "step3": "Drag the Streak widget where you want it.",
+      "done": "Got it",
+      "close": "Close",
+      "previewStreakDays": "{n} day streak",
+      "previewLabelText": "Day streak",
+      "widgetMessages": {
+        "newcomer": [
+          "Begin your journey\nthrough the Seerah.",
+          "Your first step\nis waiting for you.",
+          "Every great journey\nstarts with one lesson.",
+          "Open the first chapter —\nyour path begins here."
+        ],
+        "on_track": [
+          "Beautiful work today —\nkeep building your journey.",
+          "Consistency today,\nimpact forever.",
+          "Another step forward,\nanother day of growth.",
+          "{n} days of learning —\nmay Allah bless your dedication.",
+          "Small steps today,\ngreat barakah tomorrow.",
+          "Your consistency is inspiring —\nkeep moving forward."
+        ],
+        "pending": [
+          "Today's lesson is waiting —\nkeep your streak alive.",
+          "Just a few minutes today\nkeeps your journey going.",
+          "Pick up where you left off —\nyour streak is still alive.",
+          "One lesson today\nis all it takes."
+        ],
+        "last_chance": [
+          "Last chance today —\ndon't break your streak.",
+          "The day is almost over —\nyou're only one step away.",
+          "Keep your hard-earned streak —\nfinish a quick lesson.",
+          "Your streak needs you —\nmake today count."
+        ],
+        "missed_1_2": [
+          "You paused today —\ndon't give up now.",
+          "One missed day\ndoesn't define your journey.",
+          "Tomorrow is a fresh start —\nyour path is still here.",
+          "Welcome back anytime —\nlet's continue together."
+        ],
+        "missed_3_7": [
+          "It's okay, everyone slips —\ncome back stronger.",
+          "Every comeback begins\nwith a single lesson.",
+          "The Seerah is patient —\nand so is your journey.",
+          "It's never too late\nto continue your path."
+        ],
+        "missed_7plus": [
+          "Your streak rested —\nrevive it today.",
+          "Every expert begins again —\nturn today into Day 1.",
+          "A fresh beginning awaits —\nthe best time to restart is now.",
+          "Your path is ready\nwhenever you return."
+        ],
+        "milestone": [
+          "{n} days of learning —\na truly remarkable journey.",
+          "MashaAllah — {n} days\nof beautiful consistency.",
+          "{n} days on this path —\nbarakah in your learning.",
+          "You reached {n} days —\nAlhamduliLlah, keep it up."
+        ]
+      }
+    }
   },
   "homePage": {
     "welcomeTitle": "Welcome to LearnSeerah",
@@ -288,58 +382,6 @@
     "streakGoal": "Streak goal",
     "calendar": "Calendar",
     "startStreak": "Start your streak today!",
-    "widgetMessages": {
-      "newcomer": [
-        "Begin your journey\nthrough the Seerah.",
-        "Your first step\nis waiting for you.",
-        "Every great journey\nstarts with one lesson.",
-        "Open the first chapter —\nyour path begins here."
-      ],
-      "on_track": [
-        "Beautiful work today —\nkeep building your journey.",
-        "Consistency today,\nimpact forever.",
-        "Another step forward,\nanother day of growth.",
-        "{n} days of learning —\nmay Allah bless your dedication.",
-        "Small steps today,\ngreat barakah tomorrow.",
-        "Your consistency is inspiring —\nkeep moving forward."
-      ],
-      "pending": [
-        "Today's lesson is waiting —\nkeep your streak alive.",
-        "Just a few minutes today\nkeeps your journey going.",
-        "Pick up where you left off —\nyour streak is still alive.",
-        "One lesson today\nis all it takes."
-      ],
-      "last_chance": [
-        "Last chance today —\ndon't break your streak.",
-        "The day is almost over —\nyou're only one step away.",
-        "Keep your hard-earned streak —\nfinish a quick lesson.",
-        "Your streak needs you —\nmake today count."
-      ],
-      "missed_1_2": [
-        "You paused today —\ndon't give up now.",
-        "One missed day\ndoesn't define your journey.",
-        "Tomorrow is a fresh start —\nyour path is still here.",
-        "Welcome back anytime —\nlet's continue together."
-      ],
-      "missed_3_7": [
-        "It's okay, everyone slips —\ncome back stronger.",
-        "Every comeback begins\nwith a single lesson.",
-        "The Seerah is patient —\nand so is your journey.",
-        "It's never too late\nto continue your path."
-      ],
-      "missed_7plus": [
-        "Your streak rested —\nrevive it today.",
-        "Every expert begins again —\nturn today into Day 1.",
-        "A fresh beginning awaits —\nthe best time to restart is now.",
-        "Your path is ready\nwhenever you return."
-      ],
-      "milestone": [
-        "{n} days of learning —\na truly remarkable journey.",
-        "MashaAllah — {n} days\nof beautiful consistency.",
-        "{n} days on this path —\nbarakah in your learning.",
-        "You reached {n} days —\nAlhamduliLlah, keep it up."
-      ]
-    },
     "months": [
       "January",
       "February",
@@ -702,7 +744,11 @@
     "downloadTitleFailed": "Update Failed",
     "downloadDescChecking": "Checking for updates on Github...",
     "downloadDescUpdating": "Please wait while we download the latest content for an optimal offline experience.",
-    "downloadDescReady": "All offline content has been successfully updated."
+    "downloadDescReady": "All offline content has been successfully updated.",
+    "notifySyncTitle": "Updating offline content",
+    "notifySyncBody": "{done} of {total} files · {percent}%",
+    "notifyDoneTitle": "Offline content updated",
+    "notifyDoneBody": "The latest lessons are ready to use offline."
   },
   "discoverPage": {
     "title": "Discover",
@@ -747,6 +793,11 @@
     "railStyle": "Action bar style",
     "railDiscs": "Separate",
     "railPill": "Unified",
-    "posterTagline": "Reflect,\nPractice,\nShare Good!"
+    "posterTagline": "Reflect,\nPractice,\nShare Good!",
+    "deepLinkErrorTitle": "Couldn’t open this",
+    "deepLinkErrorBody": "We couldn’t load that one. Check your connection and try again.",
+    "deepLinkMissingTitle": "Content unavailable",
+    "deepLinkMissingBody": "This one isn’t available anymore. Browse the feed for more.",
+    "browseInstead": "Browse instead"
   }
 }
