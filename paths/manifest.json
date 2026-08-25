@@ -1,7 +1,7 @@
 {
-  "commit": "44aa900aad17d857bd02fefd3ca9e20bc9999520",
-  "generatedAt": "2026-08-25T12:02:30.931Z",
-  "appVersion": "2.0.2",
+  "commit": "df3d2af76b7ea3d8df9996e9a79a7c8b3ea863c1",
+  "generatedAt": "2026-08-25T12:05:37.480Z",
+  "appVersion": "2.0.3",
   "files": {
     "content/lessons/en/lesson-1.mdx": "e61a3dc1a0dab3cb",
     "content/lessons/en/lesson-2.mdx": "be537216579e8f8c",
