@@ -1,6 +1,6 @@
 {
-  "commit": "df3d2af76b7ea3d8df9996e9a79a7c8b3ea863c1",
-  "generatedAt": "2026-08-25T12:05:37.480Z",
+  "commit": "3a798c56c3c11f71584515b78f1ee5fd910ec536",
+  "generatedAt": "2026-09-01T17:41:53.817Z",
   "appVersion": "2.0.3",
   "files": {
     "content/lessons/en/lesson-1.mdx": "e61a3dc1a0dab3cb",
@@ -322,6 +322,11 @@
     "content/lessons/ur/lesson-23.mdx": "3e21153009f26443",
     "content/lessons/ur/lesson-24.mdx": "fcd715bcfae6198c",
     "content/lessons/ur/lesson-25.mdx": "04cb8bf23b9cc3cb",
+    "content/lessons/ur/lesson-26.mdx": "e31ba9f5cd7d61b1",
+    "content/lessons/ur/lesson-27.mdx": "2766dcabb5e17ff9",
+    "content/lessons/ur/lesson-28.mdx": "be31bbcd6443f366",
+    "content/lessons/ur/lesson-29.mdx": "40325f4dc783feeb",
+    "content/lessons/ur/lesson-30.mdx": "8c5e9f7e0a464fc0",
     "content/quiz/ur/early-life-quiz.mdx": "06b518024a703c21",
     "content/glossary/ur/sahabah.mdx": "aeb580a45f5f7bfb",
     "content/glossary/ur/seerah.mdx": "36330715c65726d6",
@@ -465,7 +470,7 @@
     "content/chronicle.json": "876d20a4127f1901",
     "paths/en.json": "f7d6992edb6cb278",
     "paths/ar.json": "63440183cf020f84",
-    "paths/ur.json": "a2c09c3750af7e77",
+    "paths/ur.json": "238e40ec11af7747",
     "paths/bn.json": "3a38e3cac9baaed3"
   }
 }
