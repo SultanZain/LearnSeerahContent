@@ -12,6 +12,16 @@
 
 This repository contains the structured content (primarily in Markdown/MDX format) used to generate the **[LearnSeerah](https://learnseerah.com/)** educational resource.
 
+**Translating? Start with the [translator guide](docs/contributing/translations.md).**
+Write for native speakers using natural phrasing and idioms, preserving the
+meaning and feeling of the source rather than translating word for word. The
+guide covers copying `en` files into your language (for example `id` for Indonesian),
+lessons and their sections, timeline translations, frontend UI strings, and review.
+Use the [AI prompt templates](docs/contributing/translation-prompts.md) and
+[AGENTS.md](AGENTS.md) when working with an assistant. Translation PRs target
+**`dev`**; after merge and the development site's update, review them on
+[dev.learnseerah.com](https://dev.learnseerah.com).
+
 >[!TIP]
 > 🚀 **New! LearnSeerah CMS is Live**
 > Easily contribute without needing GitHub knowledge!
@@ -38,6 +48,8 @@ This repository contains the structured content (primarily in Markdown/MDX forma
 ## Table of Contents
 
 * [Contents](#contents)
+* [Translator guide](docs/contributing/translations.md)
+* [AI translation prompts](docs/contributing/translation-prompts.md)
 * [Contributing](#contributing)
 
   * [1. Reporting Issues](#1-reporting-issues)
@@ -99,10 +111,11 @@ frontend/
 ```
 
 >[!CAUTION]
-> File and folder names must follow consistent naming and structure across all languages. And MUST not contain non-ASCII characters nor any spaces and symbols, hyphens(-) can be used.
+> Keep the source filenames and slugs unchanged across languages. Names use ASCII letters, numbers, and hyphens; translated file contents can use your language's script.
 >
-> Maps are not Supported in CMS, use [GeoJson.io](https://geojson.io/) <br>
-> Frontend UI Translations are managed using [GitLocalize](https://gitlocalize.com/repo/10684)
+> Translate `content/timeline/{lang}/*.mdx` for Timeline, map event text, and Chronicle. Maps and Chronicle use generated timeline data; translators do not manually translate GeoJSON or CSV exports. Maintainers handle generation and integration.
+>
+> Translate lessons together with their matching sections. Frontend UI strings can be edited manually in `frontend/{lang}.json` or through [GitLocalize](https://gitlocalize.com/repo/10684).
 
 ---
 
@@ -123,10 +136,11 @@ If you find any errors, inconsistencies, or areas for improvement:
 
 **✅ DO:**
 
-* Create a new branch (e.g., `feature/new-section-badr`, `fix/typo-migration`).
+* Create a new branch from `dev` (e.g., `translation/id-first-lessons`, `feature/new-section-badr`, `fix/typo-migration`).
 * Follow existing `.mdx` examples for structure and style.
 * Write clear commit messages and PR titles.
 * Submit PRs to the `dev` branch.
+* For translations, read every changed file and every line before pushing or submitting, including AI-generated drafts.
 
 **🚫 DO NOT:**
 
@@ -154,7 +168,9 @@ Branches are automatically deleted after merge to keep the repo clean.
 ### 5. Review Process
 
 * Your PR will be reviewed and may receive feedback.
-* Once approved, it will be merged into `production`.
+* Once approved, it will be merged into `dev`. After the development site's update, test the changes in the real UI at [dev.learnseerah.com](https://dev.learnseerah.com).
+* New languages need maintainer registration; map and Chronicle translations need their generated-data refresh. See the [translator guide](docs/contributing/translations.md).
+* Maintainers handle the separate release to `production` after testing.
 
 ### 6. Content Guidelines
 
@@ -167,7 +183,10 @@ Branches are automatically deleted after merge to keep the repo clean.
 
 ## 🌐 Frontend UI Translations
 
-Our frontend interface is localized using **GitLocalize**, enabling the community to contribute translations easily.
+UI translation dictionaries live in `frontend/{lang}.json`. Copy `frontend/en.json`
+to a new language file, or update the existing translation, keeping keys and
+placeholders unchanged. You can edit manually or use **GitLocalize**. Both routes
+submit PRs to **`dev`**. Follow the [UI translation workflow](docs/contributing/translations.md#frontend-ui-manual-editing-or-gitlocalize).
 
 ➡️ Contribute or track progress:
 [https://gitlocalize.com/repo/10684](https://gitlocalize.com/repo/10684)
@@ -195,9 +214,10 @@ Our frontend interface is localized using **GitLocalize**, enabling the communit
 
 We welcome contributions to improve translations and add new languages.
 
-1. Visit the GitLocalize page
-2. Choose your language
-3. Submit translations directly in the browser
+1. Read the [translator guide](docs/contributing/translations.md) and choose a small batch.
+2. Translate source content in matching language folders, and UI strings manually or in GitLocalize.
+3. Review every file and line for accuracy, natural language, tone, and errors before pushing or submitting.
+4. Open a PR to **`dev`**, then review the merged translation on [dev.learnseerah.com](https://dev.learnseerah.com).
 
 ---
 
